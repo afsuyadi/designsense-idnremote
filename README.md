@@ -5,14 +5,29 @@ Repo awal untuk kedua project program: **website SaaS** (P1) dan **web app** (P2
 ## Mulai di pekan 1
 
 1. Buat repo sendiri dari template ini (tombol **Use this template** di GitHub), lalu clone.
-2. Fasilitator memberi tahu brief-mu: **A** atau **B**. Baca `briefs/A/brief.md` atau `briefs/B/brief.md`.
-3. Buka `CLAUDE.md`, isi baris **Brief-mu**, lalu hapus folder brief yang bukan milikmu.
-4. Lengkapi bagian pekan 1 di `CLAUDE.md`: user, goal, flow, dan daftar halaman.
+2. Fasilitator memberi tahu brief-mu: **A** atau **B**.
+3. Buka terminal di folder repo, jalankan `claude`, lalu ketik `/lanjut`.
+
+Dari situ Claude Code memandu langkah demi langkah sesuai pekan yang sedang berjalan: memilih brief, lalu bagian yang perlu kamu lengkapi di `CLAUDE.md`.
+
+| Perintah | Gunanya |
+|---|---|
+| `/lanjut` | Langkah berikutnya di pekan ini, dan apa yang perlu kamu lengkapi |
+| `/cek` | Feedback untuk bagian yang baru kamu tulis atau bangun. Langkah dicentang di Progres kalau sudah cukup |
+| `/pekan 2` | Pindah ke pekan berikutnya saat fasilitator mengumumkannya |
+| `/laporan` | Laporan pekan ini di `laporan/`, dengan refleksimu. `/laporan 3` untuk pekan tertentu, `/laporan akhir` di pekan 10 |
+
+Cara kerja lengkap dari pekan 1 sampai 10 ada di [PANDUAN.md](PANDUAN.md).
+
+Bagian yang berisi keputusan design, seperti user, goal, flow, deskripsi section, dan alasannya, tetap kamu tulis sendiri. Claude Code bertanya dan mengkritik, tapi tidak mengisinya untukmu. Progres-mu tercatat di bagian **Progres** di `CLAUDE.md`.
 
 ## Isi repo
 
 ```
-CLAUDE.md        Kerangka yang kamu lengkapi setiap pekan. Claude Code membacanya otomatis.
+CLAUDE.md        Kerangka yang kamu lengkapi setiap pekan, dengan Progres dan aturan untuk Claude Code.
+.claude/commands Perintah /lanjut, /cek, /pekan, dan /laporan.
+laporan/         Log dan laporan pekanan, ditulis Claude Code.
+PANDUAN.md       Cara kerja program dari pekan 1 sampai 10.
 briefs/A/        Brief A: brief.md dan data contoh (data/*.json)
 briefs/B/        Brief B: brief.md dan data contoh (data/*.json)
 tokens.css       Design token. Kosong sampai pekan 4.
@@ -32,8 +47,8 @@ Fase yang sedang berjalan ditulis di `CLAUDE.md`, dan kamu sendiri yang menggant
 
 ## Cara bekerja dengan Claude Code
 
-- Kerjakan **satu section per permintaan**, bukan satu halaman sekaligus.
-- Sebelum meminta, tulis dulu deskripsi section itu di `CLAUDE.md`: tujuan, isi, referensi, dan aksi utamanya.
+- **Halaman dulu, baru section.** Tulis tujuan halaman dan urutan section-nya, lalu bangun satu halaman utuh. Baru setelah dinilai sebagai satu halaman, perbaiki section yang kurang efektif satu per satu.
+- Sebelum meminta, tulis dulu di `CLAUDE.md`: rencana halaman untuk membangun halaman, atau deskripsi section (tujuan, isi, referensi, aksi utama) untuk memperbaiki satu section.
 - Setelah hasilnya keluar, nilai dengan prinsip pekan itu. Kalau kurang efektif, perbaiki deskripsinya atau prompt-mu, lalu minta lagi.
 - Isi **"Kenapa layout ini"** di setiap section. Bagian ini yang dinilai, bukan hanya tampilannya.
 
@@ -51,4 +66,4 @@ Kondisi yang tidak ideal disimulasikan lewat URL, misalnya `http://localhost:800
 
 ## Mengirim tugas
 
-Tugas setiap pekan dikirim langsung ke fasilitator, bersama hasil Track Taste: link repo-mu dan catatan singkat apa yang berubah. Feedback-nya juga langsung ke kamu.
+Tugas setiap pekan dikirim langsung ke fasilitator, bersama hasil Track Taste: link repo-mu, dengan laporan pekan itu di `laporan/pekan-N.md`. Feedback-nya juga langsung ke kamu.
