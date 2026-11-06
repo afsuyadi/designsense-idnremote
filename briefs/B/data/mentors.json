@@ -1,0 +1,282 @@
+{
+  "fields": [
+    "Karier",
+    "Interview",
+    "Review CV",
+    "Skill teknis",
+    "Komunikasi"
+  ],
+  "timezone": "WIB",
+  "sessionMinutes": 45,
+  "mentors": [
+    {
+      "id": "nadia",
+      "name": "Nadia Rahma",
+      "field": "Karier",
+      "title": "Head of People di perusahaan logistik",
+      "years": 12,
+      "rating": 4.9,
+      "sessions": 214,
+      "summary": "Membantu kamu memetakan langkah karier berikutnya dan bersiap untuk promosi.",
+      "topics": [
+        "Rencana karier",
+        "Negosiasi gaji",
+        "Pindah bidang"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": []
+        }
+      ]
+    },
+    {
+      "id": "hendra",
+      "name": "Hendra Wijaya",
+      "field": "Interview",
+      "title": "Recruiter di perusahaan teknologi",
+      "years": 8,
+      "rating": 4.8,
+      "sessions": 176,
+      "summary": "Simulasi interview dengan feedback langsung, dari pertanyaan perilaku sampai studi kasus.",
+      "topics": [
+        "Simulasi interview",
+        "Pertanyaan perilaku",
+        "Studi kasus"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00",
+            "13:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": [
+            "08:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "putri",
+      "name": "Putri Ayu",
+      "field": "Review CV",
+      "title": "Talent acquisition lead",
+      "years": 7,
+      "rating": 4.7,
+      "sessions": 158,
+      "summary": "Review CV dan profil LinkedIn supaya pengalamanmu terbaca jelas oleh recruiter.",
+      "topics": [
+        "Review CV",
+        "Profil LinkedIn",
+        "Portofolio"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00",
+            "13:00",
+            "19:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": []
+        }
+      ]
+    },
+    {
+      "id": "bagus",
+      "name": "Bagus Setiawan",
+      "field": "Skill teknis",
+      "title": "Senior data analyst",
+      "years": 9,
+      "rating": 4.8,
+      "sessions": 132,
+      "summary": "Belajar SQL dan analisis data dari kasus pekerjaanmu sendiri.",
+      "topics": [
+        "SQL",
+        "Analisis data",
+        "Dashboard"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": [
+            "08:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "citra",
+      "name": "Citra Maharani",
+      "field": "Skill teknis",
+      "title": "Product manager",
+      "years": 10,
+      "rating": 4.6,
+      "sessions": 98,
+      "summary": "Diskusi cara kerja product manager: prioritas, roadmap, dan bekerja dengan tim engineering.",
+      "topics": [
+        "Prioritas produk",
+        "Roadmap",
+        "Kerja dengan engineer"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00",
+            "13:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": []
+        }
+      ]
+    },
+    {
+      "id": "fajar",
+      "name": "Fajar Kurniawan",
+      "field": "Karier",
+      "title": "Engineering manager",
+      "years": 11,
+      "rating": 4.9,
+      "sessions": 187,
+      "summary": "Transisi dari individual contributor menjadi pemimpin tim.",
+      "topics": [
+        "Menjadi team lead",
+        "One-on-one",
+        "Delegasi"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00",
+            "13:00",
+            "19:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": [
+            "08:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laras",
+      "name": "Laras Sukma",
+      "field": "Komunikasi",
+      "title": "Komunikasi korporat",
+      "years": 9,
+      "rating": 4.5,
+      "sessions": 74,
+      "summary": "Latihan presentasi dan public speaking untuk meeting penting.",
+      "topics": [
+        "Presentasi",
+        "Public speaking",
+        "Menulis untuk atasan"
+      ],
+      "availability": []
+    },
+    {
+      "id": "yusuf",
+      "name": "Yusuf Hidayat",
+      "field": "Interview",
+      "title": "Hiring manager di startup",
+      "years": 6,
+      "rating": 4.6,
+      "sessions": 63,
+      "summary": "Persiapan interview untuk startup, termasuk tugas take-home.",
+      "topics": [
+        "Interview startup",
+        "Take-home test",
+        "Pertanyaan untuk perusahaan"
+      ],
+      "availability": [
+        {
+          "date": "2026-12-01",
+          "times": [
+            "09:00",
+            "13:00"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "times": [
+            "10:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "times": [
+            "08:00"
+          ]
+        }
+      ]
+    }
+  ]
+}

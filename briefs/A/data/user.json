@@ -1,0 +1,20 @@
+{
+  "name": "Rina Wulandari",
+  "email": "rina@contoh.id",
+  "plan": "bulanan",
+  "trialEndsInDays": 3,
+  "goal": "Naik jabatan menjadi team lead",
+  "enrolled": [
+    {
+      "courseId": "spreadsheet-dasar",
+      "progress": 80,
+      "lastLessonId": 5
+    },
+    {
+      "courseId": "slide-jelas",
+      "progress": 30,
+      "lastLessonId": 2
+    }
+  ],
+  "completed": []
+}
