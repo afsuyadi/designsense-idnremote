@@ -1,4 +1,4 @@
-# Brief B · Temu
+# Brief B · Mentorku
 
 **Platform mentoring 1-on-1 skill kerja.** Produk fiktif untuk latihan.
 

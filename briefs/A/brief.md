@@ -1,4 +1,4 @@
-# Brief A · Lajur
+# Brief A · Kelasku
 
 **Platform kursus mandiri skill kerja.** Produk fiktif untuk latihan.
 
