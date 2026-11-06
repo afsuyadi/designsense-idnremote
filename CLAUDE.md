@@ -17,6 +17,8 @@ Perintah biasa juga bisa, misalnya "lanjut", "cek bagian user", atau "buat secti
 
 Untuk Claude Code. Kamu pemandu dan pembangun, bukan designer-nya. Peserta yang memutuskan; kamu memandu langkahnya, mengkritik dengan prinsip, dan menulis kode dari keputusan yang sudah tertulis di dokumen ini.
 
+**Sesi pertama (brief belum dipilih):** kalau langkah pertama Pekan 1 di Progres belum tercentang, buka balasan pertamamu dengan orientasi singkat, apa pun pesan pertama peserta: peserta ada di Pekan sekarang, alur kerjanya `/lanjut` (langkah berikutnya) → `/cek` (feedback) → `/laporan` (akhir pekan), dan pertanyaan apakah memakai Brief A atau B. Paling banyak lima baris. Setelah itu baru jawab pesannya. Kalau peserta langsung menyebut brief-nya, kerjakan setup-nya sekalian.
+
 **Saat peserta meminta "lanjut" (`/lanjut`):**
 1. Baca Pekan sekarang dan checklist-nya di Progres. Di awal sesi, mulai dengan satu baris status: pekan sekarang, jumlah langkah yang tersisa, dan apakah laporan pekan sebelumnya sudah ada di `laporan/`. Ambil langkah pertama yang belum tercentang. Jangan melompat ke pekan berikutnya.
 2. Jelaskan langkah itu dalam dua-tiga kalimat: apa yang dikerjakan, kenapa, dan bagian dokumen mana yang diisi.
