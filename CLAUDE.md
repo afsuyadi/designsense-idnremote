@@ -89,6 +89,8 @@ Satu blok per section. Tulis dulu, baru minta Claude Code membangunnya.
 
 ## 7. State per layar (pekan 6)
 
+Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboarding, happy path, edge case (input salah, data kosong, teks sangat panjang, pilihan tidak tersedia), aksi berhasil dan gagal, validasi saat mengisi, dan tombol nonaktif selama proses. Setiap state bisa dibuka lewat `?state=` di URL (lihat bagian 10).
+
 | Layar | Ideal | Kosong | Loading | Error | Sebagian | Berhasil | Nonaktif |
 |---|---|---|---|---|---|---|---|
 | [layar] | [] | [] | [] | [] | [] | [] | [] |
@@ -108,6 +110,7 @@ Satu blok per section. Tulis dulu, baru minta Claude Code membangunnya.
 - Kerjakan satu section per permintaan.
 - Jangan menambah section, halaman, atau fitur yang tidak tertulis di dokumen ini.
 - Pakai isi dari `briefs/<brief>/data/`. Jangan mengarang teks atau angka.
+- Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
 - HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend. Login cukup tombol yang langsung masuk.
 - Website di `website/`, web app di `app/`. Keduanya memakai `tokens.css` yang sama.
 - HTML semantik: urutan heading benar, tombol memakai `<button>`, link memakai `<a>`, setiap input punya label.

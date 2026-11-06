@@ -47,6 +47,8 @@ python3 -m http.server 8000
 
 Lalu buka `http://localhost:8000/website/` dan `http://localhost:8000/app/`.
 
+Kondisi yang tidak ideal disimulasikan lewat URL, misalnya `http://localhost:8000/app/?state=error` atau `?state=kosong`. Prototype tetap menunjukkan perjalanan user lengkap: onboarding, happy path, edge case, loading, kosong, error, aksi berhasil, dan aksi gagal.
+
 ## Mengirim tugas
 
 Tugas setiap pekan dikirim langsung ke fasilitator, bersama hasil Track Taste: link repo-mu dan catatan singkat apa yang berubah. Feedback-nya juga langsung ke kamu.
