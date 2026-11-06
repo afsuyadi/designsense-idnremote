@@ -1,4 +1,4 @@
-# Starter kit · Sense of UI/UX untuk Developer
+# Starter kit · Design Sense untuk Developer
 
 Repo awal untuk kedua project program: **website SaaS** (P1) dan **web app** (P2). Keduanya prototype interaktif di kode, bukan produk lengkap: HTML, CSS, dan JS dengan data contoh, tanpa backend atau database. Daftar dan masuk tetap ada sebagai flow, tapi disimulasikan. Kamu membangunnya dengan Claude Code: kamu menentukan struktur, isi, dan alasannya, Claude Code menulis kodenya.
 
