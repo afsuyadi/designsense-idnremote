@@ -24,7 +24,7 @@ Pengunjung memulai uji coba gratis, lalu tetap berlangganan setelah uji coba sel
 | | Wajib | Tambahan, kalau tempo cukup |
 |---|---|---|
 | P1 · Website SaaS | Beranda, Katalog kursus, Harga | Detail kursus, FAQ, Tentang |
-| P2 · Web app | Beranda user ("Lanjutkan belajar"), Katalog dan pencarian, Halaman pelajaran | Sertifikat, Profil dan langganan |
+| P2 · Web app | Daftar dan masuk, Beranda user ("Lanjutkan belajar"), Katalog dan pencarian, Halaman pelajaran | Sertifikat, Profil dan langganan |
 
 ## Data contoh
 

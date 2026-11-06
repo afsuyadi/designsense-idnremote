@@ -25,7 +25,7 @@ Pengunjung memesan sesi pertama, lalu kembali memesan sesi berikutnya.
 | | Wajib | Tambahan, kalau tempo cukup |
 |---|---|---|
 | P1 · Website SaaS | Beranda, Daftar mentor, Harga | Profil mentor, FAQ, Cara kerja |
-| P2 · Web app | Beranda user (sesi mendatang), Pilih jadwal dan pesan, Detail sesi (link call dan catatan dari mentor) | Riwayat sesi, Ulasan setelah sesi |
+| P2 · Web app | Daftar dan masuk, Beranda user (sesi mendatang), Pilih jadwal dan pesan, Detail sesi (link call dan catatan dari mentor) | Riwayat sesi, Ulasan setelah sesi |
 
 ## Data contoh
 

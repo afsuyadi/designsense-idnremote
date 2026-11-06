@@ -111,7 +111,8 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 - Jangan menambah section, halaman, atau fitur yang tidak tertulis di dokumen ini.
 - Pakai isi dari `briefs/<brief>/data/`. Jangan mengarang teks atau angka.
 - Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
-- HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend. Login cukup tombol yang langsung masuk.
+- HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend.
+- Daftar dan masuk tetap dibangun sebagai flow: form, validasi saat mengisi, pesan password salah (`?state=gagal`), dan berhasil masuk. Semuanya disimulasikan: input apa pun yang valid diterima, lalu user masuk sebagai user di `user.json`. Jangan menyimpan password atau membuat akun sungguhan.
 - Website di `website/`, web app di `app/`. Keduanya memakai `tokens.css` yang sama.
 - HTML semantik: urutan heading benar, tombol memakai `<button>`, link memakai `<a>`, setiap input punya label.
 - Kalau ada yang belum jelas di dokumen ini, tanyakan dulu.
