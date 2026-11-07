@@ -106,4 +106,4 @@ Ada di `data/`. Pakai isi ini, jangan mengarang sendiri.
 - `plans.json`: 2 paket harga, bulanan dan tahunan
 - `user.json`: 1 user (Rino) dengan 2 kursus berjalan
 - `testimonials.json`: 3 testimoni
-- `faq.json`: 5 pertanyaan
+- `faq.json`: 6 pertanyaan

@@ -4,6 +4,10 @@
     "a": "Tidak. Kamu bisa mencoba semua kursus selama 7 hari tanpa memasukkan data pembayaran."
   },
   {
+    "q": "Apa yang terjadi setelah 7 hari uji coba?",
+    "a": "Uji coba berakhir dan akses kursus berhenti sendiri. Kamu tidak ditagih, karena kami tidak meminta data pembayaran. Untuk lanjut belajar, pilih paket bulanan atau tahunan."
+  },
+  {
     "q": "Berapa lama satu kursus?",
     "a": "Setiap kursus berisi 6 pelajaran pendek yang bisa diselesaikan sedikit demi sedikit."
   },

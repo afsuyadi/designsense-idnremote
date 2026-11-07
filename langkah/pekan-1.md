@@ -52,7 +52,7 @@ Belum ada tampilan. Brief sudah menyebut user, goal, masalah, flow, dan halaman 
      Format: sama seperti M1.
      Clue: baca "Berhasil kalau" untuk M3. Bukti apa yang lebih meyakinkan daripada klaim, misalnya angka, nama, atau cerita orang lain?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › Isi yang menjawab masalah website.
-- **Cukup kalau:** setiap masalah punya isi yang spesifik (bukan "informasi lengkap"), dan bahannya ada di brief atau `data/`.
+- **Cukup kalau:** setiap masalah punya isi yang spesifik (bukan "informasi lengkap"). Bahannya dari brief atau `data/`; kalau tidak ada di sana, tulis asumsimu dengan tanda "(asumsi)" dan lanjut. Bentuk dan letaknya diputuskan di pekan 2.
 
 ## 1.4 · Tandai titik rawan di flow *(kamu)*
 
@@ -73,7 +73,7 @@ Belum ada tampilan. Brief sudah menyebut user, goal, masalah, flow, dan halaman 
      Format: `[Fn] langkah [n] ([layar]): butuh pesan error, dan [input atau pilihan] tidak boleh hilang, karena [alasannya].`
      Clue: bayangkan koneksi putus tepat saat menyimpan. Apa yang membuat user kesal kalau harus mengulang dari awal?
 - **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Titik yang butuh validasi, loading, atau pesan error.
-- **Cukup kalau:** setiap form dan setiap aksi yang menunggu hasil di F1–F3 punya catatan.
+- **Cukup kalau:** ketiga pertanyaan terjawab dengan alasan dari sisi user. Tidak perlu lengkap: titik lain dilengkapi saat menulis state di pekan 6.
 
 ## 1.5 · Laporan pekan ini *(kamu dan Claude Code)*
 
