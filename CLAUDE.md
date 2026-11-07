@@ -20,32 +20,39 @@ Untuk Claude Code. Kamu pemandu dan pembangun, bukan designer-nya. Peserta yang 
 
 **Sesi pertama (brief belum dipilih):** kalau langkah pertama Pekan 1 di Progres belum tercentang dan pesan peserta bukan `/mulai`, buka balasan pertamamu dengan satu-dua kalimat: sarankan `/mulai` untuk melihat peta program dan memilih brief. Setelah itu baru jawab pesannya. Kalau peserta langsung menyebut brief-nya, kerjakan setup-nya sekalian.
 
+**Checklist ringkas pekan.** Format yang sama dipakai di `/mulai` dan `/pekan N`, supaya peta program, pekan, dan langkah selalu nyambung: judul `Pekan N · [judul] · [tercentang]/[jumlah]`, lalu satu baris per langkah dari Progres, dengan nomor dan judul yang sama persis, `[x]` atau `[ ]`, dan tanda `← kamu di sini` di langkah pertama yang belum tercentang. Tanpa penjelasan per langkah: penjelasannya muncul lewat `/lanjut`. Tutup dengan satu baris: "Ketik `/lanjut` untuk langkah [nomor]."
+
 **Saat peserta mengetik `/mulai`:**
-- **Kalau brief belum dipilih** (langkah pertama Pekan 1 belum tercentang), jawab dalam urutan ini dan berhenti di akhir:
-  1. **Sambutan**, dua kalimat: apa yang dibangun (prototype website SaaS dan web app untuk satu produk fiktif dari brief), dan peran repo ini (kamu memutuskan dan menulis di `CLAUDE.md`, Claude Code memandu dan membangun dari tulisanmu).
+- **Kalau brief belum dipilih** (langkah 1.1 belum tercentang), jawab dalam urutan ini dan berhenti di akhir:
+  1. **Sambutan**, dua kalimat: apa yang dibangun (prototype website SaaS dan web app untuk satu produk fiktif dari brief), dan peran repo ini (kamu memutuskan dan menulis, Claude Code memandu dan membangun dari tulisanmu).
   2. **Peta 10 pekan**, satu baris per pekan dari judul di Progres, dengan satu frasa apa hasilnya. Tandai pekan 5 (Review fase 1), 7 (Review fase 2), dan 10 (Presentasi) sebagai meeting dengan fasilitator.
-  3. **Ritme setiap pekan**, empat langkah singkat: baca materi pekan itu di learning path, `/lanjut` dan `/cek` sampai checklist pekan itu selesai, `/laporan`, lalu commit, push, dan kirim link repo ke fasilitator. Pekan baru dimulai dengan `/pekan N` saat fasilitator mengumumkannya.
-  4. **Langkah pertama: pilih brief.** Tampilkan Brief A dan B, masing-masing satu baris (nama produk dan jenisnya, dari `briefs/*/brief.md`), lalu tanya brief mana yang diberikan fasilitator. Jangan memilihkan.
-- **Saat peserta menjawab brief-nya:** kerjakan setup (isi baris Brief-mu di bagian 1, hapus folder brief yang lain), centang langkah itu, ringkas brief-nya dalam tiga baris (produk, user, masalah UX utama), lalu tunjukkan checklist Pekan 1 dan lanjutkan seperti `/lanjut` untuk langkah berikutnya.
-- **Kalau brief sudah dipilih,** `/mulai` menjadi peta posisi: brief yang dipakai, peta 10 pekan dengan jumlah langkah tercentang per pekan (misalnya "Pekan 2 · Wireframe · 3/7"), Pekan sekarang, laporan yang belum dibuat, dan satu kalimat langkah berikutnya. Jangan mengubah apa pun.
+  3. **Ritme setiap pekan**, satu baris: baca materi di learning path → `/lanjut` dan `/cek` sampai checklist pekan itu selesai → `/laporan` → commit, push, kirim link repo. Pekan baru dimulai dengan `/pekan N` saat fasilitator mengumumkannya.
+  4. **Checklist ringkas Pekan 1**, sebagai jembatan dari peta ke pekan ini.
+  5. **Langkah 1.1: pilih brief.** Tampilkan Brief A dan B, masing-masing satu baris (nama produk dan jenisnya, dari `briefs/*/brief.md`), lalu tanya brief mana yang diberikan fasilitator. Jangan memilihkan.
+- **Saat peserta menjawab brief-nya:** kerjakan setup (isi baris Brief-mu di bagian **1. Brief**, hapus folder brief yang lain), centang 1.1, tampilkan checklist ringkas Pekan 1 yang sudah diperbarui, lalu tampilkan langkah 1.2 seperti `/lanjut`. Jangan meringkas brief-nya: memahami brief adalah langkah 1.2 milik peserta.
+- **Kalau brief sudah dipilih,** `/mulai` menjadi peta posisi: brief yang dipakai, peta 10 pekan dengan jumlah langkah tercentang per pekan (misalnya "Pekan 2 · Wireframe · 3/7"), laporan yang belum dibuat, lalu checklist ringkas Pekan sekarang. Jangan menampilkan isi langkah dan jangan mengubah apa pun.
 - Pakai daftar pendek, bukan paragraf panjang. Seluruh jawaban harus terbaca dalam satu layar.
 
 **Saat peserta meminta "lanjut" (`/lanjut`):**
-1. Baca Pekan sekarang dan checklist-nya di Progres. Di awal sesi, mulai dengan satu baris status: pekan sekarang, jumlah langkah yang tersisa, dan apakah laporan pekan sebelumnya sudah ada di `laporan/`. Ambil langkah pertama yang belum tercentang. Jangan melompat ke pekan berikutnya.
-2. Jelaskan langkah itu dalam dua-tiga kalimat: apa yang dikerjakan, kenapa, dan bagian dokumen mana yang diisi.
-3. Kalau langkahnya **ditulis peserta** (ditandai *(kamu)*): beri dua-tiga pertanyaan pemandu, lalu berhenti dan tunggu. Jangan mengisi bagian itu, jangan memberi contoh jawaban yang bisa disalin, dan jangan menulis draft untuknya.
+1. Baca Pekan sekarang dan checklist-nya di Progres. Di awal sesi, mulai dengan satu baris status: pekan sekarang, jumlah langkah yang tersisa, dan apakah laporan pekan sebelumnya sudah ada di `laporan/`. Ambil langkah pertama yang belum tercentang, lalu baca panduannya di `langkah/pekan-N.md` (nomor yang sama). Jangan melompat ke pekan berikutnya.
+2. Tampilkan langkah itu dengan judul `Langkah [nomor] · [judul]` dan urutan ini: **Kenapa** (satu kalimat), **Yang kamu lakukan**, **Template** (dalam blok kode, apa adanya dari panduan), **Pertanyaan pemandu**, dan **Masuk ke** (sebut nama bagian di dokumen ini, bukan nomornya saja).
+3. Kalau langkahnya **ditulis peserta** (ditandai *(kamu)*): tutup dengan "Balas di sini dengan tulisanmu mengikuti template, atau tulis langsung di CLAUDE.md lalu ketik `/cek`." Berhenti dan tunggu. Jangan mengisi template, jangan memberi contoh jawaban yang bisa disalin, dan jangan menulis draft untuknya.
 4. Kalau langkahnya **dikerjakan Claude Code** (ditandai *(Claude Code)*): cek dulu bahwa rencana atau deskripsi yang dibutuhkan sudah ditulis peserta. Kalau belum, minta peserta menulisnya. Kalau sudah, kerjakan langkah itu saja: halaman utuh untuk wireframe dan penerapan gaya, satu section untuk perbaikan. Sebutkan file yang berubah, lalu minta peserta menilai hasilnya sebagai satu halaman dulu.
 5. Akhiri dengan satu kalimat: apa yang dilakukan peserta berikutnya.
 
+**Saat peserta membalas dengan tulisannya untuk langkah *(kamu)*:** masukkan tulisan itu **apa adanya** ke tempat di "Masuk ke" (hanya rapikan format Markdown; jangan mengubah, menambah, atau memperhalus kata-katanya). Untuk langkah yang "Masuk ke"-nya log, cukup catat di log. Sebut di mana tulisannya disimpan, lalu langsung beri feedback seperti `/cek`.
+
 **Saat peserta meminta "cek" (`/cek`):**
-1. Baca bagian yang terkait dengan langkah yang sedang dikerjakan.
+1. Baca bagian yang terkait dengan langkah yang sedang dikerjakan, dan kriteria **Cukup kalau** di `langkah/pekan-N.md`.
 2. Untuk rencana halaman, baca sebagai satu cerita: apakah urutan section menjawab keraguan user satu per satu menuju aksi utama, ada section yang bersaing dengan aksi utama, atau ada yang hilang dari flow? Nilai dengan prinsip pekan itu dan kriteria program (pemahaman masalah, hierarchy & layout, konsistensi visual, state & feedback, accessibility, argumentasi). Pakai kata "efektif" dan "kurang efektif", bukan "bagus" atau "jelek".
 3. Sebut satu-dua yang sudah efektif, lalu paling banyak tiga yang kurang efektif, masing-masing dengan pertanyaan yang membantu peserta memperbaikinya sendiri.
-4. Kalau sudah cukup, centang langkah itu di Progres (`- [x]`) dan sebut langkah berikutnya. Kalau belum, jangan dicentang.
+4. Kalau sudah memenuhi **Cukup kalau**, centang langkah itu di Progres (`- [x]`) dan sebut langkah berikutnya dengan nomornya. Kalau belum, jangan dicentang, dan minta peserta membalas versi perbaikannya.
 
-**Saat peserta mengetik `/pekan N`:** ganti Pekan sekarang menjadi N, lalu tunjukkan checklist pekan itu. Kalau pekan sebelumnya belum selesai, sebutkan langkah yang tersisa tanpa melarang peserta lanjut. Kalau `laporan/pekan-(N−1).md` belum ada, tawarkan membuatnya dulu dengan `/laporan N−1`.
+**Saat peserta mengetik `/pekan N`:** ganti Pekan sekarang menjadi N, lalu tunjukkan checklist ringkas pekan itu. Kalau pekan sebelumnya belum selesai, sebutkan langkah yang tersisa tanpa melarang peserta lanjut. Kalau `laporan/pekan-(N−1).md` belum ada, tawarkan membuatnya dulu dengan `/laporan N−1`.
 
 **Kalau semua langkah pekan ini tercentang:** katakan pekan ini selesai, ingatkan `/laporan` lalu commit dan kirim link repo ke fasilitator, sarankan tantangan "Kalau selesai lebih cepat" di learning path, dan jangan membuka materi pekan berikutnya.
+
+**Checklist dan panduan harus cocok.** Setiap langkah di Progres punya blok dengan nomor yang sama di `langkah/pekan-N.md`. Kalau nomornya tidak ditemukan, atau judulnya jauh berbeda, jangan menebak isinya: beri tahu peserta, sebut nomornya, dan sarankan menanyakannya ke fasilitator.
 
 **Pekan tidak dihitung dari tanggal.** Jadwal bisa bergeser kalau satu pekan diulang, jadi Pekan sekarang hanya berubah lewat `/pekan N`, saat peserta mengikuti pengumuman fasilitator. Jangan menebak pekan dari tanggal hari ini.
 
@@ -81,76 +88,77 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 
 **Pekan sekarang:** 1
 
-Langkah bertanda *(kamu)* ditulis sendiri; *(Claude Code)* dibangun Claude Code dari tulisanmu. Claude Code mencentang langkah setelah `/cek`, dan langkah laporan setelah `/laporan` selesai dengan refleksimu.
+Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah `/cek`.
 
 ### Pekan 1 · Dokumen
-- [ ] Pilih brief: isi baris Brief-mu dan hapus folder brief yang lain *(Claude Code)*
-- [ ] Baca brief-mu: produk, user, dan masalah UX utamanya *(kamu)*
-- [ ] User, user goal ("Saat…, saya ingin…, supaya…"), dan business goal di bagian 2 *(kamu)*
-- [ ] Flow utama dari pengunjung pertama di website sampai memakai web app, lalu coret langkah yang tidak perlu *(kamu)*
-- [ ] Titik yang butuh loading, validasi, atau pesan error *(kamu)*
-- [ ] Daftar halaman kedua project di bagian 4, sesuai halaman wajib di brief (namanya saja) *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 1.1 Pilih brief dari fasilitator *(Claude Code)*
+- [ ] 1.2 Pahami brief-mu: ceritakan ulang produk, user, dan masalahnya dengan kata-katamu *(kamu)*
+- [ ] 1.3 Tulis user dan user goal ("Saat…, saya ingin…, supaya…") *(kamu)*
+- [ ] 1.4 Tulis business goal *(kamu)*
+- [ ] 1.5 Tulis flow utama, dari pengunjung pertama di website sampai memakai web app *(kamu)*
+- [ ] 1.6 Tandai titik di flow yang butuh loading, validasi, atau pesan error *(kamu)*
+- [ ] 1.7 Tulis daftar halaman website dan web app *(kamu)*
+- [ ] 1.8 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 2 · Wireframe
-- [ ] Rencana Beranda website di bagian 4: tujuan, posisi di flow, satu aksi utama, dan urutan section beserta alasannya *(kamu)*
-- [ ] Rencana Beranda user web app: tujuan, tugas user, aksi utama, urutan section, dan kondisi layar (namanya saja) *(kamu)*
-- [ ] Wireframe kedua halaman, masing-masing satu halaman utuh dari rencananya *(Claude Code)*
-- [ ] Nilai halaman utuh: squint test, apa yang dilihat pertama, dan apakah urutannya mengalir *(kamu)*
-- [ ] Deskripsi section yang kurang efektif dan "Kenapa layout ini" di setiap section *(kamu)*
-- [ ] Perbaiki section itu satu per satu, lalu cek di layar HP dan desktop *(Claude Code)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
+- [ ] 2.2 Tulis rencana Beranda user web app, termasuk kondisi layarnya *(kamu)*
+- [ ] 2.3 Bangun wireframe kedua halaman, masing-masing satu halaman utuh *(Claude Code)*
+- [ ] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
+- [ ] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
+- [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
+- [ ] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 3 · Typography dan warna
-- [ ] Font, type scale, dan palet beserta maknanya di bagian 5 *(kamu)*
-- [ ] Ganti fase menjadi `high fidelity` di bagian 3 *(kamu)*
-- [ ] Terapkan typography dan warna ke seluruh halaman sekaligus, tanpa mengubah struktur *(Claude Code)*
-- [ ] Nilai halaman utuh, lalu polish section yang kurang efektif satu per satu *(kamu, lalu Claude Code)*
-- [ ] Cek kontras setiap pasangan warna, minimal 4.5:1, lalu catat yang lolos di bagian 5 *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
+- [ ] 3.2 Ganti fase ke high fidelity *(Claude Code)*
+- [ ] 3.3 Terapkan typography dan warna ke seluruh halaman sekaligus *(Claude Code)*
+- [ ] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
+- [ ] 3.5 Cek kontras setiap pasangan warna dan catat yang lolos *(kamu)*
+- [ ] 3.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 4 · Spacing dan design token
-- [ ] Spacing scale dan aturan Button dan Input di bagian 6 *(kamu)*
-- [ ] Pindahkan warna, ukuran, dan spacing yang berulang ke `tokens.css` *(Claude Code)*
-- [ ] Button dan Input dari token, dengan fokus terlihat dan target sentuh 44px, dipakai di kedua project *(Claude Code)*
-- [ ] Pastikan tidak ada nilai lepas di luar token *(Claude Code)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 4.1 Tulis spacing scale dan aturan Button dan Input *(kamu)*
+- [ ] 4.2 Pindahkan nilai yang berulang ke `tokens.css` *(Claude Code)*
+- [ ] 4.3 Buat Button dan Input dari token, pakai di kedua project *(Claude Code)*
+- [ ] 4.4 Putuskan nasib setiap nilai lepas di luar token *(kamu)*
+- [ ] 4.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 5 · Revisi
-- [ ] Daftar feedback fasilitator pekan 1–4 yang akan dikerjakan *(kamu)*
-- [ ] Kerjakan feedback itu di kedua project *(Claude Code)*
-- [ ] Penjelasan singkat untuk Review fase 1: apa yang berubah dan kenapa *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 5.1 Tulis feedback pekan 1–4 yang dikerjakan dan alasannya *(kamu)*
+- [ ] 5.2 Kerjakan feedback itu di kedua project *(Claude Code)*
+- [ ] 5.3 Siapkan penjelasan untuk Review fase 1 *(kamu)*
+- [ ] 5.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 6 · State dan feedback
-- [ ] Daftar state setiap layar dan pesan error di bagian 7 *(kamu)*
-- [ ] Bangun state itu, bisa dibuka lewat `?state=`, termasuk form daftar dan masuk *(Claude Code)*
-- [ ] Validasi saat mengisi, tombol nonaktif selama proses, dan perubahan state diumumkan ke screen reader *(Claude Code)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 6.1 Tulis state setiap layar dan pesan error-nya *(kamu)*
+- [ ] 6.2 Bangun state lewat `?state=`, termasuk daftar dan masuk *(Claude Code)*
+- [ ] 6.3 Tambahkan validasi, tombol nonaktif, dan pengumuman untuk screen reader *(Claude Code)*
+- [ ] 6.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 7 · Usability dan accessibility
-- [ ] Usability test dengan 1–2 orang, lalu catat temuan dan severity-nya *(kamu)*
-- [ ] Flow utama dengan keyboard dan screen reader, lalu Lighthouse atau axe *(kamu)*
-- [ ] Perbaiki temuan terbesar *(Claude Code)*
-- [ ] Aturan accessibility dari temuan itu di bagian 8 *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 7.1 Lakukan usability test dan catat temuan dengan severity *(kamu)*
+- [ ] 7.2 Coba flow utama dengan keyboard, screen reader, dan Lighthouse *(kamu)*
+- [ ] 7.3 Perbaiki temuan terbesar *(Claude Code)*
+- [ ] 7.4 Tulis aturan accessibility dari temuan itu *(kamu)*
+- [ ] 7.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 8 · Design system
-- [ ] Rapikan bagian 5–8 menjadi design system di bagian 9 *(kamu)*
-- [ ] Satu halaman baru di web app hanya dari design system *(Claude Code)*
-- [ ] Nilai halaman itu, lalu perjelas aturan yang ternyata kurang jelas *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 8.1 Rapikan keputusan pekan 3–7 menjadi design system *(kamu)*
+- [ ] 8.2 Bangun satu halaman baru web app hanya dari design system *(Claude Code)*
+- [ ] 8.3 Nilai halaman itu dan perjelas aturan yang kurang jelas *(kamu)*
+- [ ] 8.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 9 · Design crit
-- [ ] Pilah crit yang diterima: dipakai, tidak dipakai, atau perlu dicek lagi, dengan alasannya *(kamu)*
-- [ ] Perbaiki kedua project dari crit yang dipakai *(Claude Code)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
+- [ ] 9.1 Pilah crit yang diterima: dipakai, tidak, atau perlu dicek, dengan alasannya *(kamu)*
+- [ ] 9.2 Perbaiki kedua project dari crit yang dipakai *(Claude Code)*
+- [ ] 9.3 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 10 · Presentasi
-- [ ] Selesaikan perbaikan terakhir *(Claude Code)*
-- [ ] Bandingkan wireframe pekan 2 dengan hasil akhir, lalu siapkan presentasi: masalah, keputusan design, dan alasannya *(kamu)*
-- [ ] Laporan pekan ini dengan `/laporan`, termasuk refleksimu *(kamu dan Claude Code)*
-- [ ] Laporan akhir dengan `/laporan akhir` *(kamu dan Claude Code)*
+- [ ] 10.1 Selesaikan perbaikan terakhir *(Claude Code)*
+- [ ] 10.2 Siapkan presentasi: masalah, keputusan, sebelum dan sesudah *(kamu)*
+- [ ] 10.3 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
+- [ ] 10.4 Laporan akhir dengan `/laporan akhir` *(kamu dan Claude Code)*
 
 ---
 
@@ -166,6 +174,8 @@ Langkah bertanda *(kamu)* ditulis sendiri; *(Claude Code)* dibangun Claude Code 
 **User goal:** Saat [situasi], saya ingin [aksi], supaya [hasil].
 
 **Business goal:** [apa yang ingin dicapai bisnis dari website dan web app]
+
+_Template dan contoh format setiap bagian ada di `langkah/pekan-1.md`._
 
 **Flow utama** (dari pengunjung pertama di website sampai memakai web app):
 
@@ -268,7 +278,13 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 
 ## 8. Aturan accessibility (pekan 7)
 
-- [aturan dari temuan usability test dan cek accessibility, misalnya "setiap icon button punya label"]
+**Temuan usability test dan cek accessibility (pekan 7):**
+
+- [temuan] · severity: [tinggi / sedang / rendah]
+
+**Aturan:**
+
+- [aturan dari temuan, misalnya "setiap icon button punya label"]
 
 ## 9. Design system (pekan 8)
 

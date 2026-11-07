@@ -29,8 +29,8 @@ Tugas, feedback, dan diskusi tidak lewat situs atau repo: tugas dikirim langsung
 1. **Baca materinya dulu.** Buka pekan itu di learning path, baca Sesi A dan Sesi B. Claude Code memandu langkah, tapi materinya ada di sana.
 2. **Pindah pekan di repo.** Saat fasilitator mengumumkan pekan baru, ketik `/pekan N` (misalnya `/pekan 2`). Claude Code menunjukkan checklist pekan itu. Pekan tidak dihitung dari tanggal, karena jadwal bisa bergeser kalau satu pekan diulang.
 3. **Kerjakan langkah demi langkah:**
-   - `/lanjut` → Claude Code menjelaskan langkah berikutnya dan bagian mana yang diisi.
-   - Kalau langkahnya bagianmu, tulis sendiri di `CLAUDE.md`, dibantu pertanyaan pemandu.
+   - `/lanjut` → Claude Code menunjukkan langkah berikutnya: kenapa, apa yang kamu lakukan, template tulisannya, pertanyaan pemandu, dan di mana tulisannya disimpan.
+   - Kalau langkahnya bagianmu, balas di chat dengan tulisanmu mengikuti template. Claude Code memasukkannya apa adanya ke `CLAUDE.md`, lalu memberi feedback. Kamu juga boleh menulis langsung di `CLAUDE.md` lalu ketik `/cek`.
    - `/cek` → feedback: apa yang sudah efektif, apa yang kurang efektif, dan pertanyaan untuk memperbaikinya. Langkah dicentang di Progres kalau sudah cukup.
    - Kalau langkahnya bagian Claude Code, ia membangun satu bagian dari tulisanmu, lalu kamu menilai hasilnya.
    - Ulangi sampai semua langkah pekan itu tercentang.
