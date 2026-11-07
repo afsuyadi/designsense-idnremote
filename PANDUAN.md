@@ -21,7 +21,7 @@ Tugas, feedback, dan diskusi tidak lewat situs atau repo: tugas dikirim langsung
    gh repo create nama-repo-mu --template sidiqprihatno/designsense-starterkit --private --clone
    ```
 
-3. Masuk ke folder repo, jalankan `claude`, lalu ketik `/lanjut`. Claude Code menanyakan brief-mu (A atau B, dari fasilitator) dan menyiapkannya.
+3. Masuk ke folder repo, jalankan `claude`, lalu ketik `/mulai`. Claude Code menunjukkan peta 10 pekan dan ritme kerjanya, lalu menanyakan brief-mu (A atau B, dari fasilitator) dan menyiapkannya.
 4. Duplikat template Library Referensi di Notion dari link di Info kelas, lalu bagikan ke fasilitator.
 
 ## Ritme setiap pekan
@@ -42,6 +42,7 @@ Tugas, feedback, dan diskusi tidak lewat situs atau repo: tugas dikirim langsung
 
 | Perintah | Gunanya |
 |---|---|
+| `/mulai` | Peta program dan langkah pertama; setelah itu, peta posisimu kapan saja |
 | `/lanjut` | Langkah berikutnya di pekan ini |
 | `/cek` | Feedback untuk bagian yang baru kamu tulis atau bangun |
 | `/pekan N` | Pindah ke pekan N saat fasilitator mengumumkannya |

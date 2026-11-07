@@ -6,12 +6,13 @@ Repo awal untuk kedua project program: **website SaaS** (P1) dan **web app** (P2
 
 1. Buat repo sendiri dari template ini (tombol **Use this template** di GitHub), lalu clone.
 2. Fasilitator memberi tahu brief-mu: **A** atau **B**.
-3. Buka terminal di folder repo, jalankan `claude`, lalu ketik `/lanjut`.
+3. Buka terminal di folder repo, jalankan `claude`, lalu ketik `/mulai`.
 
 Dari situ Claude Code memandu langkah demi langkah sesuai pekan yang sedang berjalan: memilih brief, lalu bagian yang perlu kamu lengkapi di `CLAUDE.md`.
 
 | Perintah | Gunanya |
 |---|---|
+| `/mulai` | Peta 10 pekan, cara kerja, dan langkah pertama (memilih brief). Setelah itu, ketik lagi kapan saja untuk melihat posisimu |
 | `/lanjut` | Langkah berikutnya di pekan ini, dan apa yang perlu kamu lengkapi |
 | `/cek` | Feedback untuk bagian yang baru kamu tulis atau bangun. Langkah dicentang di Progres kalau sudah cukup |
 | `/pekan 2` | Pindah ke pekan berikutnya saat fasilitator mengumumkannya |
@@ -25,7 +26,7 @@ Bagian yang berisi keputusan design, seperti user, goal, flow, deskripsi section
 
 ```
 CLAUDE.md        Kerangka yang kamu lengkapi setiap pekan, dengan Progres dan aturan untuk Claude Code.
-.claude/commands Perintah /lanjut, /cek, /pekan, dan /laporan.
+.claude/commands Perintah /mulai, /lanjut, /cek, /pekan, dan /laporan.
 laporan/         Log dan laporan pekanan, ditulis Claude Code.
 PANDUAN.md       Cara kerja program dari pekan 1 sampai 10.
 briefs/A/        Brief A: brief.md dan data contoh (data/*.json)

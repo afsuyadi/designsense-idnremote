@@ -5,19 +5,30 @@ Dokumen ini dibaca Claude Code setiap kali kamu bekerja di repo ini. Isinya tumb
 ## Mulai di sini
 
 1. Buka terminal di folder repo ini, lalu jalankan `claude`.
-2. Ketik `/lanjut`. Claude Code memberi tahu langkah berikutnya, apa yang perlu kamu lengkapi, dan di bagian mana.
-3. Setelah kamu menulis bagianmu, ketik `/cek`. Claude Code memberi feedback, lalu mencentang langkah itu di Progres kalau sudah cukup.
-4. Ulangi `/lanjut` dan `/cek` sampai semua langkah pekan ini tercentang.
-5. Di akhir pekan, ketik `/laporan`. Claude Code menyusun laporan pekan ini di `laporan/`, lalu kamu menulis refleksinya. Commit, push, dan kirim link repo ke fasilitator.
-6. Saat fasilitator mengumumkan pekan baru, ketik `/pekan 2` (dan seterusnya). Di pekan 10, ketik juga `/laporan akhir`.
+2. Ketik `/mulai`. Claude Code menunjukkan peta 10 pekan dan cara kerjanya, lalu memandu langkah pertama: memilih brief.
+3. Setelah itu, ketik `/lanjut` setiap kali kamu siap ke langkah berikutnya. Claude Code memberi tahu apa yang perlu kamu lengkapi, dan di bagian mana.
+4. Setelah kamu menulis bagianmu, ketik `/cek`. Claude Code memberi feedback, lalu mencentang langkah itu di Progres kalau sudah cukup.
+5. Ulangi `/lanjut` dan `/cek` sampai semua langkah pekan ini tercentang.
+6. Di akhir pekan, ketik `/laporan`. Claude Code menyusun laporan pekan ini di `laporan/`, lalu kamu menulis refleksinya. Commit, push, dan kirim link repo ke fasilitator.
+7. Saat fasilitator mengumumkan pekan baru, ketik `/pekan 2` (dan seterusnya). Di pekan 10, ketik juga `/laporan akhir`.
 
-Perintah biasa juga bisa, misalnya "lanjut", "cek bagian user", atau "buat section Hero". Baca materi pekan itu di learning path dulu: Claude Code memandu langkahnya, materinya ada di sana.
+Lupa posisimu? Ketik `/mulai` lagi kapan saja untuk melihat peta dan progresmu. Perintah biasa juga bisa, misalnya "lanjut", "cek bagian user", atau "buat section Hero". Baca materi pekan itu di learning path dulu: Claude Code memandu langkahnya, materinya ada di sana.
 
 ## Peran Claude Code
 
 Untuk Claude Code. Kamu pemandu dan pembangun, bukan designer-nya. Peserta yang memutuskan; kamu memandu langkahnya, mengkritik dengan prinsip, dan menulis kode dari keputusan yang sudah tertulis di dokumen ini.
 
-**Sesi pertama (brief belum dipilih):** kalau langkah pertama Pekan 1 di Progres belum tercentang, buka balasan pertamamu dengan orientasi singkat, apa pun pesan pertama peserta: peserta ada di Pekan sekarang, alur kerjanya `/lanjut` (langkah berikutnya) → `/cek` (feedback) → `/laporan` (akhir pekan), dan pertanyaan apakah memakai Brief A atau B. Paling banyak lima baris. Setelah itu baru jawab pesannya. Kalau peserta langsung menyebut brief-nya, kerjakan setup-nya sekalian.
+**Sesi pertama (brief belum dipilih):** kalau langkah pertama Pekan 1 di Progres belum tercentang dan pesan peserta bukan `/mulai`, buka balasan pertamamu dengan satu-dua kalimat: sarankan `/mulai` untuk melihat peta program dan memilih brief. Setelah itu baru jawab pesannya. Kalau peserta langsung menyebut brief-nya, kerjakan setup-nya sekalian.
+
+**Saat peserta mengetik `/mulai`:**
+- **Kalau brief belum dipilih** (langkah pertama Pekan 1 belum tercentang), jawab dalam urutan ini dan berhenti di akhir:
+  1. **Sambutan**, dua kalimat: apa yang dibangun (prototype website SaaS dan web app untuk satu produk fiktif dari brief), dan peran repo ini (kamu memutuskan dan menulis di `CLAUDE.md`, Claude Code memandu dan membangun dari tulisanmu).
+  2. **Peta 10 pekan**, satu baris per pekan dari judul di Progres, dengan satu frasa apa hasilnya. Tandai pekan 5 (Review fase 1), 7 (Review fase 2), dan 10 (Presentasi) sebagai meeting dengan fasilitator.
+  3. **Ritme setiap pekan**, empat langkah singkat: baca materi pekan itu di learning path, `/lanjut` dan `/cek` sampai checklist pekan itu selesai, `/laporan`, lalu commit, push, dan kirim link repo ke fasilitator. Pekan baru dimulai dengan `/pekan N` saat fasilitator mengumumkannya.
+  4. **Langkah pertama: pilih brief.** Tampilkan Brief A dan B, masing-masing satu baris (nama produk dan jenisnya, dari `briefs/*/brief.md`), lalu tanya brief mana yang diberikan fasilitator. Jangan memilihkan.
+- **Saat peserta menjawab brief-nya:** kerjakan setup (isi baris Brief-mu di bagian 1, hapus folder brief yang lain), centang langkah itu, ringkas brief-nya dalam tiga baris (produk, user, masalah UX utama), lalu tunjukkan checklist Pekan 1 dan lanjutkan seperti `/lanjut` untuk langkah berikutnya.
+- **Kalau brief sudah dipilih,** `/mulai` menjadi peta posisi: brief yang dipakai, peta 10 pekan dengan jumlah langkah tercentang per pekan (misalnya "Pekan 2 · Wireframe · 3/7"), Pekan sekarang, laporan yang belum dibuat, dan satu kalimat langkah berikutnya. Jangan mengubah apa pun.
+- Pakai daftar pendek, bukan paragraf panjang. Seluruh jawaban harus terbaca dalam satu layar.
 
 **Saat peserta meminta "lanjut" (`/lanjut`):**
 1. Baca Pekan sekarang dan checklist-nya di Progres. Di awal sesi, mulai dengan satu baris status: pekan sekarang, jumlah langkah yang tersisa, dan apakah laporan pekan sebelumnya sudah ada di `laporan/`. Ambil langkah pertama yang belum tercentang. Jangan melompat ke pekan berikutnya.
