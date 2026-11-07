@@ -10,7 +10,7 @@ Kursus video soft skills untuk developer, bukan kursus coding, dalam enam katego
 
 Developer 22–35 tahun yang ingin naik level, misalnya menjadi tech lead atau bekerja dengan klien luar negeri. Waktu belajarnya terbatas: dari laptop di malam hari setelah bekerja, atau dari HP di akhir pekan.
 
-**User goal:** Saat malam hari setelah bekerja, saya ingin menyelesaikan satu pelajaran singkat yang bisa langsung saya coba di pekerjaan besok, supaya saya lebih percaya diri di rapat, presentasi, atau interview berikutnya.
+**User goal:** Saat punya waktu luang setelah bekerja atau di akhir pekan, saya ingin belajar sedikit demi sedikit secara rutin, supaya dalam beberapa bulan saya percaya diri memimpin rapat, presentasi ke klien, atau interview untuk posisi berikutnya.
 
 ## Business goal
 
@@ -100,7 +100,7 @@ Di luar scope bukan berarti tidak penting. Bagian itu bisa kamu lengkapi setelah
 
 ## Data contoh
 
-Ada di `data/`. Pakai isi ini, jangan mengarang sendiri.
+Ada di `data/`. Fakta di halaman (kursus, harga, testimoni, angka) diambil dari sini, jangan dikarang. Kalimat di halaman boleh ditulis bebas, selama jujur terhadap isi ini.
 
 - `courses.json`: 12 kursus dalam 6 kategori (Presentasi, Menulis di tempat kerja, Bahasa Inggris untuk kerja, Interview, Negosiasi, Memimpin tim), masing-masing 6 pelajaran
 - `plans.json`: 2 paket harga, bulanan dan tahunan

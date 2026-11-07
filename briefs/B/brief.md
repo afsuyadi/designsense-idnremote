@@ -8,9 +8,9 @@ Sesi video call satu-satu dengan praktisi berpengalaman untuk soft skills develo
 
 ## User
 
-Developer 22–35 tahun yang butuh arahan spesifik dari orang berpengalaman, bukan materi umum, misalnya sebelum interview, negosiasi, atau presentasi penting. Mencari dan memesan mentor dari laptop, lalu mengecek jadwal sesi dari HP.
+Developer 22–35 tahun yang punya target karier beberapa bulan ke depan, misalnya pindah kerja, naik menjadi tech lead, atau bekerja dengan klien luar negeri, dan butuh arahan spesifik dari orang berpengalaman, bukan materi umum. Mencari dan memesan mentor dari laptop, lalu mengecek jadwal sesi dari HP.
 
-**User goal:** Saat menghadapi momen penting di pekerjaan, misalnya interview atau negosiasi pekan depan, saya ingin berlatih dengan orang yang pernah mengalaminya, supaya saya datang dengan persiapan yang jelas, bukan menebak-nebak.
+**User goal:** Saat ingin naik ke peran berikutnya, misalnya tech lead atau posisi di perusahaan luar negeri, saya ingin dibimbing rutin oleh orang yang sudah menempuh jalan itu, supaya dalam beberapa bulan saya tahu apa yang harus dilatih dan bisa melihat kemajuannya.
 
 ## Business goal
 
@@ -100,7 +100,7 @@ Di luar scope bukan berarti tidak penting. Bagian itu bisa kamu lengkapi setelah
 
 ## Data contoh
 
-Ada di `data/`. Pakai isi ini, jangan mengarang sendiri.
+Ada di `data/`. Fakta di halaman (kursus, harga, testimoni, angka) diambil dari sini, jangan dikarang. Kalimat di halaman boleh ditulis bebas, selama jujur terhadap isi ini.
 
 - `mentors.json`: 8 mentor di 6 bidang (Interview, CV dan portofolio, Presentasi, Bahasa Inggris untuk kerja, Negosiasi, Memimpin tim), dengan pengalaman, rating, dan jadwal kosong
 - `plans.json`: 2 pilihan harga, per sesi dan paket 4 sesi

@@ -5,7 +5,7 @@ Onboarding, beranda user, dan layar inti produk sudah ada dari pekan 5, dalam ko
 ## 6.1 · Daftar state dan pesan error *(kamu)*
 
 - **Kenapa:** state yang tidak dirancang tetap muncul, hanya saja dalam bentuk yang membingungkan.
-- **Yang kamu lakukan:** untuk kelima layar web app, termasuk layar daftar dan transaksi yang belum dibangun, tulis seperti apa setiap state-nya, lalu tulis pesan error-nya. Ideal sampai sebagian adalah state layar; berhasil, gagal, dan nonaktif adalah state aksi.
+- **Yang kamu lakukan:** untuk kelima layar web app, termasuk layar daftar dan transaksi yang belum dibangun, tulis seperti apa setiap state-nya, lalu isi pesan error-nya: apa yang terjadi, kenapa, dan apa yang bisa dilakukan user. Kalimat akhirnya dirapikan Claude Code saat membangun. Ideal sampai sebagian adalah state layar; berhasil, gagal, dan nonaktif adalah state aksi.
 - **Template:**
   ```
   | Layar | Ideal | Kosong | Loading | Error | Sebagian | Berhasil | Gagal | Nonaktif |

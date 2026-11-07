@@ -54,7 +54,7 @@ Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusu
   ```
   Section: [nama]
   - Tujuan: [apa yang harus dipahami atau dilakukan user di section ini]
-  - Isi: [teks, data dari data/, gambar]
+  - Isi: [pesan yang harus sampai ke user, data dari data/, gambar; kalimatnya ditulis Claude Code]
   - Aksi utama: [satu aksi, kalau ada]
   - Referensi: [nama atau link dari library-mu]
   - Kenapa layout ini: [alasan dengan prinsip]
