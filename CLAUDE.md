@@ -90,7 +90,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 
 Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah `/cek`.
 
-### Pekan 1 · Dokumen
+### Pekan 1 · Dokumen kedua project
 - [ ] 1.1 Pilih brief dari fasilitator *(Claude Code)*
 - [ ] 1.2 Pahami brief-mu: ceritakan ulang produk, user, dan masalahnya dengan kata-katamu *(kamu)*
 - [ ] 1.3 Tulis user dan user goal ("Saat…, saya ingin…, supaya…") *(kamu)*
@@ -100,7 +100,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [ ] 1.7 Tulis daftar halaman website dan web app *(kamu)*
 - [ ] 1.8 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 2 · Wireframe website
+### Pekan 2 · Wireframe tiga halaman website
 - [ ] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
 - [ ] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
 - [ ] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
@@ -109,7 +109,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
 - [ ] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 3 · Typography dan warna
+### Pekan 3 · Typography dan warna website
 - [ ] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
 - [ ] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
 - [ ] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
@@ -124,7 +124,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [ ] 4.4 Putuskan nasib setiap nilai lepas di luar token *(kamu)*
 - [ ] 4.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 5 · Revisi dan mulai web app
+### Pekan 5 · Dari website ke web app
 - [ ] 5.1 Tulis sisa feedback pekan 1–4 yang dikerjakan dan alasannya *(kamu)*
 - [ ] 5.2 Kerjakan feedback itu di website *(Claude Code)*
 - [ ] 5.3 Tulis rencana kelima layar web app, termasuk kondisi layarnya *(kamu)*
@@ -132,7 +132,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [ ] 5.5 Siapkan penjelasan untuk Review fase 1 *(kamu)*
 - [ ] 5.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 6 · State dan feedback
+### Pekan 6 · Layar daftar, transaksi, dan state
 - [ ] 6.1 Tulis state setiap layar web app dan pesan error-nya *(kamu)*
 - [ ] 6.2 Bangun layar daftar dan transaksi, lalu state setiap layar lewat `?state=` *(Claude Code)*
 - [ ] 6.3 Tambahkan validasi, tombol nonaktif, dan pengumuman untuk screen reader *(Claude Code)*

@@ -1,4 +1,4 @@
-# Pekan 6 · State dan feedback
+# Pekan 6 · Layar daftar, transaksi, dan state
 
 Onboarding, beranda user, dan layar inti produk sudah ada dari pekan 5, dalam kondisi ideal. Pekan ini layar daftar dan transaksi dibangun langsung bersama state-nya, lalu semua layar menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: kosong, loading, error, berhasil, gagal, validasi, dan tombol nonaktif selama proses. Karena tanpa backend, semua kondisi itu disimulasikan lewat `?state=` di URL.
 

@@ -1,4 +1,4 @@
-# Pekan 3 · Typography dan warna
+# Pekan 3 · Typography dan warna website
 
 Struktur website sudah ada dari wireframe. Pekan ini gaya ditambahkan: diterapkan ke seluruh halaman sekaligus supaya konsisten, lalu dinilai sebagai halaman utuh, baru di-polish per section.
 

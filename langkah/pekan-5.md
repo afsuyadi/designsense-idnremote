@@ -1,4 +1,4 @@
-# Pekan 5 · Revisi dan mulai web app
+# Pekan 5 · Dari website ke web app
 
 Tidak ada materi baru. Sisa feedback pekan 1–4 dirapikan di website, lalu web app mulai dibangun langsung dengan token dan component website, tanpa wireframe abu-abu: keputusan visualnya sudah ada. Pekan ini baru onboarding, beranda user, dan layar inti produk; layar daftar dan transaksi menyusul di pekan 6, bersama materi form. Pekan ditutup Review fase 1 lewat Google Meet, yang membahas keduanya.
 

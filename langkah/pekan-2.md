@@ -1,4 +1,4 @@
-# Pekan 2 · Wireframe website
+# Pekan 2 · Wireframe tiga halaman website
 
 Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusul di pekan 5. Pekan ini ketiga halaman website mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, baru section: kamu menentukan tujuan halaman dan urutan section-nya, Claude Code menggambar halaman utuh, lalu kamu memperbaiki section yang kurang efektif.
 

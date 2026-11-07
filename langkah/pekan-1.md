@@ -1,4 +1,4 @@
-# Pekan 1 · Dokumen
+# Pekan 1 · Dokumen kedua project
 
 Belum ada tampilan. Pekan ini kamu menulis dasar kedua project: untuk siapa, apa goal-nya, dan bagaimana user bergerak dari website sampai web app. Semua pekan berikutnya berangkat dari sini.
 
