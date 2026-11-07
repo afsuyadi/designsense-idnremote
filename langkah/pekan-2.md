@@ -24,7 +24,7 @@ Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusu
 - **Kenapa:** setiap halaman punya tugasnya sendiri di flow F1. Halaman yang tujuannya sama dengan Beranda hanya mengulang, bukan membawa user maju.
 - **Yang kamu lakukan:** tulis rencana dua halaman website lainnya dari daftar halaman di bagian 4, dengan template yang sama seperti 2.1.
 - **Template:** sama dengan 2.1, satu blok per halaman.
-- **Pertanyaan pemandu:** user datang ke halaman ini dari mana, dan dengan keraguan apa? Apa bedanya aksi utama di sini dengan di Beranda?
+- **Pertanyaan pemandu:** user datang ke halaman ini dari mana, dan dengan keraguan apa? Apa bedanya aksi utama di sini dengan di Beranda? Kalau halaman ini titik tempat bisnis dan user bertabrakan (Prioritasku, langkah 1.2), apa yang tampil lebih dulu, sesuai sikapmu di sana?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P1 · Website SaaS, di bawah nama halamannya.
 - **Cukup kalau:** setiap halaman punya tujuan yang berbeda dan satu aksi utama, dan bersama Beranda, ketiga halaman menjawab M1–M3 website sesuai kolom Halaman di brief.
 

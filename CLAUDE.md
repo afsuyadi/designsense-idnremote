@@ -18,10 +18,11 @@ Lupa posisimu? Ketik `/mulai` lagi kapan saja untuk melihat peta dan progresmu. 
 
 Untuk Claude Code. Kamu pemandu dan pembangun, bukan designer-nya. Peserta yang memutuskan; kamu memandu langkahnya, mengkritik dengan prinsip, dan menulis kode dari keputusan yang sudah tertulis di dokumen ini.
 
-**Yang dilatih: judgment dan taste peserta atas produknya.** Peserta belajar memilih apa yang paling penting untuk user dan menjelaskan kenapa, bukan melengkapi dokumen sampai sempurna. Pegang empat aturan ini di setiap tanggapan, feedback, dan `/cek`:
+**Yang dilatih: judgment dan taste peserta atas produknya.** Peserta belajar memilih apa yang paling penting untuk user dan menjelaskan kenapa, bukan melengkapi dokumen sampai sempurna. Pegang aturan ini di setiap tanggapan, feedback, dan `/cek`:
 - **Nilai keputusannya, bukan kelengkapannya.** Jawaban cukup kalau pilihannya jelas dan alasannya dari sisi user. Detail yang baru diputuskan nanti (bentuk, letak, kalimat persis, kasus lain) tidak menahan langkah; sebut paling banyak satu sebagai catatan untuk pekan berikutnya, atau tidak usah.
 - **Tetap di dalam brief.** Pertanyaan dan feedback hanya berangkat dari brief, `data/`, dan dokumen ini. Jangan menyarankan fitur, kanal, atau kasus di luar scope (misalnya email pengingat, login, notifikasi), dan jangan menyebut aturan yang tidak tertulis.
 - **Pilih yang paling berpengaruh.** Satu tanggapan, satu hal: yang paling memengaruhi user. Jangan mendaftar semua yang bisa ditemukan, dan jangan menyusun argumen untuk peserta; ajukan pertanyaan, biarkan peserta yang menjawab.
+- **Sikap saat bertabrakan dibawa ke tampilan.** Saat peserta menulis rencana halaman atau layar tempat bisnis dan user bertabrakan (Saat bertabrakan di Prioritasku), tanyakan sekali apakah urutan section dan aksi utamanya mengikuti sikap itu. Tidak menahan langkah.
 - **Kalau brief atau data tidak menyebutnya, jangan menahan langkah.** Minta peserta menulis asumsi yang masuk akal dengan tanda "(asumsi)", lalu lanjut. Asumsi itu bisa dikonfirmasi ke fasilitator nanti.
 
 **Sesi pertama (brief belum dipilih):** kalau langkah pertama Pekan 1 di Progres belum tercentang dan pesan peserta bukan `/mulai`, buka balasan pertamamu dengan satu-dua kalimat: sarankan `/mulai` untuk melihat peta program dan memilih brief. Setelah itu baru jawab pesannya. Kalau peserta langsung menyebut brief-nya, kerjakan setup-nya sekalian.
@@ -206,7 +207,7 @@ _Disalin Claude Code dari brief di langkah 1.1, apa adanya. Kalau ada yang teras
 
 - **Website:** [M1/M2/M3] paling mengancam goal, karena [akibatnya]
 - **Web app:** [M1/M2/M3] paling mengancam goal, karena [akibatnya]
-- **Saat bertabrakan:** aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya]
+- **Saat bertabrakan:** di [layar], bisnis ingin user [aksi], sedangkan user takut [kekhawatirannya]. Kalau bisnis didahulukan, user [apa yang dia lakukan]. Kalau user didahulukan, bisnis [apa yang hilang]. Aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya]
 
 **Titik yang butuh validasi, loading, atau pesan error** (langkah 1.4, kamu yang menulis): [daftar]
 

@@ -16,7 +16,9 @@ Belum ada tampilan. Brief sudah menyebut user, goal, masalah, flow, dan halaman 
   ```
   Website: [M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, pengunjung [akibatnya].
   Web app: [M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, user [akibatnya].
-  Saat bertabrakan: aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya].
+  Saat bertabrakan: di [layar], bisnis ingin user [aksi], sedangkan user takut [kekhawatirannya].
+  Kalau bisnis didahulukan, user [apa yang dia lakukan]. Kalau user didahulukan, bisnis [apa yang hilang].
+  Aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya].
   ```
 - **Pertanyaan:**
   1. **Di website, masalah mana yang paling mengancam goal?**
@@ -25,9 +27,15 @@ Belum ada tampilan. Brief sudah menyebut user, goal, masalah, flow, dan halaman 
   2. **Di web app, masalah mana yang paling mengancam goal?**
      Format: `[M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, user [akibatnya].`
      Clue: baca M1–M3 di bagian P2 brief. Untuk setiap masalah tanya: kalau hanya masalah ini yang tidak terjawab, apakah user kembali minggu depan?
-  3. **Brief menyebut satu titik di mana bisnis dan user bisa bertabrakan. Di titik itu, apa yang kamu dahulukan?**
+  3. **Brief menyebut satu titik di mana bisnis dan user bisa bertabrakan. Di titik itu, apa yang diinginkan bisnis, dan apa yang ditakutkan user?**
+     Format: `Di [layar], bisnis ingin user [aksi], sedangkan user takut [kekhawatirannya].`
+     Clue: baca baris "Bisa bertabrakan dengan user goal" di bagian 2. Tulis kekhawatiran user dengan kata-kata user sendiri, seperti kalimat yang mungkin dia ucapkan ke teman. Kalau brief menyebut lebih dari satu layar, pilih satu dulu.
+  4. **Apa yang terjadi kalau salah satu sisi didahulukan sepenuhnya?**
+     Format: `Kalau bisnis didahulukan, user [apa yang dia lakukan]. Kalau user didahulukan, bisnis [apa yang hilang].`
+     Clue: bayangkan dua versi ekstrem layar itu. Versi pertama hanya mengejar aksi bisnis, versi kedua hanya menenangkan user. Apa yang terjadi di masing-masing?
+  5. **Jadi, apa yang kamu dahulukan, dan bagaimana tampilannya menjawab keduanya?**
      Format: `Aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya].`
-     Clue: baca baris "Bisa bertabrakan dengan user goal" di brief. Tidak ada jawaban yang benar; yang dinilai alasanmu. Cara yang menjawab keduanya biasanya soal apa yang ditampilkan lebih dulu, dan apa yang dijelaskan dengan jujur.
+     Clue: berangkat dari jawaban 3 dan 4. Cara yang menjawab keduanya biasanya soal apa yang tampil lebih dulu, apa yang dijelaskan dengan jujur, dan apa yang tetap ditawarkan tanpa dipaksakan. Tidak ada jawaban yang benar; yang dinilai alasanmu.
 - **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Prioritasku.
 - **Cukup kalau:** setiap pilihan punya alasan dari sisi user dengan kata-katamu sendiri, bukan menyalin kalimat brief.
 

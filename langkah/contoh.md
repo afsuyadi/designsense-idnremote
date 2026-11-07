@@ -25,7 +25,9 @@ Contoh pekan 1 diberi nomor yang sama dengan pertanyaan di `langkah/pekan-1.md`.
 ### 1.2 · Pahami brief-mu
 1. M2 paling mengancam goal, karena kalau tidak terjawab, pengunjung yang takut tanamannya mati tidak akan berani mulai uji coba.
 2. M2 paling mengancam goal, karena kalau tidak terjawab, user lupa menyiram, tanamannya mati, lalu dia berhenti berlangganan.
-3. Aku mendahulukan user, dan tampilannya menjawab keduanya dengan hanya menanyakan dua hal di onboarding (cahaya dan ruang), lalu sisanya ditanyakan nanti saat user sudah melihat tanaman pertamanya.
+3. Di onboarding, bisnis ingin user mengisi kondisi rumahnya selengkap mungkin, sedangkan user takut "ribet, aku cuma mau tahu tanaman apa yang cocok".
+4. Kalau bisnis didahulukan, user menutup onboarding sebelum melihat satu tanaman pun. Kalau user didahulukan, bisnis tidak punya cukup data untuk rekomendasi yang tepat dan pengingat siram yang akurat.
+5. Aku mendahulukan user, dan tampilannya menjawab keduanya dengan hanya menanyakan dua hal di onboarding (cahaya dan ruang), lalu sisanya ditanyakan nanti saat user sudah melihat tanaman pertamanya.
 
 ### 1.3 · Isi yang menjawab masalah website
 1. M1: pengunjung perlu melihat tanaman yang cocok untuk apartemen dengan cahaya sedikit, isinya dari `data/plants.json` (tiga tanaman paling mudah).

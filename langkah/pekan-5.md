@@ -32,7 +32,7 @@ Tidak ada materi baru. Sisa feedback pekan 1–4 dirapikan di website, lalu web 
   1. [section]: [alasan] · menjawab [M1/M2/M3]
   Kondisi layar: [namanya saja dulu, misalnya kosong untuk user baru, peringatan, konfirmasi; dilengkapi di pekan 6]
   ```
-- **Pertanyaan pemandu:** apa yang dilihat user baru yang belum punya data? Apa yang ingin dia lakukan dalam satu klik saat kembali? Component website mana yang bisa dipakai lagi di sini?
+- **Pertanyaan pemandu:** apa yang dilihat user baru yang belum punya data? Apa yang ingin dia lakukan dalam satu klik saat kembali? Component website mana yang bisa dipakai lagi di sini? Kalau layar ini titik tempat bisnis dan user bertabrakan (Prioritasku, langkah 1.2), apa yang tampil lebih dulu, sesuai sikapmu di sana?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P2 · Web app, satu blok per layar.
 - **Cukup kalau:** kelima layar punya tugas user, satu aksi utama, dan kondisi layarnya, dan setiap layar tersambung ke flow kuncinya.
 
