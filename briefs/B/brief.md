@@ -30,7 +30,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 | M3 | Ragu kualitas mentornya | Orang baru bisa menyebut satu alasan untuk percaya | Beranda, Daftar mentor |
 
 - **Wajib:** Beranda, Daftar mentor, Harga
-- **Tambahan, kalau tempo cukup:** Cara kerja, FAQ
+- **Tambahan:** Cara kerja, FAQ
 
 ### P2 · Web app
 
@@ -44,7 +44,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 | M3 | Catatan dari mentor setelah sesi sulit ditemukan | User bisa menemukan catatan sesi terakhir tanpa mencari lama | Detail sesi |
 
 - **Wajib:** Daftar, Onboarding: pilih bidang dan tujuan, Beranda user: sesi mendatang, Pilih jadwal dan bayar, dengan profil mentor ringkas, Detail sesi: catatan dan jadwal ulang
-- **Tambahan, kalau tempo cukup:** Riwayat sesi, Ulasan setelah sesi
+- **Tambahan:** Riwayat sesi, Ulasan setelah sesi
 
 ## Flow kunci
 
@@ -60,18 +60,18 @@ Tiga flow yang harus bisa dijalani dari awal sampai akhir. Usability test di pek
 
 **Termasuk:**
 
-- 3 halaman website dan 5 layar web app di atas, cukup bagian yang dilewati flow kunci; bagian lain boleh berupa kotak placeholder berlabel
-- Flow F1–F3 utuh dari awal sampai akhir, dengan state di layar yang dilewatinya: loading, kosong, error, berhasil, gagal, dan validasi
-- Daftar langsung masuk ke onboarding, tanpa halaman login di antaranya
-- Transaksi disimulasikan dengan data contoh, tanpa pembayaran sungguhan
-- Bisa dipakai dengan keyboard, dan nyaman di layar HP dan desktop
+- **Halaman dan layar:** 3 halaman website dan 5 layar web app di atas. Cukup bagian yang dilewati flow kunci; bagian lain boleh berupa kotak placeholder berlabel
+- **Flow kunci utuh:** F1–F3 dari awal sampai akhir, dengan state di layar yang dilewatinya: loading, kosong, error, berhasil, gagal, dan validasi
+- **Daftar tanpa login:** Setelah daftar, user langsung masuk ke onboarding
+- **Transaksi simulasi:** Memakai data contoh, tanpa pembayaran sungguhan
+- **Keyboard dan layar HP:** Flow kunci bisa diselesaikan dengan keyboard, dan nyaman di HP maupun desktop
 
 **Tidak termasuk:**
 
-- Halaman masuk (login), lupa password, verifikasi email, dan OTP. F3 dianggap user sudah masuk
-- Backend, database, akun, dan pembayaran sungguhan
-- Sisi admin atau mentor, notifikasi email, dan pengaturan akun
-- Halaman di luar daftar wajib, kecuali tambahan kalau tempo cukup
+- **Login dan akun:** Halaman masuk, lupa password, verifikasi email, dan OTP. F3 dianggap user sudah masuk
+- **Backend:** Database, akun sungguhan, dan pembayaran sungguhan
+- **Sisi lain produk:** Admin atau mentor, notifikasi email, dan pengaturan akun
+- **Halaman lain:** Di luar daftar wajib, kecuali tambahan kalau tempo cukup
 
 Di luar scope bukan berarti tidak penting. Bagian itu bisa kamu lengkapi setelah program, atau di project-mu sendiri.
 
