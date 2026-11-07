@@ -5,7 +5,7 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: koson
 ## 6.1 · Daftar state dan pesan error *(kamu)*
 
 - **Kenapa:** state yang tidak dirancang tetap muncul, hanya saja dalam bentuk yang membingungkan.
-- **Yang kamu lakukan:** untuk setiap layar inti dan form daftar dan masuk, tulis seperti apa setiap state-nya, lalu tulis pesan error-nya.
+- **Yang kamu lakukan:** untuk setiap layar di flow kunci, termasuk form daftar dan transaksi, tulis seperti apa setiap state-nya, lalu tulis pesan error-nya.
 - **Template:**
   ```
   | Layar | Kosong | Loading | Error | Berhasil | Gagal | Nonaktif |
@@ -17,9 +17,9 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: koson
 - **Masuk ke:** `CLAUDE.md` › bagian **7. State per layar**.
 - **Cukup kalau:** setiap state punya aksi berikutnya untuk user, dan pesan error menjelaskan solusinya tanpa bahasa mesin.
 
-## 6.2 · Bangun state dan flow daftar dan masuk *(Claude Code)*
+## 6.2 · Bangun state, form daftar, dan transaksi *(Claude Code)*
 
-- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membangun state dari tabelmu, bisa dibuka lewat `?state=kosong`, `?state=loading`, `?state=error`, `?state=gagal`, termasuk form daftar dan masuk yang disimulasikan.
+- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membangun state dari tabelmu, bisa dibuka lewat `?state=kosong`, `?state=loading`, `?state=error`, `?state=gagal`, termasuk form daftar dan transaksi yang disimulasikan. Tidak ada halaman masuk: daftar langsung ke onboarding.
 - **Cukup kalau:** setiap state di tabel bisa dibuka lewat URL.
 
 ## 6.3 · Validasi, tombol nonaktif, dan screen reader *(Claude Code)*

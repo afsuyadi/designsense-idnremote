@@ -132,7 +132,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ### Pekan 6 · State dan feedback
 - [ ] 6.1 Tulis state setiap layar dan pesan error-nya *(kamu)*
-- [ ] 6.2 Bangun state lewat `?state=`, termasuk daftar dan masuk *(Claude Code)*
+- [ ] 6.2 Bangun state lewat `?state=`, termasuk form daftar dan transaksi *(Claude Code)*
 - [ ] 6.3 Tambahkan validasi, tombol nonaktif, dan pengumuman untuk screen reader *(Claude Code)*
 - [ ] 6.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
@@ -297,7 +297,8 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 - Pakai isi dari `briefs/<brief>/data/`. Jangan mengarang teks atau angka.
 - Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
 - HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend.
-- Daftar dan masuk tetap dibangun sebagai flow: form, validasi saat mengisi, pesan password salah (`?state=gagal`), dan berhasil masuk. Semuanya disimulasikan: input apa pun yang valid diterima, lalu user masuk sebagai user di `user.json`. Jangan menyimpan password atau membuat akun sungguhan.
+- Ikuti **scope** di brief. Daftar dibangun sebagai flow (form, validasi saat mengisi, `?state=gagal` untuk email yang sudah terdaftar), lalu langsung masuk ke onboarding sebagai user di `user.json`. Tidak ada halaman masuk (login), lupa password, atau verifikasi email: flow kembali (F3) dimulai dalam keadaan sudah masuk. Transaksi disimulasikan dengan data contoh. Jangan menyimpan password, data kartu, atau membuat akun sungguhan.
+- Masalah (M1–M3) dan flow kunci (F1–F3) di brief dikunci. Jangan menambah masalah, halaman, atau flow di luar brief; kalau peserta memintanya, ingatkan scope-nya dan sarankan menyimpannya untuk setelah program.
 - Website di `website/`, web app di `app/`. Keduanya memakai `tokens.css` yang sama.
 - HTML semantik: urutan heading benar, tombol memakai `<button>`, link memakai `<a>`, setiap input punya label.
 - Kalau ada yang belum jelas di dokumen ini, tanyakan dulu.

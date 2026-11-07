@@ -92,7 +92,7 @@ Lalu buka `http://localhost:8000/website/` (P1) dan `http://localhost:8000/app/`
 | 3 | Font, type scale, palet, lalu high fidelity dan cek kontras | Bedah typography dan warna referensi |
 | 4 | Spacing scale, `tokens.css`, Button dan Input | Bedah token produk nyata lewat DevTools |
 | 5 | Revisi dari feedback pekan 1–4 | Recreate dan overlay, lalu **Review fase 1** (Google Meet) |
-| 6 | Daftar state, pesan error, form daftar dan masuk, validasi | Flow teardown |
+| 6 | Daftar state, pesan error, form daftar dan transaksi, validasi | Flow teardown |
 | 7 | Temuan usability test dan cek accessibility, perbaikan, aturan accessibility | Usability test dengan 1–2 orang, dua aplikasi di HP sendiri, lalu **Review fase 2** |
 | 8 | Design system di `CLAUDE.md`, satu halaman baru dari sistem itu | Bedah design system publik |
 | 9 | Perbaikan dari design crit | Memberi design crit ke peserta lain |

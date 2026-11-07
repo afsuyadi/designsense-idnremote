@@ -11,16 +11,18 @@ Belum ada tampilan. Pekan ini kamu menulis dasar kedua project: untuk siapa, apa
 ## 1.2 · Pahami brief-mu *(kamu)*
 
 - **Kenapa:** keputusan design yang efektif dimulai dari masalah user, bukan dari tampilan.
-- **Yang kamu lakukan:** baca `briefs/<brief-mu>/brief.md`, lihat sekilas isi `data/`, lalu ceritakan ulang dengan kata-katamu sendiri di chat.
+- **Yang kamu lakukan:** baca `briefs/<brief-mu>/brief.md`, terutama masalah M1–M3 per project, flow kunci F1–F3, dan scope. Lihat sekilas isi `data/`, lalu ceritakan ulang dengan kata-katamu sendiri di chat. Masalah dan scope sudah dikunci: tugasmu memahaminya, bukan menambah.
 - **Template:**
   ```
   Produk: [apa produknya, dalam satu kalimat]
   Untuk: [siapa user-nya, dan kapan dia memakainya]
-  Masalah terbesar: [satu masalah UX dari brief], karena [akibatnya bagi user atau bisnis]
+  Website: masalah yang paling mengancam goal adalah [M1/M2/M3], karena [akibatnya]
+  Web app: masalah yang paling mengancam goal adalah [M1/M2/M3], karena [akibatnya]
+  Yang tidak termasuk scope: [satu hal yang sengaja tidak dibangun]
   ```
-- **Pertanyaan pemandu:** di momen apa user membuka produk ini? Apa yang membuatnya ragu? Dari dua masalah UX di brief, mana yang paling mengancam business goal?
+- **Pertanyaan pemandu:** di momen apa user membuka produk ini? Apa yang membuatnya ragu? Dari tiga masalah di setiap project, mana yang paling mengancam goal-nya? Flow kunci mana yang paling sulit?
 - **Masuk ke:** tidak ditulis di `CLAUDE.md`; dicatat di log pekan ini.
-- **Cukup kalau:** menyebut user dan masalahnya dengan kata sendiri, bukan menyalin kalimat brief.
+- **Cukup kalau:** menyebut user dan masalah setiap project dengan kata sendiri, bukan menyalin kalimat brief, dan tahu batas scope-nya.
 
 ## 1.3 · Tulis user dan user goal *(kamu)*
 
@@ -50,18 +52,20 @@ Belum ada tampilan. Pekan ini kamu menulis dasar kedua project: untuk siapa, apa
 ## 1.5 · Tulis flow utama *(kamu)*
 
 - **Kenapa:** flow menunjukkan halaman apa yang benar-benar dibutuhkan, dan di mana user bisa berhenti.
-- **Yang kamu lakukan:** tulis langkah user dari pengunjung pertama di website sampai memakai fitur utama di web app. Lalu coret langkah yang bisa dihapus, digabung, atau diberi default, dengan alasannya.
+- **Yang kamu lakukan:** flow kunci F1–F3 sudah ditentukan di brief. Tulis ulang ketiganya dengan kata-katamu sebagai satu perjalanan: di layar mana user berada, apa yang dilakukannya, dan apa yang terjadi kalau gagal. Lalu tandai langkah yang bisa dipersingkat (misalnya diberi default), dengan alasannya. Jangan menambah flow baru.
 - **Template:**
   ```
-  1. [di mana] · [apa yang dilakukan user]
+  F1 · [judul]
+  1. [layar] · [apa yang dilakukan user] · kalau gagal: [apa yang terjadi]
   2. …
   → masuk web app
-  6. [di mana] · [apa yang dilakukan user]
-  Dicoret: [langkah], karena [alasan]
+  F2 · …
+  F3 · …
+  Dipersingkat: [langkah], karena [alasan]
   ```
 - **Pertanyaan pemandu:** apa yang terjadi kalau user gagal di satu langkah? Langkah mana yang hanya ada karena kebiasaan, bukan karena user butuh?
 - **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Flow utama.
-- **Cukup kalau:** dari pengunjung pertama sampai fitur utama, titik pindah ke web app terlihat, dan ada setidaknya satu jalur saat gagal.
+- **Cukup kalau:** ketiga flow tertulis lengkap dengan layarnya, titik pindah ke web app terlihat, dan setiap flow punya setidaknya satu jalur saat gagal.
 
 ## 1.6 · Tandai titik rawan di flow *(kamu)*
 
@@ -77,15 +81,16 @@ Belum ada tampilan. Pekan ini kamu menulis dasar kedua project: untuk siapa, apa
 ## 1.7 · Daftar halaman kedua project *(kamu)*
 
 - **Kenapa:** daftar halaman adalah batas pekerjaan. Yang tidak ada di daftar tidak dibangun.
-- **Yang kamu lakukan:** salin halaman wajib dari brief, lalu tambahkan halaman yang menurut flow-mu perlu, dengan alasannya. Cukup namanya; isinya ditulis pekan depan.
+- **Yang kamu lakukan:** salin halaman wajib dari brief, lalu tulis untuk setiap halaman: flow mana yang melewatinya dan masalah mana yang dipikulnya. Cukup namanya; isinya ditulis nanti. Halaman di luar brief tidak ditambahkan.
 - **Template:**
   ```
-  P1 · Website SaaS: [halaman], [halaman], [halaman]
-  P2 · Web app: [halaman], [halaman], [halaman]
-  Ditambahkan: [halaman], karena [langkah flow yang membutuhkannya]
+  P1 · Website SaaS
+  - [halaman] · dilewati [F1] · memikul [M1, M3]
+  P2 · Web app
+  - [halaman] · dilewati [F2, F3] · memikul [M2]
   ```
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › Daftar halaman.
-- **Cukup kalau:** semua halaman wajib dari brief ada, dan setiap halaman tambahan punya alasan dari flow.
+- **Cukup kalau:** semua halaman wajib ada, dan setiap halaman tersambung ke flow dan masalahnya.
 
 ## 1.8 · Laporan pekan ini *(kamu dan Claude Code)*
 

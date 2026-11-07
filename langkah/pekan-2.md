@@ -12,12 +12,12 @@ Kedua project mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, 
   Posisi di flow: datang dari [mana], lanjut ke [mana]
   Satu aksi utama: [aksi]
   Urutan section:
-  1. [section]: [keraguan atau kebutuhan user yang dijawab]
+  1. [section]: [keraguan user yang dijawab] · menjawab [M1/M2/M3]
   2. …
   ```
 - **Pertanyaan pemandu:** apa yang harus dipahami pengunjung dalam lima detik pertama? Keraguan apa yang muncul sebelum dia mau mendaftar, dan section mana yang menjawabnya?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P1 · Website SaaS › Beranda.
-- **Cukup kalau:** setiap section punya alasan, urutannya menuju satu aksi utama, dan tidak ada section yang bersaing dengan aksi itu.
+- **Cukup kalau:** setiap section punya alasan dan masalah yang dijawabnya, M1–M3 website semuanya terjawab, urutannya menuju satu aksi utama, dan tidak ada section yang bersaing dengan aksi itu.
 
 ## 2.2 · Rencana Beranda user web app *(kamu)*
 
@@ -30,7 +30,7 @@ Kedua project mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, 
   Posisi di flow: datang dari [mana], lanjut ke [mana]
   Satu aksi utama: [aksi]
   Urutan section:
-  1. [section]: [alasan]
+  1. [section]: [alasan] · menjawab [M1/M2/M3]
   Kondisi layar: [misalnya kosong untuk user baru, peringatan, konfirmasi]
   ```
 - **Pertanyaan pemandu:** apa yang dilihat user baru yang belum punya data? Apa yang ingin dia lakukan dalam satu klik saat kembali?

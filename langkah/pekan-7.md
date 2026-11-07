@@ -5,10 +5,10 @@ Kedua project diuji oleh orang lain dan dengan alat bantu, lalu temuan terbesar 
 ## 7.1 · Usability test *(kamu)*
 
 - **Kenapa:** yang jelas bagimu belum tentu jelas bagi orang yang baru melihatnya.
-- **Yang kamu lakukan:** minta 1–2 orang di luar kelas menyelesaikan satu tugas di project-mu sambil kamu amati tanpa membantu. Catat temuannya.
+- **Yang kamu lakukan:** minta 1–2 orang di luar kelas menjalani flow kunci F1–F3 sambil kamu amati tanpa membantu. Ukurannya kolom "Berhasil kalau" di brief. Catat temuannya.
 - **Template:**
   ```
-  Tugas yang diuji: [satu kalimat]
+  Flow yang diuji: [F1/F2/F3] · berhasil kalau: [dari brief] · tercapai: [ya / tidak]
   - Temuan: [apa yang terjadi] · severity: [tinggi / sedang / rendah] · heuristic: [nama]
   ```
 - **Masuk ke:** `CLAUDE.md` › bagian **8. Aturan accessibility** › Temuan (atau dicatat di log).
