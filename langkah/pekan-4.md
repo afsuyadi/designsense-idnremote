@@ -1,6 +1,6 @@
 # Pekan 4 · Spacing dan design token
 
-Gaya yang berulang dijadikan design token, supaya kedua project konsisten dan satu perubahan cukup di satu tempat.
+Gaya website yang berulang dijadikan design token, supaya satu perubahan cukup di satu tempat. Token dan component ini juga bahan web app mulai pekan 5.
 
 ## 4.1 · Spacing scale, Button, dan Input *(kamu)*
 
@@ -9,8 +9,8 @@ Gaya yang berulang dijadikan design token, supaya kedua project konsisten dan sa
 - **Template:**
   ```
   Spacing scale: [4, 8, 12, 16, 24, 32, …], dipakai untuk [jarak dalam grup] dan [jarak antar grup]
-  Button: varian [primary, sekunder], tinggi [px], fokus [seperti apa], target sentuh minimal 44px
-  Input: label di [atas/samping], hint [di mana], error [warna dan posisi], fokus [seperti apa]
+  Button: varian [primary, sekunder], tinggi [px], hover [..], fokus [seperti apa], disabled [..], target sentuh minimal 44px
+  Input: label di [atas/samping], hint [di mana], error [warna dan posisi], fokus [seperti apa], disabled [..]
   ```
 - **Pertanyaan pemandu:** berapa jarak di dalam satu grup dibanding antar grup? Bagaimana user keyboard tahu sedang di tombol mana?
 - **Masuk ke:** `CLAUDE.md` › bagian **6. Token dan component**.
@@ -23,7 +23,7 @@ Gaya yang berulang dijadikan design token, supaya kedua project konsisten dan sa
 
 ## 4.3 · Button dan Input dari token *(Claude Code)*
 
-- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membuat Button dan Input dari token dan memakainya di kedua project. Cek fokusnya dengan tombol Tab.
+- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membuat Button dan Input dari token dan memakainya di semua halaman website. Cek fokusnya dengan tombol Tab.
 - **Cukup kalau:** fokus terlihat, dan target sentuh minimal 44px.
 
 ## 4.4 · Tidak ada nilai lepas *(kamu)*

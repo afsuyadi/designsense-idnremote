@@ -1,6 +1,6 @@
-# Pekan 2 · Wireframe
+# Pekan 2 · Wireframe website
 
-Kedua project mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, baru section: kamu menentukan tujuan halaman dan urutan section-nya, Claude Code menggambar halaman utuh, lalu kamu memperbaiki section yang kurang efektif.
+Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusul di pekan 5. Pekan ini ketiga halaman website mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, baru section: kamu menentukan tujuan halaman dan urutan section-nya, Claude Code menggambar halaman utuh, lalu kamu memperbaiki section yang kurang efektif.
 
 ## 2.1 · Rencana Beranda website *(kamu)*
 
@@ -17,29 +17,20 @@ Kedua project mulai punya bentuk, sebagai wireframe HTML abu-abu. Halaman dulu, 
   ```
 - **Pertanyaan pemandu:** apa yang harus dipahami pengunjung dalam lima detik pertama? Keraguan apa yang muncul sebelum dia mau mendaftar, dan section mana yang menjawabnya?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P1 · Website SaaS › Beranda.
-- **Cukup kalau:** setiap section punya alasan dan masalah yang dijawabnya, M1–M3 website semuanya terjawab, urutannya menuju satu aksi utama, dan tidak ada section yang bersaing dengan aksi itu.
+- **Cukup kalau:** setiap section punya alasan dan masalah yang dijawabnya, masalah yang dipikul Beranda (kolom Halaman di brief) terjawab, urutannya menuju satu aksi utama, dan tidak ada section yang bersaing dengan aksi itu.
 
-## 2.2 · Rencana Beranda user web app *(kamu)*
+## 2.2 · Rencana dua halaman website lainnya *(kamu)*
 
-- **Kenapa:** layar web app dipakai berulang kali. Yang penting adalah tugas user, bukan meyakinkan.
-- **Yang kamu lakukan:** tulis rencana layar seperti 2.1, ditambah tugas user dan kondisi layarnya.
-- **Template:**
-  ```
-  Tujuan layar: [apa]
-  Tugas user di layar ini: [satu kalimat]
-  Posisi di flow: datang dari [mana], lanjut ke [mana]
-  Satu aksi utama: [aksi]
-  Urutan section:
-  1. [section]: [alasan] · menjawab [M1/M2/M3]
-  Kondisi layar: [misalnya kosong untuk user baru, peringatan, konfirmasi]
-  ```
-- **Pertanyaan pemandu:** apa yang dilihat user baru yang belum punya data? Apa yang ingin dia lakukan dalam satu klik saat kembali?
-- **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P2 · Web app › Beranda user.
-- **Cukup kalau:** tugas user jelas, ada satu aksi utama, dan kondisi layarnya sudah didaftar namanya.
+- **Kenapa:** setiap halaman punya tugasnya sendiri di flow F1. Halaman yang tujuannya sama dengan Beranda hanya mengulang, bukan membawa user maju.
+- **Yang kamu lakukan:** tulis rencana dua halaman website lainnya dari daftar halaman di bagian 4, dengan template yang sama seperti 2.1.
+- **Template:** sama dengan 2.1, satu blok per halaman.
+- **Pertanyaan pemandu:** user datang ke halaman ini dari mana, dan dengan keraguan apa? Apa bedanya aksi utama di sini dengan di Beranda?
+- **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P1 · Website SaaS, di bawah nama halamannya.
+- **Cukup kalau:** setiap halaman punya tujuan yang berbeda dan satu aksi utama, dan bersama Beranda, ketiga halaman menjawab M1–M3 website sesuai kolom Halaman di brief.
 
-## 2.3 · Wireframe kedua halaman *(Claude Code)*
+## 2.3 · Wireframe ketiga halaman *(Claude Code)*
 
-- **Yang kamu lakukan:** pastikan fase di bagian **3. Fase saat ini** masih `wireframe`, lalu ketik `/lanjut`. Claude Code membangun setiap halaman sebagai satu halaman utuh dari rencanamu: abu-abu, satu font sistem, gambar sebagai kotak placeholder.
+- **Yang kamu lakukan:** pastikan mode di bagian **3. Mode tampilan** masih `wireframe`, lalu ketik `/lanjut`. Claude Code membangun setiap halaman sebagai satu halaman utuh dari rencanamu: abu-abu, satu font sistem, gambar sebagai kotak placeholder.
 - **Cukup kalau:** halaman mengikuti urutan section di rencanamu, tanpa section tambahan.
 
 ## 2.4 · Nilai halaman utuh *(kamu)*

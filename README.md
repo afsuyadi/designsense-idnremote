@@ -37,15 +37,15 @@ website/         P1 · Website SaaS
 app/             P2 · Web app
 ```
 
-## Tiga fase
+## Tiga tahap
 
-| Fase | Pekan | Hasilnya |
+| Tahap | Pekan | Hasilnya |
 |---|---|---|
 | Dokumen | 1 | User, goal, flow, dan daftar halaman di `CLAUDE.md`. Belum ada UI. |
-| Wireframe | 2 | Halaman HTML abu-abu dari deskripsi section-mu. Yang dinilai hanya struktur. |
-| High fidelity | 3–10 | Typography, warna, token, state, dan accessibility, ditambahkan bertahap. |
+| Wireframe | 2 | Tiga halaman website sebagai HTML abu-abu dari rencanamu. Yang dinilai hanya struktur. |
+| High fidelity | 3–10 | Website: typography, warna, dan token (pekan 3–4). Web app langsung high fidelity dari token website: tiga layar di pekan 5, layar daftar dan transaksi bersama state di pekan 6. Lalu accessibility dan design system untuk keduanya. |
 
-Fase yang sedang berjalan ditulis di `CLAUDE.md`, dan kamu sendiri yang menggantinya. Claude Code mengikuti aturan fase itu.
+Mode tampilan yang sedang berjalan (`wireframe` atau `high fidelity`) ditulis di `CLAUDE.md`, dan Claude Code mengikuti aturannya. Mode berganti di langkah 3.2, setelah kamu setujui.
 
 ## Cara bekerja dengan Claude Code
 

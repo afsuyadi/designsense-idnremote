@@ -1,10 +1,10 @@
 # Pekan 3 · Typography dan warna
 
-Struktur sudah ada dari wireframe. Pekan ini gaya ditambahkan: diterapkan ke seluruh halaman sekaligus supaya konsisten, lalu dinilai sebagai halaman utuh, baru di-polish per section.
+Struktur website sudah ada dari wireframe. Pekan ini gaya ditambahkan: diterapkan ke seluruh halaman sekaligus supaya konsisten, lalu dinilai sebagai halaman utuh, baru di-polish per section.
 
 ## 3.1 · Font, type scale, dan palet *(kamu)*
 
-- **Kenapa:** typography dan warna yang konsisten membuat hierarchy terbaca tanpa usaha. Keputusan ini dipakai di kedua project.
+- **Kenapa:** typography dan warna yang konsisten membuat hierarchy terbaca tanpa usaha. Keputusan ini dipakai di website sekarang, dan di web app mulai pekan 5.
 - **Yang kamu lakukan:** pilih font dan susun type scale serta palet, berdasarkan bedah typography dan warna di Track Taste pekan ini.
 - **Template:**
   ```
@@ -16,14 +16,14 @@ Struktur sudah ada dari wireframe. Pekan ini gaya ditambahkan: diterapkan ke sel
 - **Masuk ke:** `CLAUDE.md` › bagian **5. Typography dan warna**.
 - **Cukup kalau:** setiap ukuran punya peran, palet punya makna, dan jumlahnya terbatas.
 
-## 3.2 · Ganti fase ke high fidelity *(Claude Code)*
+## 3.2 · Ganti mode tampilan ke high fidelity *(Claude Code)*
 
-- **Yang kamu lakukan:** setujui pergantian fase. Claude Code mengganti bagian **3. Fase saat ini** menjadi `high fidelity`.
-- **Cukup kalau:** fase sudah berganti.
+- **Yang kamu lakukan:** setujui pergantian mode. Claude Code mengganti bagian **3. Mode tampilan** menjadi `high fidelity`.
+- **Cukup kalau:** mode sudah berganti.
 
 ## 3.3 · Terapkan ke seluruh halaman *(Claude Code)*
 
-- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code menerapkan type scale dan palet ke seluruh halaman yang sudah ada sekaligus, tanpa mengubah struktur.
+- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code menerapkan type scale dan palet ke seluruh halaman website sekaligus, tanpa mengubah struktur.
 - **Cukup kalau:** struktur dari wireframe tetap utuh.
 
 ## 3.4 · Nilai halaman utuh, lalu polish *(kamu, lalu Claude Code)*

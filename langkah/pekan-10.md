@@ -10,12 +10,13 @@ Kedua project dipresentasikan sebagai satu flow, dan dinilai dengan enam kriteri
 ## 10.2 · Siapkan presentasi *(kamu)*
 
 - **Kenapa:** presentasi menunjukkan cara berpikirmu: masalahnya, keputusanmu, dan alasannya.
-- **Yang kamu lakukan:** bandingkan wireframe pekan 2 dengan hasil akhir, lalu susun bahan presentasi.
+- **Yang kamu lakukan:** bandingkan wireframe website pekan 2 dan rencana layar web app pekan 5 dengan hasil akhir, lalu susun bahan presentasi.
 - **Template:**
   ```
   Masalah: [user dan masalah utamanya]
   Keputusan terpenting: [keputusan] · karena [prinsip]
   Sebelum dan sesudah: [layar] · yang sekarang kamu lihat dan dulu tidak: [..]
+  Bukti per kriteria: [kriteria] → [halaman atau layar yang menunjukkannya]
   Satu layar dari pekerjaanmu: [apa yang akan diperbaiki dan kenapa]
   ```
 - **Masuk ke:** dicatat di log pekan ini, lalu dipakai di presentasi.

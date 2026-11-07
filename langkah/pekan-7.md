@@ -1,14 +1,15 @@
 # Pekan 7 · Usability dan accessibility
 
-Kedua project diuji oleh orang lain dan dengan alat bantu, lalu temuan terbesar diperbaiki. Pekan ini ditutup Review fase 2 lewat Google Meet.
+Flow kunci F1–F3, dari website sampai web app, diuji oleh orang lain dan dengan alat bantu, lalu temuan terbesar diperbaiki. Pekan ini ditutup Review fase 2 lewat Google Meet.
 
 ## 7.1 · Usability test *(kamu)*
 
 - **Kenapa:** yang jelas bagimu belum tentu jelas bagi orang yang baru melihatnya.
-- **Yang kamu lakukan:** minta 1–2 orang di luar kelas menjalani flow kunci F1–F3 sambil kamu amati tanpa membantu. Ukurannya kolom "Berhasil kalau" di brief. Catat temuannya.
+- **Yang kamu lakukan:** minta 1–2 orang di luar kelas menjalani flow kunci F1–F3 sambil kamu amati tanpa membantu. Setiap flow menjawab masalah tertentu (kolom "Menjawab" di tabel Flow kunci). Ukurannya kolom "Berhasil kalau" dari masalah-masalah itu. Catat temuannya.
 - **Template:**
   ```
-  Flow yang diuji: [F1/F2/F3] · berhasil kalau: [dari brief] · tercapai: [ya / tidak]
+  Flow yang diuji: [F1/F2/F3] · menjawab: [misalnya P1 M1, P2 M1]
+  - [M..] berhasil kalau: [dari brief] · tercapai: [ya / tidak]
   - Temuan: [apa yang terjadi] · severity: [tinggi / sedang / rendah] · heuristic: [nama]
   ```
 - **Masuk ke:** `CLAUDE.md` › bagian **8. Aturan accessibility** › Temuan (atau dicatat di log).
@@ -16,7 +17,7 @@ Kedua project diuji oleh orang lain dan dengan alat bantu, lalu temuan terbesar 
 
 ## 7.2 · Keyboard, screen reader, dan Lighthouse *(kamu)*
 
-- **Yang kamu lakukan:** selesaikan flow utama hanya dengan keyboard, lalu dengan screen reader, lalu jalankan Lighthouse atau axe. Tambahkan temuannya ke daftar 7.1.
+- **Yang kamu lakukan:** selesaikan flow kunci hanya dengan keyboard, lalu dengan screen reader, lalu jalankan Lighthouse atau axe. Tambahkan temuannya ke daftar 7.1.
 - **Template:**
   ```
   - [keyboard / screen reader / Lighthouse]: [temuan] · severity: [..]

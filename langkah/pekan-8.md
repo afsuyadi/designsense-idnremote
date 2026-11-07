@@ -1,6 +1,6 @@
 # Pekan 8 · Design system
 
-Keputusan pekan 3–7 dirapikan menjadi design system kecil, lalu diuji: bisakah Claude Code membangun halaman baru hanya dari sistem itu?
+Keputusan dari website (pekan 3–4) dan web app (pekan 5–7) dirapikan menjadi satu design system kecil, lalu diuji: bisakah Claude Code membangun halaman baru hanya dari sistem itu?
 
 ## 8.1 · Rapikan menjadi design system *(kamu)*
 
@@ -13,18 +13,20 @@ Keputusan pekan 3–7 dirapikan menjadi design system kecil, lalu diuji: bisakah
   State: [aturan umum]
   Accessibility: [aturan]
   Larangan: [hal yang tidak boleh dilakukan]
+  Checklist review UI:
+  - [cek dari ukuran berhasil pekan 1–7, misalnya "satu aksi utama per layar"]
   ```
 - **Masuk ke:** `CLAUDE.md` › bagian **9. Design system**.
-- **Cukup kalau:** setiap component punya kapan dipakai dan kapan tidak.
+- **Cukup kalau:** setiap component punya kapan dipakai dan kapan tidak, dan checklist review UI mencakup pekan 1–7.
 
 ## 8.2 · Halaman baru dari design system *(Claude Code)*
 
-- **Yang kamu lakukan:** pilih satu halaman tambahan di web app dari brief, tulis rencana halamannya seperti 2.2, lalu ketik `/lanjut`. Claude Code membangunnya hanya dari design system.
+- **Yang kamu lakukan:** pilih satu halaman tambahan di web app dari brief, tulis rencana halamannya seperti 5.3, lalu ketik `/lanjut`. Claude Code membangunnya hanya dari design system.
 - **Cukup kalau:** halaman baru tidak memakai nilai atau component di luar sistem.
 
 ## 8.3 · Nilai dan perjelas aturan *(kamu)*
 
-- **Yang kamu lakukan:** nilai halaman baru itu. Di mana Claude Code menebak? Perjelas aturan yang ternyata kurang jelas.
+- **Yang kamu lakukan:** nilai halaman baru itu dengan checklist review UI. Di mana Claude Code menebak? Perjelas aturan yang ternyata kurang jelas.
 - **Template:**
   ```
   - Claude menebak: [apa] → aturan baru: [..]

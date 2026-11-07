@@ -65,7 +65,7 @@ Program ini melatih kepekaan design, bukan kecepatan membuat tampilan. Karena it
 | Kamu yang memutuskan dan menulis | Claude Code yang mengerjakan |
 |---|---|
 | User, goal, flow, dan daftar halaman | Setup brief dan file |
-| Rencana halaman (tujuan, urutan section), deskripsi section, dan "Kenapa layout ini" | Kode HTML, CSS, dan JS dari rencanamu |
+| Rencana halaman website dan layar web app (tujuan, urutan section), deskripsi section, dan "Kenapa layout ini" | Kode HTML, CSS, dan JS dari rencanamu |
 | Font, type scale, palet, dan alasannya | Menerapkan typography, warna, dan token |
 | Daftar state dan pesan error | Membangun state dan simulasinya (`?state=`) |
 | Temuan usability test dan aturan accessibility | Memperbaiki temuan yang kamu pilih |
@@ -88,14 +88,14 @@ Lalu buka `http://localhost:8000/website/` (P1) dan `http://localhost:8000/app/`
 | Pekan | Di repo (dipandu `/lanjut`) | Di luar repo |
 |---|---|---|
 | 1 | Brief, user, goal, flow, daftar halaman. Belum ada tampilan. | Mulai library referensi |
-| 2 | Rencana halaman, wireframe abu-abu Beranda website dan Beranda user, lalu perbaikan per section | Bedah beranda dan 5-second test |
-| 3 | Font, type scale, palet, lalu high fidelity dan cek kontras | Bedah typography dan warna referensi |
-| 4 | Spacing scale, `tokens.css`, Button dan Input | Bedah token produk nyata lewat DevTools |
-| 5 | Revisi dari feedback pekan 1–4 | Recreate dan overlay, lalu **Review fase 1** (Google Meet) |
-| 6 | Daftar state, pesan error, form daftar dan transaksi, validasi | Flow teardown |
-| 7 | Temuan usability test dan cek accessibility, perbaikan, aturan accessibility | Usability test dengan 1–2 orang, dua aplikasi di HP sendiri, lalu **Review fase 2** |
-| 8 | Design system di `CLAUDE.md`, satu halaman baru dari sistem itu | Bedah design system publik |
-| 9 | Perbaikan dari design crit | Memberi design crit ke peserta lain |
+| 2 | Rencana dan wireframe abu-abu tiga halaman website, lalu perbaikan per section | Bedah beranda dan 5-second test |
+| 3 | Font, type scale, palet, lalu website high fidelity dan cek kontras | Bedah typography dan warna referensi |
+| 4 | Spacing scale, `tokens.css`, Button dan Input di website | Bedah token produk nyata lewat DevTools |
+| 5 | Sisa revisi website, rencana lima layar web app, lalu onboarding, beranda user, dan layar inti produk dari token website | Bedah layar web app, lalu **Review fase 1** (Google Meet) |
+| 6 | Layar daftar dan transaksi, state semua layar, pesan error, validasi | Flow teardown |
+| 7 | Usability test flow kunci F1–F3 dengan 1–2 orang, cek accessibility, perbaikan, aturan accessibility | Dua aplikasi di HP sendiri, lalu **Review fase 2** |
+| 8 | Design system dan checklist review UI di `CLAUDE.md`, satu halaman baru dari sistem itu | Bedah design system publik |
+| 9 | Perbaikan dari design crit, cek diri dengan rubrik | Memberi design crit ke peserta lain |
 | 10 | Perbaikan terakhir, bahan presentasi | Satu layar dari pekerjaanmu, lalu **Presentasi** dan penilaian akhir |
 
 ## Supaya maksimal
@@ -105,5 +105,5 @@ Lalu buka `http://localhost:8000/website/` (P1) dan `http://localhost:8000/app/`
 - **Jelaskan dengan prinsip, bukan selera.** "Kurang efektif karena ada dua aksi utama yang bersaing" lebih berguna daripada "kurang bagus".
 - **Commit setelah setiap langkah selesai,** supaya mudah kembali kalau ada yang rusak.
 - **Selesai lebih cepat?** Kerjakan tantangan "Kalau selesai lebih cepat" di learning path. Materi pekan berikutnya tidak dibuka lebih awal: tambah kedalaman, bukan kecepatan.
-- **Kedua project tidak pernah terkunci.** Semua boleh diperbaiki sampai pekan 10.
+- **Website dulu, lalu web app.** Pekan 2–4 fokus ke website, pekan 5–8 ke web app, pekan 9–10 ke keduanya. Fokusnya yang bergeser, tidak ada yang terkunci: website tetap boleh diperbaiki sampai pekan 10.
 - **Macet?** Tanya di thread pekan itu di Google Chat. Pertanyaanmu kemungkinan juga pertanyaan peserta lain.

@@ -53,7 +53,7 @@ Tiga flow yang harus bisa dijalani dari awal sampai akhir. Usability test di pek
 | | Flow | Langkah | Menjawab |
 |---|---|---|---|
 | F1 | Masuk ke produk (Website → web app) | Beranda atau Daftar mentor → Pesan sesi → Daftar → Masuk ke web app | P1 M1, M2 · P2 M1 |
-| F2 | Onboarding sampai sesi pertama (Web app) | Pilih bidang dan tujuan → Rekomendasi mentor → Pilih jadwal dan bayar → Sesi terkonfirmasi | P2 M1 |
+| F2 | Onboarding sampai sesi pertama (Web app) | Pilih bidang dan tujuan → Rekomendasi mentor di akhir onboarding → Pilih jadwal dan bayar → Sesi terkonfirmasi | P2 M1 |
 | F3 | Kembali untuk sesi berikutnya (Web app, sudah masuk) | Beranda user → Detail sesi → Jadwal ulang atau baca catatan → Pesan lagi | P2 M2, M3 |
 
 ## Scope

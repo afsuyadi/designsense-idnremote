@@ -1,14 +1,14 @@
 # Pekan 6 · State dan feedback
 
-Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: kosong, loading, error, berhasil, gagal, validasi, dan tombol nonaktif selama proses. Karena tanpa backend, semua kondisi itu disimulasikan lewat `?state=` di URL.
+Onboarding, beranda user, dan layar inti produk sudah ada dari pekan 5, dalam kondisi ideal. Pekan ini layar daftar dan transaksi dibangun langsung bersama state-nya, lalu semua layar menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: kosong, loading, error, berhasil, gagal, validasi, dan tombol nonaktif selama proses. Karena tanpa backend, semua kondisi itu disimulasikan lewat `?state=` di URL.
 
 ## 6.1 · Daftar state dan pesan error *(kamu)*
 
 - **Kenapa:** state yang tidak dirancang tetap muncul, hanya saja dalam bentuk yang membingungkan.
-- **Yang kamu lakukan:** untuk setiap layar di flow kunci, termasuk form daftar dan transaksi, tulis seperti apa setiap state-nya, lalu tulis pesan error-nya.
+- **Yang kamu lakukan:** untuk kelima layar web app, termasuk layar daftar dan transaksi yang belum dibangun, tulis seperti apa setiap state-nya, lalu tulis pesan error-nya. Ideal sampai sebagian adalah state layar; berhasil, gagal, dan nonaktif adalah state aksi.
 - **Template:**
   ```
-  | Layar | Kosong | Loading | Error | Berhasil | Gagal | Nonaktif |
+  | Layar | Ideal | Kosong | Loading | Error | Sebagian | Berhasil | Gagal | Nonaktif |
   | [layar] | [apa yang dilihat dan aksi berikutnya] | … |
 
   Pesan error: [apa yang terjadi]. [kenapa]. [apa yang bisa dilakukan user].
@@ -17,10 +17,10 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: koson
 - **Masuk ke:** `CLAUDE.md` › bagian **7. State per layar**.
 - **Cukup kalau:** setiap state punya aksi berikutnya untuk user, dan pesan error menjelaskan solusinya tanpa bahasa mesin.
 
-## 6.2 · Bangun state, form daftar, dan transaksi *(Claude Code)*
+## 6.2 · Bangun layar daftar dan transaksi, lalu state-nya *(Claude Code)*
 
-- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membangun state dari tabelmu, bisa dibuka lewat `?state=kosong`, `?state=loading`, `?state=error`, `?state=gagal`, termasuk form daftar dan transaksi yang disimulasikan. Tidak ada halaman masuk: daftar langsung ke onboarding.
-- **Cukup kalau:** setiap state di tabel bisa dibuka lewat URL.
+- **Yang kamu lakukan:** ketik `/lanjut`. Claude Code membangun layar daftar dan transaksi dari rencanamu di bagian 4, hanya dari token dan component website (simulasi, tanpa akun atau pembayaran sungguhan; tidak ada halaman masuk, daftar langsung ke onboarding). Lalu state setiap layar dari tabelmu, bisa dibuka lewat `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal`. Cek kedua layar baru di lebar 360 px dan desktop.
+- **Cukup kalau:** setiap state di tabel bisa dibuka lewat URL, dan layar baru tidak memakai nilai di luar `tokens.css`.
 
 ## 6.3 · Validasi, tombol nonaktif, dan screen reader *(Claude Code)*
 

@@ -80,7 +80,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 - `/laporan akhir`: tulis `laporan/akhir.md` dari semua laporan pekanan: perjalanan keputusan design dari pekan 1 sampai 10, perubahan cara mengarahkan Claude Code dari waktu ke waktu (kutip contoh awal dan akhir), dan perbandingan wireframe pekan 2 dengan hasil akhir. Sebutkan pekan yang laporannya tidak ada. Refleksi akhir ditulis peserta, seperti refleksi pekanan. Ini juga bahan presentasi pekan 10.
 - Laporan adalah ringkasan, bukan penilaian: jangan memberi nilai atau level.
 
-**Yang selalu ditulis peserta, bukan Claude Code:** user, goal, flow, dan daftar halaman (bagian 2 dan 4); rencana halaman, deskripsi section dan "Kenapa layout ini" (bagian 4); pilihan font, type scale, dan palet beserta alasannya (bagian 5); daftar state dan pesan error (bagian 7); temuan usability test (bagian 8). Kamu boleh bertanya, mengkritik, dan menunjukkan prinsip yang relevan, tapi isinya keputusan peserta.
+**Yang selalu ditulis peserta, bukan Claude Code:** user, goal, flow, dan daftar halaman (bagian 2 dan 4); rencana halaman website dan layar web app, deskripsi section dan "Kenapa layout ini" (bagian 4); pilihan font, type scale, dan palet beserta alasannya (bagian 5); daftar state dan pesan error (bagian 7); temuan usability test (bagian 8). Kamu boleh bertanya, mengkritik, dan menunjukkan prinsip yang relevan, tapi isinya keputusan peserta.
 
 **Setup boleh kamu kerjakan langsung**, misalnya saat peserta bilang "pakai Brief A": isi baris Brief-mu di bagian 1, hapus folder brief yang lain, dan jelaskan isi brief-nya singkat.
 
@@ -100,10 +100,10 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [ ] 1.7 Tulis daftar halaman website dan web app *(kamu)*
 - [ ] 1.8 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 2 · Wireframe
+### Pekan 2 · Wireframe website
 - [ ] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
-- [ ] 2.2 Tulis rencana Beranda user web app, termasuk kondisi layarnya *(kamu)*
-- [ ] 2.3 Bangun wireframe kedua halaman, masing-masing satu halaman utuh *(Claude Code)*
+- [ ] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
+- [ ] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
 - [ ] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
 - [ ] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
 - [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
@@ -111,8 +111,8 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ### Pekan 3 · Typography dan warna
 - [ ] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
-- [ ] 3.2 Ganti fase ke high fidelity *(Claude Code)*
-- [ ] 3.3 Terapkan typography dan warna ke seluruh halaman sekaligus *(Claude Code)*
+- [ ] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
+- [ ] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
 - [ ] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
 - [ ] 3.5 Cek kontras setiap pasangan warna dan catat yang lolos *(kamu)*
 - [ ] 3.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
@@ -120,39 +120,42 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 ### Pekan 4 · Spacing dan design token
 - [ ] 4.1 Tulis spacing scale dan aturan Button dan Input *(kamu)*
 - [ ] 4.2 Pindahkan nilai yang berulang ke `tokens.css` *(Claude Code)*
-- [ ] 4.3 Buat Button dan Input dari token, pakai di kedua project *(Claude Code)*
+- [ ] 4.3 Buat Button dan Input dari token, pakai di semua halaman website *(Claude Code)*
 - [ ] 4.4 Putuskan nasib setiap nilai lepas di luar token *(kamu)*
 - [ ] 4.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
-### Pekan 5 · Revisi
-- [ ] 5.1 Tulis feedback pekan 1–4 yang dikerjakan dan alasannya *(kamu)*
-- [ ] 5.2 Kerjakan feedback itu di kedua project *(Claude Code)*
-- [ ] 5.3 Siapkan penjelasan untuk Review fase 1 *(kamu)*
-- [ ] 5.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
+### Pekan 5 · Revisi dan mulai web app
+- [ ] 5.1 Tulis sisa feedback pekan 1–4 yang dikerjakan dan alasannya *(kamu)*
+- [ ] 5.2 Kerjakan feedback itu di website *(Claude Code)*
+- [ ] 5.3 Tulis rencana kelima layar web app, termasuk kondisi layarnya *(kamu)*
+- [ ] 5.4 Bangun happy path onboarding, beranda user, dan layar inti produk dari token dan component website *(Claude Code)*
+- [ ] 5.5 Siapkan penjelasan untuk Review fase 1 *(kamu)*
+- [ ] 5.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 6 · State dan feedback
-- [ ] 6.1 Tulis state setiap layar dan pesan error-nya *(kamu)*
-- [ ] 6.2 Bangun state lewat `?state=`, termasuk form daftar dan transaksi *(Claude Code)*
+- [ ] 6.1 Tulis state setiap layar web app dan pesan error-nya *(kamu)*
+- [ ] 6.2 Bangun layar daftar dan transaksi, lalu state setiap layar lewat `?state=` *(Claude Code)*
 - [ ] 6.3 Tambahkan validasi, tombol nonaktif, dan pengumuman untuk screen reader *(Claude Code)*
 - [ ] 6.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 7 · Usability dan accessibility
-- [ ] 7.1 Lakukan usability test dan catat temuan dengan severity *(kamu)*
+- [ ] 7.1 Usability test flow kunci F1–F3 dan catat temuan dengan severity *(kamu)*
 - [ ] 7.2 Coba flow utama dengan keyboard, screen reader, dan Lighthouse *(kamu)*
 - [ ] 7.3 Perbaiki temuan terbesar *(Claude Code)*
 - [ ] 7.4 Tulis aturan accessibility dari temuan itu *(kamu)*
 - [ ] 7.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 8 · Design system
-- [ ] 8.1 Rapikan keputusan pekan 3–7 menjadi design system *(kamu)*
+- [ ] 8.1 Rapikan keputusan website dan web app menjadi satu design system, dengan checklist review UI *(kamu)*
 - [ ] 8.2 Bangun satu halaman baru web app hanya dari design system *(Claude Code)*
 - [ ] 8.3 Nilai halaman itu dan perjelas aturan yang kurang jelas *(kamu)*
 - [ ] 8.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 9 · Design crit
 - [ ] 9.1 Pilah crit yang diterima: dipakai, tidak, atau perlu dicek, dengan alasannya *(kamu)*
-- [ ] 9.2 Perbaiki kedua project dari crit yang dipakai *(Claude Code)*
-- [ ] 9.3 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
+- [ ] 9.2 Perbaiki website dan web app dari crit yang dipakai *(Claude Code)*
+- [ ] 9.3 Cek kedua project dengan rubrik dan checklist review UI *(kamu)*
+- [ ] 9.4 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 10 · Presentasi
 - [ ] 10.1 Selesaikan perbaikan terakhir *(Claude Code)*
@@ -177,35 +180,37 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 _Template dan contoh format setiap bagian ada di `langkah/pekan-1.md`._
 
-**Flow utama** (dari pengunjung pertama di website sampai memakai web app):
+**Flow utama** (flow kunci F1–F3 dari brief, ditulis ulang dengan kata-katamu):
 
-1. [langkah]
-2. [langkah]
-3. [langkah]
+- **F1 · [judul]:** 1. [layar] · [aksi user] · kalau gagal: [apa yang terjadi] → 2. …
+- **F2 · [judul]:** …
+- **F3 · [judul]:** …
+- **Dipersingkat:** [langkah], karena [alasan]
 
-**Titik yang butuh loading, validasi, atau pesan error:** [daftar]
+**Titik di flow yang butuh loading, validasi, atau pesan error:** [daftar]
 
-## 3. Fase saat ini
+## 3. Mode tampilan
 
-**Fase:** wireframe
+**Mode:** wireframe
 
-Ganti sendiri saat fasenya berpindah: `wireframe` (pekan 2) → `high fidelity` (mulai pekan 3).
+Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, website) → `high fidelity` (mulai pekan 3). Claude Code menggantinya di langkah 3.2 setelah kamu setujui. Web app tidak melewati wireframe: di pekan 5 layarnya langsung dibangun dalam mode `high fidelity`. (Mode tampilan berbeda dengan Fase 1–3 di learning path, yang menandai bagian program.)
 
-### Aturan fase wireframe
+### Aturan mode wireframe
 
-- Grayscale saja: hitam, putih, dan abu-abu. Tanpa warna merek.
+- Grayscale saja: hitam, putih, dan abu-abu. Tanpa warna brand.
 - Satu font sistem (`system-ui`), ukuran hanya untuk membedakan hierarchy.
 - Gambar dan icon berupa kotak abu-abu dengan label isinya.
 - Tanpa bayangan, gradien, dan animasi.
 - Hasilnya wireframe untuk menilai struktur, bukan produk jadi.
 
-### Aturan fase high fidelity
+### Aturan mode high fidelity
 
 - Pakai type scale dan palet di bagian 5.
 - Mulai pekan 4: hanya nilai dari `tokens.css`. Tidak ada hex, px, atau ukuran lepas di luar token.
 - Struktur dari wireframe tetap dipakai. Jangan menambah atau memindah section tanpa diminta.
+- Layar web app dibangun dari rencananya di bagian 4, hanya dengan token dan component di bagian 6. Kalau layar butuh nilai atau component baru, tanyakan dulu ke peserta.
 
-## 4. Halaman dan section (pekan 1–2)
+## 4. Halaman dan section (website pekan 1–2, web app pekan 5)
 
 **Halaman dulu, baru section.** Setiap halaman dibaca sebagai satu cerita: untuk apa halaman ini, dan urutan section apa yang membawa user ke aksi utamanya. Tulis rencana halaman dulu, lalu wireframe dibangun sebagai satu halaman utuh. Deskripsi per section dipakai saat memperbaiki section yang kurang efektif.
 
@@ -243,7 +248,7 @@ Ganti sendiri saat fasenya berpindah: `wireframe` (pekan 2) → `high fidelity` 
 - **Urutan section:**
   1. [Section]: [alasannya]
   2. []
-- **Kondisi layar:** [namanya saja dulu, misalnya kosong (user baru), peringatan, konfirmasi sebelum aksi yang tidak bisa dibatalkan. Dilengkapi di bagian 7 pada pekan 6]
+- **Kondisi layar:** [misalnya kosong (user baru), peringatan, konfirmasi sebelum aksi yang tidak bisa dibatalkan. Detailnya di bagian 7]
 
 **Section: [nama]** (diisi saat section ini diperbaiki)
 - Tujuan: []
@@ -270,9 +275,9 @@ Ganti sendiri saat fasenya berpindah: `wireframe` (pekan 2) → `high fidelity` 
 
 Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboarding, happy path, edge case (input salah, data kosong, teks sangat panjang, pilihan tidak tersedia), aksi berhasil dan gagal, validasi saat mengisi, dan tombol nonaktif selama proses. Setiap state bisa dibuka lewat `?state=` di URL (lihat bagian 10).
 
-| Layar | Ideal | Kosong | Loading | Error | Sebagian | Berhasil | Nonaktif |
-|---|---|---|---|---|---|---|---|
-| [layar] | [] | [] | [] | [] | [] | [] | [] |
+| Layar | Ideal | Kosong | Loading | Error | Sebagian | Berhasil | Gagal | Nonaktif |
+|---|---|---|---|---|---|---|---|---|
+| [layar] | [] | [] | [] | [] | [] | [] | [] | [] |
 
 **Pesan error:** apa yang terjadi, kenapa, dan apa yang bisa dilakukan user.
 
@@ -289,6 +294,8 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 ## 9. Design system (pekan 8)
 
 [Rapikan bagian 5–8 menjadi aturan pemakaian: kapan memakai component apa, dan larangannya.]
+
+**Checklist review UI:** [dari ukuran berhasil pekan 1–7, satu baris per cek, dipakai lagi di pekan 9 dan 10]
 
 ## 10. Aturan untuk Claude Code
 

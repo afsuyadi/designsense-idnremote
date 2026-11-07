@@ -53,7 +53,7 @@ Tiga flow yang harus bisa dijalani dari awal sampai akhir. Usability test di pek
 | | Flow | Langkah | Menjawab |
 |---|---|---|---|
 | F1 | Masuk ke produk (Website → web app) | Beranda atau Harga → Mulai uji coba → Daftar → Masuk ke web app | P1 M1, M2 · P2 M1 |
-| F2 | Onboarding sampai pelajaran pertama (Web app) | Pilih tujuan belajar → Rekomendasi kursus → Pelajaran pertama | P2 M1 |
+| F2 | Onboarding sampai pelajaran pertama (Web app) | Pilih tujuan belajar → Rekomendasi kursus di akhir onboarding → Pelajaran pertama | P2 M1 |
 | F3 | Kembali dan berlangganan (Web app, sudah masuk) | Beranda user → Lanjutkan pelajaran → Lihat progres → Uji coba hampir habis → Checkout berhasil atau gagal | P2 M2, M3 |
 
 ## Scope
