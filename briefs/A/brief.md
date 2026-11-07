@@ -1,18 +1,41 @@
 # Brief A · Kelasku
 
-**Platform kursus mandiri skill kerja.** Produk fiktif untuk latihan.
+**Platform kursus soft skills untuk developer.** Produk fiktif untuk latihan.
 
 ## Produk
 
-Perpustakaan kursus video skill kerja, misalnya spreadsheet, presentasi, komunikasi, dan manajemen waktu. Satu langganan untuk semua kursus, dengan uji coba gratis 7 hari.
+Kursus video soft skills untuk developer, bukan kursus coding, dalam enam kategori: Presentasi, Menulis di tempat kerja, Bahasa Inggris untuk kerja, Interview, Negosiasi, dan Memimpin tim. Contohnya demo fitur ke klien, standup berbahasa Inggris, negosiasi scope, dan menjadi tech lead. Satu langganan untuk semua kursus, dengan uji coba gratis 7 hari.
 
 ## User
 
-Karyawan 22–35 tahun yang ingin naik level, dengan waktu terbatas di malam hari atau akhir pekan.
+Developer 22–35 tahun yang ingin naik level, misalnya menjadi tech lead atau bekerja dengan klien luar negeri. Waktu belajarnya terbatas: dari laptop di malam hari setelah bekerja, atau dari HP di akhir pekan.
+
+**User goal:** Saat malam hari setelah bekerja, saya ingin menyelesaikan satu pelajaran singkat yang bisa langsung saya coba di pekerjaan besok, supaya saya lebih percaya diri di rapat, presentasi, atau interview berikutnya.
 
 ## Business goal
 
-Pengunjung memulai uji coba gratis, lalu tetap berlangganan setelah uji coba selesai.
+Pengunjung memulai uji coba gratis 7 hari di website, lalu menyelesaikan pelajaran pertama dan kembali belajar selama uji coba di web app, supaya mereka tetap berlangganan setelah uji coba selesai.
+
+**Bisa bertabrakan dengan user goal:** Di halaman Harga dan saat uji coba hampir habis: bisnis ingin user langsung berlangganan, sedangkan user ingin yakin dulu bahwa dia tidak ditagih tanpa sadar dan bisa berhenti kapan saja.
+
+## Isi produk
+
+Batas isi produk fiktifnya. Halaman dan isi tampilanmu berangkat dari isi ini, bukan dari topik lain.
+
+**Ada di produk:**
+
+- **Presentasi:** Demo fitur ke klien, dan bicara di depan tim dengan percaya diri
+- **Menulis di tempat kerja:** Update progres, email, dan dokumen teknis singkat
+- **Bahasa Inggris untuk kerja:** Percakapan dengan tim, atasan, dan klien, serta standup, rapat, chat, email, dan deskripsi pull request
+- **Interview:** Interview kerja, CV, dan portofolio
+- **Negosiasi:** Estimasi, scope, gaji, dan promosi
+- **Memimpin tim:** Menjadi tech lead, serta memberi dan menerima feedback
+
+**Bukan bagian produk:**
+
+- **Kursus coding:** Bahasa pemrograman, framework, dan tools teknis
+- **Kelas live atau grup:** Semua kursus berupa video yang dipelajari sendiri
+- **Sesi dengan mentor:** Tidak ada tanya jawab satu-satu
 
 ## Per project
 
@@ -20,7 +43,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 
 ### P1 · Website SaaS
 
-- **User saat ini:** Pengunjung yang baru menemukan Kelasku dan belum tahu isinya.
+- **User saat ini:** Developer yang baru menemukan Kelasku dan belum tahu isinya.
 - **Goal:** Paham kursusnya relevan untuk pekerjaannya, lalu memulai uji coba gratis.
 
 | | Masalah | Berhasil kalau | Halaman |
@@ -34,7 +57,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 
 ### P2 · Web app
 
-- **User saat ini:** User yang baru mendaftar, belajar sebentar di malam hari setelah bekerja.
+- **User saat ini:** Developer yang baru mendaftar, belajar sebentar di malam hari setelah bekerja.
 - **Goal:** Menyelesaikan kursus pertama dan tetap berlangganan.
 
 | | Masalah | Berhasil kalau | Halaman |
@@ -79,8 +102,8 @@ Di luar scope bukan berarti tidak penting. Bagian itu bisa kamu lengkapi setelah
 
 Ada di `data/`. Pakai isi ini, jangan mengarang sendiri.
 
-- `courses.json`: 12 kursus dalam 4 kategori, masing-masing dengan pelajaran
+- `courses.json`: 12 kursus dalam 6 kategori (Presentasi, Menulis di tempat kerja, Bahasa Inggris untuk kerja, Interview, Negosiasi, Memimpin tim), masing-masing 6 pelajaran
 - `plans.json`: 2 paket harga, bulanan dan tahunan
-- `user.json`: 1 user (Rina) dengan 2 kursus berjalan
+- `user.json`: 1 user (Rino) dengan 2 kursus berjalan
 - `testimonials.json`: 3 testimoni
 - `faq.json`: 5 pertanyaan

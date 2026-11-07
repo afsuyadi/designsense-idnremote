@@ -29,7 +29,7 @@ CLAUDE.md        Kerangka yang kamu lengkapi setiap pekan, dengan Progres dan at
 .claude/commands Perintah /mulai, /lanjut, /cek, /pekan, dan /laporan.
 laporan/         Log dan laporan pekanan, ditulis Claude Code.
 PANDUAN.md       Cara kerja program dari pekan 1 sampai 10.
-langkah/         Panduan setiap langkah per pekan: template dan kapan dianggap cukup.
+langkah/         Panduan setiap langkah per pekan, dan contoh.md: contoh cara menulis dari produk lain.
 briefs/A/        Brief A: brief.md dan data contoh (data/*.json)
 briefs/B/        Brief B: brief.md dan data contoh (data/*.json)
 tokens.css       Design token. Kosong sampai pekan 4.

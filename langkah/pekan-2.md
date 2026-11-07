@@ -5,7 +5,7 @@ Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusu
 ## 2.1 · Rencana Beranda website *(kamu)*
 
 - **Kenapa:** halaman dibaca sebagai satu cerita menuju satu aksi utama. Urutan section adalah urutan keraguan user yang dijawab satu per satu.
-- **Yang kamu lakukan:** tulis rencana Beranda sebelum menyentuh section mana pun. Pakai referensi dari library-mu.
+- **Yang kamu lakukan:** tulis rencana Beranda sebelum menyentuh section mana pun. Berangkat dari isi yang menjawab M1–M3 di bagian 4 (langkah 1.3): isi itu yang disusun menjadi section. Pakai referensi dari library-mu.
 - **Template:**
   ```
   Tujuan halaman: [apa yang harus dipahami atau dilakukan user di sini]

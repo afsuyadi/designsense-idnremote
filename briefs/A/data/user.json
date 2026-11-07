@@ -1,17 +1,17 @@
 {
-  "name": "Rina Wulandari",
-  "email": "rina@contoh.id",
+  "name": "Rino Saputra",
+  "email": "rino@contoh.id",
   "plan": "bulanan",
   "trialEndsInDays": 3,
-  "goal": "Naik jabatan menjadi team lead",
+  "goal": "Naik dari senior developer menjadi tech lead",
   "enrolled": [
     {
-      "courseId": "spreadsheet-dasar",
+      "courseId": "english-conversation",
       "progress": 80,
       "lastLessonId": 5
     },
     {
-      "courseId": "slide-jelas",
+      "courseId": "jadi-tech-lead",
       "progress": 30,
       "lastLessonId": 2
     }

@@ -1,17 +1,17 @@
 [
   {
     "name": "Andi",
-    "role": "Staf keuangan",
-    "quote": "Laporan bulanan yang dulu makan setengah hari sekarang selesai sebelum makan siang."
+    "role": "Frontend developer",
+    "quote": "Sekarang saya bisa mendemokan fitur ke klien tanpa gugup."
   },
   {
     "name": "Lia",
-    "role": "Account executive",
-    "quote": "Pelajarannya pendek, jadi bisa saya selesaikan di perjalanan pulang."
+    "role": "Backend developer",
+    "quote": "Standup dalam bahasa Inggris tidak lagi membuat saya panik."
   },
   {
     "name": "Yoga",
-    "role": "Supervisor gudang",
-    "quote": "Pertama kali presentasi di depan direksi tanpa gemetar."
+    "role": "Junior developer",
+    "quote": "Interview pertama saya lolos, karena sudah latihan bercerita tentang proyek sebelumnya."
   }
 ]

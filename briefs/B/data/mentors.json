@@ -1,10 +1,11 @@
 {
   "fields": [
-    "Karier",
     "Interview",
-    "Review CV",
-    "Skill teknis",
-    "Komunikasi"
+    "CV dan portofolio",
+    "Presentasi",
+    "Bahasa Inggris untuk kerja",
+    "Negosiasi",
+    "Memimpin tim"
   ],
   "timezone": "WIB",
   "sessionMinutes": 45,
@@ -12,16 +13,16 @@
     {
       "id": "nadia",
       "name": "Nadia Rahma",
-      "field": "Karier",
-      "title": "Head of People di perusahaan logistik",
+      "field": "Negosiasi",
+      "title": "Engineering manager di perusahaan logistik",
       "years": 12,
       "rating": 4.9,
       "sessions": 214,
-      "summary": "Membantu kamu memetakan langkah karier berikutnya dan bersiap untuk promosi.",
+      "summary": "Menyiapkan negosiasi gaji, promosi, dan pindah perusahaan.",
       "topics": [
-        "Rencana karier",
         "Negosiasi gaji",
-        "Pindah bidang"
+        "Promosi",
+        "Pindah perusahaan"
       ],
       "availability": [
         {
@@ -47,15 +48,15 @@
       "id": "hendra",
       "name": "Hendra Wijaya",
       "field": "Interview",
-      "title": "Recruiter di perusahaan teknologi",
+      "title": "Technical recruiter di perusahaan teknologi",
       "years": 8,
       "rating": 4.8,
       "sessions": 176,
-      "summary": "Simulasi interview dengan feedback langsung, dari pertanyaan perilaku sampai studi kasus.",
+      "summary": "Simulasi interview dengan feedback langsung, dari pertanyaan perilaku sampai bercerita tentang proyek.",
       "topics": [
         "Simulasi interview",
         "Pertanyaan perilaku",
-        "Studi kasus"
+        "Bercerita dengan metode STAR"
       ],
       "availability": [
         {
@@ -83,16 +84,16 @@
     {
       "id": "putri",
       "name": "Putri Ayu",
-      "field": "Review CV",
-      "title": "Talent acquisition lead",
+      "field": "CV dan portofolio",
+      "title": "Talent acquisition lead di startup",
       "years": 7,
       "rating": 4.7,
       "sessions": 158,
-      "summary": "Review CV dan profil LinkedIn supaya pengalamanmu terbaca jelas oleh recruiter.",
+      "summary": "CV dan portofolio yang menunjukkan hasil kerjamu, bukan daftar tugas.",
       "topics": [
         "Review CV",
-        "Profil LinkedIn",
-        "Portofolio"
+        "Portofolio",
+        "Profil LinkedIn"
       ],
       "availability": [
         {
@@ -119,16 +120,16 @@
     {
       "id": "bagus",
       "name": "Bagus Setiawan",
-      "field": "Skill teknis",
-      "title": "Senior data analyst",
+      "field": "Presentasi",
+      "title": "Senior backend engineer dan pembicara konferensi",
       "years": 9,
       "rating": 4.8,
       "sessions": 132,
-      "summary": "Belajar SQL dan analisis data dari kasus pekerjaanmu sendiri.",
+      "summary": "Latihan presentasi dan demo sampai kamu tenang di depan tim dan klien.",
       "topics": [
-        "SQL",
-        "Analisis data",
-        "Dashboard"
+        "Demo fitur",
+        "Presentasi ke atasan",
+        "Mengatasi gugup"
       ],
       "availability": [
         {
@@ -155,16 +156,16 @@
     {
       "id": "citra",
       "name": "Citra Maharani",
-      "field": "Skill teknis",
-      "title": "Product manager",
+      "field": "Bahasa Inggris untuk kerja",
+      "title": "Product manager di perusahaan global",
       "years": 10,
       "rating": 4.6,
       "sessions": 98,
-      "summary": "Diskusi cara kerja product manager: prioritas, roadmap, dan bekerja dengan tim engineering.",
+      "summary": "Latihan percakapan kerja berbahasa Inggris dengan tim, atasan, dan klien dari luar negeri.",
       "topics": [
-        "Prioritas produk",
-        "Roadmap",
-        "Kerja dengan engineer"
+        "Percakapan dengan klien",
+        "Bicara dengan atasan",
+        "Rapat berbahasa Inggris"
       ],
       "availability": [
         {
@@ -190,14 +191,14 @@
     {
       "id": "fajar",
       "name": "Fajar Kurniawan",
-      "field": "Karier",
+      "field": "Memimpin tim",
       "title": "Engineering manager",
       "years": 11,
       "rating": 4.9,
       "sessions": 187,
-      "summary": "Transisi dari individual contributor menjadi pemimpin tim.",
+      "summary": "Bersiap dari senior developer menjadi tech lead.",
       "topics": [
-        "Menjadi team lead",
+        "Menjadi tech lead",
         "One-on-one",
         "Delegasi"
       ],
@@ -228,16 +229,16 @@
     {
       "id": "laras",
       "name": "Laras Sukma",
-      "field": "Komunikasi",
-      "title": "Komunikasi korporat",
+      "field": "Bahasa Inggris untuk kerja",
+      "title": "Engineering lead di perusahaan remote internasional",
       "years": 9,
       "rating": 4.5,
       "sessions": 74,
-      "summary": "Latihan presentasi dan public speaking untuk meeting penting.",
+      "summary": "Percakapan kerja berbahasa Inggris: standup, code review, dan interview.",
       "topics": [
-        "Presentasi",
-        "Public speaking",
-        "Menulis untuk atasan"
+        "Percakapan dengan tim",
+        "Standup berbahasa Inggris",
+        "Interview berbahasa Inggris"
       ],
       "availability": []
     },
@@ -249,10 +250,10 @@
       "years": 6,
       "rating": 4.6,
       "sessions": 63,
-      "summary": "Persiapan interview untuk startup, termasuk tugas take-home.",
+      "summary": "Persiapan interview di startup, sampai pertanyaan yang perlu kamu ajukan ke perusahaan.",
       "topics": [
         "Interview startup",
-        "Take-home test",
+        "Bercerita tentang proyek",
         "Pertanyaan untuk perusahaan"
       ],
       "availability": [

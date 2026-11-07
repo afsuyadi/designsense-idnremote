@@ -1,18 +1,41 @@
 # Brief B · Mentorku
 
-**Platform mentoring 1-on-1 skill kerja.** Produk fiktif untuk latihan.
+**Platform mentoring soft skills 1-on-1 untuk developer.** Produk fiktif untuk latihan.
 
 ## Produk
 
-Sesi video call satu-satu dengan praktisi, misalnya untuk karier, review CV, interview, atau skill teknis. Bayar per sesi atau beli paket 4 sesi.
+Sesi video call satu-satu dengan praktisi berpengalaman untuk soft skills developer, bukan bantuan coding, di enam bidang: Interview, CV dan portofolio, Presentasi, Bahasa Inggris untuk kerja, Negosiasi, dan Memimpin tim. Bayar per sesi atau beli paket 4 sesi.
 
 ## User
 
-Karyawan 22–35 tahun yang butuh arahan spesifik dari orang berpengalaman, bukan materi umum.
+Developer 22–35 tahun yang butuh arahan spesifik dari orang berpengalaman, bukan materi umum, misalnya sebelum interview, negosiasi, atau presentasi penting. Mencari dan memesan mentor dari laptop, lalu mengecek jadwal sesi dari HP.
+
+**User goal:** Saat menghadapi momen penting di pekerjaan, misalnya interview atau negosiasi pekan depan, saya ingin berlatih dengan orang yang pernah mengalaminya, supaya saya datang dengan persiapan yang jelas, bukan menebak-nebak.
 
 ## Business goal
 
-Pengunjung memesan sesi pertama, lalu kembali memesan sesi berikutnya.
+Pengunjung memesan sesi pertama di website, lalu hadir di sesi itu dan memesan sesi berikutnya di web app, supaya user kembali membayar sesi atau membeli paket 4 sesi.
+
+**Bisa bertabrakan dengan user goal:** Di pilih jadwal dan bayar: bisnis ingin user langsung membeli paket 4 sesi, sedangkan user ingin mencoba satu sesi dulu sebelum yakin mentornya cocok.
+
+## Isi produk
+
+Batas isi produk fiktifnya. Halaman dan isi tampilanmu berangkat dari isi ini, bukan dari topik lain.
+
+**Ada di produk:**
+
+- **Interview:** Simulasi interview, pertanyaan perilaku, dan metode STAR
+- **CV dan portofolio:** Review CV, portofolio, dan profil LinkedIn
+- **Presentasi:** Latihan demo fitur dan presentasi ke atasan
+- **Bahasa Inggris untuk kerja:** Latihan percakapan dengan tim, atasan, dan klien, serta standup, rapat, dan email berbahasa Inggris
+- **Negosiasi:** Gaji, promosi, dan pindah perusahaan
+- **Memimpin tim:** Persiapan menjadi tech lead, one-on-one, dan delegasi
+
+**Bukan bagian produk:**
+
+- **Bantuan coding:** Debugging, review kode teknis, atau mengerjakan tugas
+- **Kursus video:** Setiap sesi berupa video call langsung dengan mentor
+- **Sesi grup:** Satu sesi hanya untuk satu user dan satu mentor
 
 ## Per project
 
@@ -20,7 +43,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 
 ### P1 · Website SaaS
 
-- **User saat ini:** Karyawan yang butuh arahan spesifik dan sedang membandingkan pilihan mentoring.
+- **User saat ini:** Developer yang butuh arahan spesifik dan sedang membandingkan pilihan mentoring.
 - **Goal:** Menemukan mentor yang cocok, lalu memesan sesi pertama.
 
 | | Masalah | Berhasil kalau | Halaman |
@@ -34,7 +57,7 @@ Masalah dan ukuran berhasil di bawah ini **dikunci**: jangan menambah masalah se
 
 ### P2 · Web app
 
-- **User saat ini:** User yang baru mendaftar dan akan punya sesi terjadwal.
+- **User saat ini:** Developer yang baru mendaftar dan akan punya sesi terjadwal.
 - **Goal:** Hadir di sesi, lalu memesan sesi berikutnya.
 
 | | Masalah | Berhasil kalau | Halaman |
@@ -79,8 +102,8 @@ Di luar scope bukan berarti tidak penting. Bagian itu bisa kamu lengkapi setelah
 
 Ada di `data/`. Pakai isi ini, jangan mengarang sendiri.
 
-- `mentors.json`: 8 mentor dengan bidang, pengalaman, rating, dan jadwal kosong
+- `mentors.json`: 8 mentor di 6 bidang (Interview, CV dan portofolio, Presentasi, Bahasa Inggris untuk kerja, Negosiasi, Memimpin tim), dengan pengalaman, rating, dan jadwal kosong
 - `plans.json`: 2 pilihan harga, per sesi dan paket 4 sesi
-- `user.json`: 1 user (Rina) dengan 1 sesi mendatang dan 2 sesi selesai
+- `user.json`: 1 user (Rino) dengan 1 sesi mendatang dan 2 sesi selesai
 - `testimonials.json`: 3 testimoni
 - `faq.json`: 5 pertanyaan

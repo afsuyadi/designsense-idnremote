@@ -1,97 +1,80 @@
 # Pekan 1 · Dokumen kedua project
 
-Belum ada tampilan. Pekan ini kamu menulis dasar kedua project: untuk siapa, apa goal-nya, dan bagaimana user bergerak dari website sampai web app. Semua pekan berikutnya berangkat dari sini.
+Belum ada tampilan. Brief sudah menyebut user, goal, masalah, flow, dan halaman kedua project, jadi kamu tidak perlu menulis ulang semua itu. Pekan ini kamu membuat keputusan yang tidak ada di brief: masalah mana yang paling penting, isi apa yang menjawabnya, dan di titik mana flow bisa gagal. Semua pekan berikutnya berangkat dari sini.
 
 ## 1.1 · Pilih brief *(Claude Code)*
 
 - **Kenapa:** semua langkah berikutnya bergantung pada produk di brief-mu.
-- **Yang kamu lakukan:** sebutkan brief dari fasilitator, A atau B. Claude Code mengisi baris Brief-mu di bagian **Brief** dan menghapus folder brief yang lain.
-- **Cukup kalau:** baris Brief-mu terisi dan hanya satu folder brief yang tersisa.
+- **Yang kamu lakukan:** sebutkan brief dari fasilitator, A atau B. Claude Code mengisi baris Brief-mu di bagian **1. Brief**, menghapus folder brief yang lain, lalu menyalin dari brief apa adanya: User, User goal, Business goal, Bisa bertabrakan, dan flow kunci F1–F3 ke bagian **2**, dan halaman wajib kedua project ke Daftar halaman di bagian **4**.
+- **Cukup kalau:** baris Brief-mu terisi, hanya satu folder brief yang tersisa, dan bagian 2 serta Daftar halaman sudah berisi salinan brief.
 
 ## 1.2 · Pahami brief-mu *(kamu)*
 
-- **Kenapa:** keputusan design yang efektif dimulai dari masalah user, bukan dari tampilan.
-- **Yang kamu lakukan:** baca `briefs/<brief-mu>/brief.md`, terutama masalah M1–M3 per project, flow kunci F1–F3, dan scope. Lihat sekilas isi `data/`, lalu ceritakan ulang dengan kata-katamu sendiri di chat. Masalah dan scope sudah dikunci: tugasmu memahaminya, bukan menambah.
+- **Kenapa:** keputusan design yang efektif dimulai dari masalah user, bukan dari tampilan. Dari tiga masalah, biasanya ada satu yang paling menentukan apakah user lanjut atau berhenti.
+- **Yang kamu lakukan:** baca `briefs/<brief-mu>/brief.md` sampai habis, dan lihat sekilas isi `data/`. Lalu pilih prioritasmu. Masalah dan scope sudah dikunci: tugasmu memilih urutan pentingnya, bukan menambah.
 - **Template:**
   ```
-  Produk: [apa produknya, dalam satu kalimat]
-  Untuk: [siapa user-nya, dan kapan dia memakainya]
-  Website: masalah yang paling mengancam goal adalah [M1/M2/M3], karena [akibatnya]
-  Web app: masalah yang paling mengancam goal adalah [M1/M2/M3], karena [akibatnya]
-  Yang tidak termasuk scope: [satu hal yang sengaja tidak dibangun]
+  Website: [M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, pengunjung [akibatnya].
+  Web app: [M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, user [akibatnya].
+  Saat bertabrakan: aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya].
   ```
-- **Pertanyaan pemandu:** di momen apa user membuka produk ini? Apa yang membuatnya ragu? Dari tiga masalah di setiap project, mana yang paling mengancam goal-nya? Flow kunci mana yang paling sulit?
-- **Masuk ke:** tidak ditulis di `CLAUDE.md`; dicatat di log pekan ini.
-- **Cukup kalau:** menyebut user dan masalah setiap project dengan kata sendiri, bukan menyalin kalimat brief, dan tahu batas scope-nya.
+- **Pertanyaan:**
+  1. **Di website, masalah mana yang paling mengancam goal?**
+     Format: `[M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, pengunjung [akibatnya].`
+     Clue: baca M1–M3 di bagian P1 brief. Untuk setiap masalah tanya: kalau hanya masalah ini yang tidak terjawab, apakah pengunjung tetap mendaftar?
+  2. **Di web app, masalah mana yang paling mengancam goal?**
+     Format: `[M1/M2/M3] paling mengancam goal, karena kalau tidak terjawab, user [akibatnya].`
+     Clue: baca M1–M3 di bagian P2 brief. Untuk setiap masalah tanya: kalau hanya masalah ini yang tidak terjawab, apakah user kembali minggu depan?
+  3. **Brief menyebut satu titik di mana bisnis dan user bisa bertabrakan. Di titik itu, apa yang kamu dahulukan?**
+     Format: `Aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya].`
+     Clue: baca baris "Bisa bertabrakan dengan user goal" di brief. Tidak ada jawaban yang benar; yang dinilai alasanmu. Cara yang menjawab keduanya biasanya soal apa yang ditampilkan lebih dulu, dan apa yang dijelaskan dengan jujur.
+- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Prioritasku.
+- **Cukup kalau:** setiap pilihan punya alasan dari sisi user dengan kata-katamu sendiri, bukan menyalin kalimat brief.
 
-## 1.3 · Tulis user dan user goal *(kamu)*
+## 1.3 · Isi yang menjawab masalah website *(kamu)*
 
-- **Kenapa:** user goal adalah problem statement kedua project. Setiap halaman nanti dinilai dari seberapa jauh ia membantu goal ini.
-- **Yang kamu lakukan:** tulis siapa user-nya dan apa yang ingin dia capai.
+- **Kenapa:** pengunjung tidak membaca layout, dia membaca isi. Sebelum memikirkan section dan urutannya di pekan 2, kamu perlu tahu informasi atau bukti apa yang menjawab setiap keraguan.
+- **Yang kamu lakukan:** untuk setiap masalah website M1–M3, tulis apa yang perlu diketahui atau dilihat pengunjung, dan dari mana isinya (brief atau file di `data/`). Belum memikirkan bentuk atau letaknya.
 - **Template:**
   ```
-  User: [siapa], [situasinya saat membuka produk]
-  User goal: Saat [situasi], saya ingin [aksi], supaya [hasil].
+  M1: pengunjung perlu [tahu atau melihat apa], isinya dari [brief atau data/...]
+  M2: …
+  M3: …
   ```
-- **Pertanyaan pemandu:** situasi apa yang membuatnya membuka produk, misalnya jam berapa dan dari perangkat apa? Aksi apa yang bisa diamati? Hasil apa yang dia rasakan, bukan fitur apa yang dia pakai?
-- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › User dan User goal.
-- **Cukup kalau:** situasinya spesifik, aksinya bisa diamati, dan hasilnya dari sisi user, bukan nama fitur.
+- **Pertanyaan:**
+  1. **Untuk M1 website, apa yang perlu diketahui atau dilihat pengunjung?**
+     Format: `M1: pengunjung perlu [tahu atau melihat apa], isinya dari [brief atau data/...].`
+     Clue: baca kolom "Berhasil kalau" untuk M1. Isi apa yang membuat orang baru bisa melakukan itu? Cari bahannya di file `data/`.
+  2. **Untuk M2 website, apa yang perlu diketahui atau dilihat pengunjung?**
+     Format: sama seperti M1.
+     Clue: baca "Berhasil kalau" untuk M2. Kalimat atau angka apa yang harus tertulis jelas, supaya pengunjung tidak perlu bertanya?
+  3. **Untuk M3 website, apa yang perlu diketahui atau dilihat pengunjung?**
+     Format: sama seperti M1.
+     Clue: baca "Berhasil kalau" untuk M3. Bukti apa yang lebih meyakinkan daripada klaim, misalnya angka, nama, atau cerita orang lain?
+- **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › Isi yang menjawab masalah website.
+- **Cukup kalau:** setiap masalah punya isi yang spesifik (bukan "informasi lengkap"), dan bahannya ada di brief atau `data/`.
 
-## 1.4 · Tulis business goal *(kamu)*
+## 1.4 · Tandai titik rawan di flow *(kamu)*
 
-- **Kenapa:** tampilan yang efektif menjawab dua pihak: user dan bisnis. Konflik keduanya sering menjadi keputusan design terpenting.
-- **Yang kamu lakukan:** tulis apa yang ingin dicapai bisnis, di website dan di web app.
+- **Kenapa:** validasi, loading, dan pesan error dipikirkan dari awal, bukan ditambal di akhir.
+- **Yang kamu lakukan:** dari flow kunci F1–F3 di bagian 2, tandai langkah yang butuh validasi, loading, atau pesan error, aksi yang bisa terkirim dua kali, dan input yang tidak boleh hilang saat error.
 - **Template:**
   ```
-  Business goal: [aksi pengunjung atau user] di website, lalu [aksi berikutnya] di web app, supaya [hasil bagi bisnis].
+  - [Fn] langkah [n] ([layar]): butuh [validasi / loading dan tombol nonaktif / pesan error], karena [alasannya]
   ```
-- **Pertanyaan pemandu:** apa yang dihitung bisnis sebagai berhasil? Di mana business goal bisa bertabrakan dengan user goal?
-- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Business goal.
-- **Cukup kalau:** berbeda dari user goal, dan menyebut titik di website dan di web app.
+- **Pertanyaan:**
+  1. **Langkah mana yang meminta user mengetik sesuatu?**
+     Format: `[Fn] langkah [n] ([layar]): butuh validasi, karena [apa yang terjadi kalau input-nya salah].`
+     Clue: cari setiap form di flow kunci. Input mana yang kalau salah membuat user tidak bisa lanjut atau tidak bisa kembali?
+  2. **Langkah mana yang menunggu hasil setelah tombol diklik?**
+     Format: `[Fn] langkah [n] ([layar]): butuh loading dan tombol nonaktif, karena [apa yang terjadi kalau diklik dua kali].`
+     Clue: cari tombol yang mengirim atau menyimpan sesuatu. Apa akibatnya kalau user tidak sabar dan mengklik lagi?
+  3. **Kalau langkah itu gagal, apa yang harus tetap ada?**
+     Format: `[Fn] langkah [n] ([layar]): butuh pesan error, dan [input atau pilihan] tidak boleh hilang, karena [alasannya].`
+     Clue: bayangkan koneksi putus tepat saat menyimpan. Apa yang membuat user kesal kalau harus mengulang dari awal?
+- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Titik yang butuh validasi, loading, atau pesan error.
+- **Cukup kalau:** setiap form dan setiap aksi yang menunggu hasil di F1–F3 punya catatan.
 
-## 1.5 · Tulis flow utama *(kamu)*
-
-- **Kenapa:** flow menunjukkan halaman apa yang benar-benar dibutuhkan, dan di mana user bisa berhenti.
-- **Yang kamu lakukan:** flow kunci F1–F3 sudah ditentukan di brief. Tulis ulang ketiganya dengan kata-katamu sebagai satu perjalanan: di layar mana user berada, apa yang dilakukannya, dan apa yang terjadi kalau gagal. Lalu tandai langkah yang bisa dipersingkat (misalnya diberi default), dengan alasannya. Jangan menambah flow baru.
-- **Template:**
-  ```
-  F1 · [judul]
-  1. [layar] · [apa yang dilakukan user] · kalau gagal: [apa yang terjadi]
-  2. …
-  → masuk web app
-  F2 · …
-  F3 · …
-  Dipersingkat: [langkah], karena [alasan]
-  ```
-- **Pertanyaan pemandu:** apa yang terjadi kalau user gagal di satu langkah? Langkah mana yang hanya ada karena kebiasaan, bukan karena user butuh?
-- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Flow utama.
-- **Cukup kalau:** ketiga flow tertulis lengkap dengan layarnya, titik pindah ke web app terlihat, dan setiap flow punya setidaknya satu jalur saat gagal.
-
-## 1.6 · Tandai titik rawan di flow *(kamu)*
-
-- **Kenapa:** loading, validasi, dan error dipikirkan dari awal, bukan ditambal di akhir.
-- **Yang kamu lakukan:** dari flow-mu, tandai langkah yang butuh loading, validasi, atau pesan error, aksi yang bisa terkirim dua kali, dan input yang tidak boleh hilang saat error.
-- **Template:**
-  ```
-  - Langkah [n]: butuh [loading / validasi / pesan error], karena [alasannya]
-  ```
-- **Masuk ke:** `CLAUDE.md` › bagian **2. User, goal, dan flow** › Titik yang butuh loading, validasi, atau pesan error.
-- **Cukup kalau:** setiap form dan setiap aksi yang menunggu hasil punya catatan.
-
-## 1.7 · Daftar halaman kedua project *(kamu)*
-
-- **Kenapa:** daftar halaman adalah batas pekerjaan. Yang tidak ada di daftar tidak dibangun.
-- **Yang kamu lakukan:** salin halaman wajib dari brief, lalu tulis untuk setiap halaman: flow mana yang melewatinya dan masalah mana yang dipikulnya. Cukup namanya; isinya ditulis nanti. Halaman di luar brief tidak ditambahkan.
-- **Template:**
-  ```
-  P1 · Website SaaS
-  - [halaman] · dilewati [F1] · memikul [M1, M3]
-  P2 · Web app
-  - [halaman] · dilewati [F2, F3] · memikul [M2]
-  ```
-- **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › Daftar halaman.
-- **Cukup kalau:** semua halaman wajib ada, dan setiap halaman tersambung ke flow dan masalahnya.
-
-## 1.8 · Laporan pekan ini *(kamu dan Claude Code)*
+## 1.5 · Laporan pekan ini *(kamu dan Claude Code)*
 
 - **Yang kamu lakukan:** ketik `/laporan`, jawab dua pertanyaan refleksi, lalu commit, push, dan kirim link repo ke fasilitator bersama hasil Track Taste.

@@ -1,202 +1,36 @@
 {
   "categories": [
-    "Spreadsheet",
     "Presentasi",
-    "Komunikasi",
-    "Manajemen waktu"
+    "Menulis di tempat kerja",
+    "Bahasa Inggris untuk kerja",
+    "Interview",
+    "Negosiasi",
+    "Memimpin tim"
   ],
   "courses": [
     {
-      "id": "spreadsheet-dasar",
-      "title": "Spreadsheet untuk Kerja Sehari-hari",
-      "category": "Spreadsheet",
+      "id": "presentasi-demo",
+      "title": "Presentasi dan Demo yang Jelas",
+      "category": "Presentasi",
       "level": "Pemula",
-      "instructor": "Dewi Lestari",
-      "summary": "Rapikan data, pakai rumus dasar, dan buat tabel yang mudah dibaca rekan kerja.",
+      "instructor": "Maya Putri",
+      "summary": "Mendemokan fitur dan menyampaikan ide di depan tim, klien, dan atasan.",
       "rating": 4.8,
       "learners": 3120,
       "lessons": [
         {
           "id": 1,
-          "title": "Mengenal sheet, baris, dan kolom",
+          "title": "Menyusun alur demo",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Rumus SUM, AVERAGE, dan IF",
+          "title": "Mulai dari masalah user",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Merapikan data yang berantakan",
-          "minutes": 10
-        },
-        {
-          "id": 4,
-          "title": "Filter dan sort",
-          "minutes": 15
-        },
-        {
-          "id": 5,
-          "title": "Tabel yang mudah dibaca",
-          "minutes": 9
-        },
-        {
-          "id": 6,
-          "title": "Latihan: laporan mingguan",
-          "minutes": 11
-        }
-      ]
-    },
-    {
-      "id": "pivot-table",
-      "title": "Pivot Table dan Ringkasan Data",
-      "category": "Spreadsheet",
-      "level": "Menengah",
-      "instructor": "Dewi Lestari",
-      "summary": "Ringkas ribuan baris data menjadi jawaban yang dibutuhkan atasan dalam beberapa klik.",
-      "rating": 4.6,
-      "learners": 1840,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Kapan butuh pivot table",
-          "minutes": 8
-        },
-        {
-          "id": 2,
-          "title": "Membuat pivot pertama",
-          "minutes": 12
-        },
-        {
-          "id": 3,
-          "title": "Mengelompokkan per bulan",
-          "minutes": 10
-        },
-        {
-          "id": 4,
-          "title": "Filter di pivot",
-          "minutes": 15
-        },
-        {
-          "id": 5,
-          "title": "Chart dari pivot",
-          "minutes": 9
-        },
-        {
-          "id": 6,
-          "title": "Latihan: ringkasan penjualan",
-          "minutes": 11
-        }
-      ]
-    },
-    {
-      "id": "dashboard-sheets",
-      "title": "Dashboard Sederhana di Spreadsheet",
-      "category": "Spreadsheet",
-      "level": "Menengah",
-      "instructor": "Arif Nugroho",
-      "summary": "Satu halaman yang menjawab pertanyaan rutin tim tanpa harus membuka banyak file.",
-      "rating": 4.5,
-      "learners": 960,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Pertanyaan yang dijawab dashboard",
-          "minutes": 8
-        },
-        {
-          "id": 2,
-          "title": "Menyiapkan data sumber",
-          "minutes": 12
-        },
-        {
-          "id": 3,
-          "title": "Angka utama di bagian atas",
-          "minutes": 10
-        },
-        {
-          "id": 4,
-          "title": "Chart yang tepat untuk datanya",
-          "minutes": 15
-        },
-        {
-          "id": 5,
-          "title": "Membagikan dashboard",
-          "minutes": 9
-        },
-        {
-          "id": 6,
-          "title": "Latihan: dashboard tim",
-          "minutes": 11
-        }
-      ]
-    },
-    {
-      "id": "slide-jelas",
-      "title": "Slide yang Jelas dan Ringkas",
-      "category": "Presentasi",
-      "level": "Pemula",
-      "instructor": "Maya Putri",
-      "summary": "Susun slide dengan satu pesan per slide, supaya audiens paham tanpa membaca paragraf.",
-      "rating": 4.7,
-      "learners": 2650,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Satu slide, satu pesan",
-          "minutes": 8
-        },
-        {
-          "id": 2,
-          "title": "Judul yang berupa kesimpulan",
-          "minutes": 12
-        },
-        {
-          "id": 3,
-          "title": "Mengurangi teks",
-          "minutes": 10
-        },
-        {
-          "id": 4,
-          "title": "Memilih visual",
-          "minutes": 15
-        },
-        {
-          "id": 5,
-          "title": "Urutan cerita",
-          "minutes": 9
-        },
-        {
-          "id": 6,
-          "title": "Latihan: slide update proyek",
-          "minutes": 11
-        }
-      ]
-    },
-    {
-      "id": "presentasi-percaya-diri",
-      "title": "Presentasi dengan Percaya Diri",
-      "category": "Presentasi",
-      "level": "Pemula",
-      "instructor": "Maya Putri",
-      "summary": "Latihan berbicara di depan tim, mengatur napas, dan menjawab pertanyaan dengan tenang.",
-      "rating": 4.9,
-      "learners": 2210,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Menyiapkan pembukaan",
-          "minutes": 8
-        },
-        {
-          "id": 2,
-          "title": "Mengatur tempo bicara",
-          "minutes": 12
-        },
-        {
-          "id": 3,
-          "title": "Kontak mata di meeting online",
+          "title": "Slide seperlunya",
           "minutes": 10
         },
         {
@@ -206,306 +40,474 @@
         },
         {
           "id": 5,
-          "title": "Menutup dengan jelas",
+          "title": "Saat demo gagal",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: presentasi 3 menit",
+          "title": "Latihan: demo lima menit",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "data-storytelling",
-      "title": "Bercerita dengan Data",
+      "id": "bicara-percaya-diri",
+      "title": "Bicara di Depan Tim dengan Percaya Diri",
       "category": "Presentasi",
       "level": "Menengah",
-      "instructor": "Arif Nugroho",
-      "summary": "Ubah angka menjadi cerita yang membantu orang mengambil keputusan.",
+      "instructor": "Maya Putri",
+      "summary": "Mengatasi gugup dan menyampaikan pendapat di rapat besar.",
+      "rating": 4.6,
+      "learners": 1840,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Mengatasi gugup",
+          "minutes": 8
+        },
+        {
+          "id": 2,
+          "title": "Membuka dengan kuat",
+          "minutes": 12
+        },
+        {
+          "id": 3,
+          "title": "Suara dan bahasa tubuh",
+          "minutes": 10
+        },
+        {
+          "id": 4,
+          "title": "Menjawab pertanyaan",
+          "minutes": 15
+        },
+        {
+          "id": 5,
+          "title": "Bicara di rapat besar",
+          "minutes": 9
+        },
+        {
+          "id": 6,
+          "title": "Latihan: presentasi tiga menit",
+          "minutes": 11
+        }
+      ]
+    },
+    {
+      "id": "update-tertulis",
+      "title": "Menulis Update yang Langsung Dipahami",
+      "category": "Menulis di tempat kerja",
+      "level": "Pemula",
+      "instructor": "Rizky Pratama",
+      "summary": "Update progres, pesan chat, dan email yang tidak perlu ditanya ulang.",
+      "rating": 4.5,
+      "learners": 960,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Mulai dari kesimpulan",
+          "minutes": 8
+        },
+        {
+          "id": 2,
+          "title": "Update progres mingguan",
+          "minutes": 12
+        },
+        {
+          "id": 3,
+          "title": "Pesan chat yang jelas",
+          "minutes": 10
+        },
+        {
+          "id": 4,
+          "title": "Email ke atasan dan klien",
+          "minutes": 15
+        },
+        {
+          "id": 5,
+          "title": "Menulis untuk pembaca sibuk",
+          "minutes": 9
+        },
+        {
+          "id": 6,
+          "title": "Latihan: update mingguan",
+          "minutes": 11
+        }
+      ]
+    },
+    {
+      "id": "dokumen-teknis",
+      "title": "Menulis Dokumen Teknis Singkat",
+      "category": "Menulis di tempat kerja",
+      "level": "Menengah",
+      "instructor": "Rizky Pratama",
+      "summary": "Dokumen satu halaman yang menjelaskan keputusan dan alasannya.",
+      "rating": 4.7,
+      "learners": 2650,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Untuk siapa dokumen ini",
+          "minutes": 8
+        },
+        {
+          "id": 2,
+          "title": "Struktur satu halaman",
+          "minutes": 12
+        },
+        {
+          "id": 3,
+          "title": "Diagram seperlunya",
+          "minutes": 10
+        },
+        {
+          "id": 4,
+          "title": "Menulis keputusan dan alasannya",
+          "minutes": 15
+        },
+        {
+          "id": 5,
+          "title": "Meminta review dokumen",
+          "minutes": 9
+        },
+        {
+          "id": 6,
+          "title": "Latihan: dokumen satu fitur",
+          "minutes": 11
+        }
+      ]
+    },
+    {
+      "id": "english-conversation",
+      "title": "English Conversation at Work",
+      "category": "Bahasa Inggris untuk kerja",
+      "level": "Pemula",
+      "instructor": "Laura Hartono",
+      "summary": "Percakapan kerja berbahasa Inggris dengan tim, atasan, dan klien, termasuk standup dan rapat.",
+      "rating": 4.9,
+      "learners": 2210,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Small talk sebelum rapat",
+          "minutes": 8
+        },
+        {
+          "id": 2,
+          "title": "Update di standup",
+          "minutes": 12
+        },
+        {
+          "id": 3,
+          "title": "Bertanya dan minta klarifikasi",
+          "minutes": 10
+        },
+        {
+          "id": 4,
+          "title": "Bicara dengan atasan",
+          "minutes": 15
+        },
+        {
+          "id": 5,
+          "title": "Bicara dengan klien",
+          "minutes": 9
+        },
+        {
+          "id": 6,
+          "title": "Latihan: percakapan dengan klien",
+          "minutes": 11
+        }
+      ]
+    },
+    {
+      "id": "english-writing",
+      "title": "English for Chat, Email, and Pull Request",
+      "category": "Bahasa Inggris untuk kerja",
+      "level": "Menengah",
+      "instructor": "Laura Hartono",
+      "summary": "Menulis pesan, email, dan deskripsi PR berbahasa Inggris yang jelas.",
       "rating": 4.4,
       "learners": 870,
       "lessons": [
         {
           "id": 1,
-          "title": "Dari data ke pesan",
+          "title": "Pesan chat yang singkat",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Memilih satu angka utama",
+          "title": "Email ke klien",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Chart yang tidak menyesatkan",
+          "title": "Deskripsi pull request",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Konteks dan pembanding",
+          "title": "Komentar code review",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Rekomendasi di akhir",
+          "title": "Frasa yang sering salah",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: cerita dari data penjualan",
+          "title": "Latihan: menulis satu PR",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "email-kerja",
-      "title": "Menulis Email Kerja yang Efektif",
-      "category": "Komunikasi",
+      "id": "interview-kerja",
+      "title": "Siap Interview Kerja",
+      "category": "Interview",
       "level": "Pemula",
-      "instructor": "Rizky Pratama",
-      "summary": "Email yang langsung ke inti, mudah dipindai, dan jelas apa yang diminta.",
+      "instructor": "Budi Santoso",
+      "summary": "Menceritakan pengalamanmu dengan jelas, dari pertanyaan perilaku sampai bertanya balik.",
       "rating": 4.7,
       "learners": 2930,
       "lessons": [
         {
           "id": 1,
-          "title": "Subjek yang jelas",
+          "title": "Jenis interview",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Inti di kalimat pertama",
+          "title": "Bercerita dengan metode STAR",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Permintaan dan tenggat",
+          "title": "Menjelaskan proyek sebelumnya",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Nada yang sopan tapi tegas",
+          "title": "Pertanyaan perilaku",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Membalas email panjang",
+          "title": "Bertanya ke perusahaan",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: email permintaan",
+          "title": "Latihan: simulasi interview",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "meeting-efektif",
-      "title": "Memimpin Meeting yang Efektif",
-      "category": "Komunikasi",
-      "level": "Menengah",
-      "instructor": "Rizky Pratama",
-      "summary": "Meeting dengan agenda jelas, waktu terjaga, dan keputusan yang tercatat.",
+      "id": "cv-portofolio",
+      "title": "CV dan Portofolio yang Dilirik",
+      "category": "Interview",
+      "level": "Pemula",
+      "instructor": "Budi Santoso",
+      "summary": "CV dan portofolio yang menunjukkan hasil kerjamu, bukan daftar tugas.",
       "rating": 4.5,
       "learners": 1150,
       "lessons": [
         {
           "id": 1,
-          "title": "Perlu meeting atau tidak",
+          "title": "CV yang dimulai dari hasil",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Agenda yang bisa dikerjakan",
+          "title": "Memilih proyek untuk portofolio",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Menjaga waktu",
+          "title": "README yang menjelaskan proyek",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Mengajak semua bicara",
+          "title": "Profil LinkedIn",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Mencatat keputusan",
+          "title": "Menyesuaikan CV per lowongan",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: memimpin meeting 15 menit",
+          "title": "Latihan: revisi CV",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "feedback-rekan",
-      "title": "Memberi dan Menerima Feedback",
-      "category": "Komunikasi",
+      "id": "estimasi-scope",
+      "title": "Estimasi dan Negosiasi Scope",
+      "category": "Negosiasi",
       "level": "Menengah",
       "instructor": "Sari Anggraini",
-      "summary": "Feedback yang spesifik dan membantu, bukan menyinggung.",
+      "summary": "Estimasi yang jujur, dan cara bilang \"belum bisa\" dengan alternatif.",
       "rating": 4.6,
       "learners": 1380,
       "lessons": [
         {
           "id": 1,
-          "title": "Kenapa feedback sering gagal",
+          "title": "Kenapa estimasi meleset",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Format situasi, perilaku, dampak",
+          "title": "Memecah pekerjaan",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Memberi feedback ke atasan",
+          "title": "Menyampaikan ketidakpastian",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Menerima kritik",
+          "title": "Menawarkan alternatif scope",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Menindaklanjuti feedback",
+          "title": "Saat deadline tidak realistis",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: sesi feedback",
+          "title": "Latihan: estimasi satu fitur",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "prioritas-kerja",
-      "title": "Menentukan Prioritas Kerja",
-      "category": "Manajemen waktu",
-      "level": "Pemula",
-      "instructor": "Sari Anggraini",
-      "summary": "Pilah tugas yang penting dari yang hanya mendesak, lalu susun hari kerjamu.",
+      "id": "negosiasi-gaji",
+      "title": "Negosiasi Gaji dan Promosi",
+      "category": "Negosiasi",
+      "level": "Menengah",
+      "instructor": "Arif Nugroho",
+      "summary": "Menyiapkan bukti kontribusi dan membuka percakapan soal gaji dengan tenang.",
       "rating": 4.8,
       "learners": 2470,
       "lessons": [
         {
           "id": 1,
-          "title": "Penting dan mendesak",
+          "title": "Mengenali nilai pasarmu",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Daftar tugas yang realistis",
+          "title": "Menyiapkan bukti kontribusi",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Berkata tidak dengan sopan",
+          "title": "Membuka percakapan",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Menyusun minggu",
+          "title": "Menjawab angka pertama",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Evaluasi di akhir minggu",
+          "title": "Promosi di tempat sendiri",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: rencana minggu depan",
+          "title": "Latihan: simulasi negosiasi",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "fokus-kerja",
-      "title": "Kerja Fokus di Tengah Gangguan",
-      "category": "Manajemen waktu",
-      "level": "Pemula",
-      "instructor": "Budi Santoso",
-      "summary": "Atur notifikasi, blok waktu, dan kebiasaan kecil supaya pekerjaan penting selesai.",
+      "id": "jadi-tech-lead",
+      "title": "Dari Developer ke Tech Lead",
+      "category": "Memimpin tim",
+      "level": "Menengah",
+      "instructor": "Arif Nugroho",
+      "summary": "Apa yang berubah saat kamu memimpin tim, dan cara melewatinya.",
       "rating": 4.3,
       "learners": 1690,
       "lessons": [
         {
           "id": 1,
-          "title": "Mengenali gangguan",
+          "title": "Apa yang berubah saat jadi lead",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Blok waktu fokus",
+          "title": "Mengambil keputusan bersama",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Mengatur notifikasi",
+          "title": "Melindungi fokus tim",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Istirahat yang tepat",
+          "title": "One-on-one",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Menjaga kebiasaan",
+          "title": "Delegasi tanpa lepas tangan",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: satu hari fokus",
+          "title": "Latihan: rencana 30 hari",
           "minutes": 11
         }
       ]
     },
     {
-      "id": "kerja-remote",
-      "title": "Produktif Saat Kerja Remote",
-      "category": "Manajemen waktu",
-      "level": "Menengah",
-      "instructor": "Budi Santoso",
-      "summary": "Batas kerja yang jelas, komunikasi asinkron, dan ritme yang bisa dijaga.",
+      "id": "feedback-tim",
+      "title": "Memberi dan Menerima Feedback",
+      "category": "Memimpin tim",
+      "level": "Pemula",
+      "instructor": "Dewi Lestari",
+      "summary": "Code review dan feedback sehari-hari yang membangun, tanpa drama.",
       "rating": 4.5,
       "learners": 1020,
       "lessons": [
         {
           "id": 1,
-          "title": "Menyiapkan ruang kerja",
+          "title": "Tujuan feedback",
           "minutes": 8
         },
         {
           "id": 2,
-          "title": "Komunikasi asinkron",
+          "title": "Komentar yang jelas dan sopan",
           "minutes": 12
         },
         {
           "id": 3,
-          "title": "Update status yang ringkas",
+          "title": "Menerima feedback tanpa defensif",
           "minutes": 10
         },
         {
           "id": 4,
-          "title": "Batas jam kerja",
+          "title": "Menyelesaikan beda pendapat",
           "minutes": 15
         },
         {
           "id": 5,
-          "title": "Menjaga koneksi dengan tim",
+          "title": "Feedback ke atasan",
           "minutes": 9
         },
         {
           "id": 6,
-          "title": "Latihan: rencana kerja remote",
+          "title": "Latihan: review satu PR",
           "minutes": 11
         }
       ]
