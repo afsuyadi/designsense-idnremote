@@ -28,7 +28,7 @@ Gaya website yang berulang dijadikan design token, supaya satu perubahan cukup d
 
 ## 4.4 · Tidak ada nilai lepas *(kamu)*
 
-- **Yang kamu lakukan:** minta Claude Code mencari hex atau px di luar `tokens.css`, lalu putuskan: dipindah ke token, atau dihapus.
+- **Yang kamu lakukan:** minta Claude Code mencari hex atau px di luar `tokens.css` yang memengaruhi tampilan (warna, ukuran font, spacing, radius), lalu putuskan: dipindah ke token, diganti ke nilai di scale, atau dibiarkan. Claude Code mengusulkan nilai terdekat untuk setiap kelompok, jadi kamu cukup setuju atau mengganti. Detail teknis seperti titik ganti layout di `@media` dan letter-spacing dicatat Claude Code tanpa ditanyakan.
 - **Template:**
   ```
   Nilai lepas: [nilai] di [file] → [jadi token apa / dihapus], karena [alasan]

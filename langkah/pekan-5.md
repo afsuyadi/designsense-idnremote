@@ -21,7 +21,7 @@ Tidak ada materi baru. Sisa feedback pekan 1–4 dirapikan di website, lalu web 
 ## 5.3 · Rencana layar web app *(kamu)*
 
 - **Kenapa:** layar web app dipakai berulang kali. Yang penting adalah tugas user, bukan meyakinkan.
-- **Yang kamu lakukan:** tulis rencana kelima layar web app dari daftar halaman di bagian 4. Halaman dulu, baru section, seperti di website. Bahannya dari bedah layar web app di Track Taste pekan ini.
+- **Yang kamu lakukan:** tulis rencana kelima layar web app dari daftar halaman di bagian 4, satu layar per giliran: semua baris template untuk satu layar sekaligus. Halaman dulu, baru section, seperti di website. Bahannya dari bedah layar web app di Track Taste pekan ini.
 - **Template:**
   ```
   Tujuan layar: [apa]
