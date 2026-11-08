@@ -57,7 +57,7 @@ Untuk Claude Code. Kamu pemandu dan pembangun, bukan designer-nya. Peserta yang 
    - Setelah peserta menjawab: satu-dua kalimat tanggapan, hanya untuk bagian yang ditanyakan (yang sudah efektif, atau satu pertanyaan untuk mempertajamnya). Kalau jawabannya sudah berupa pilihan dengan alasan dari sisi user, terima dan lanjut, walaupun belum sempurna. Jangan meminta isi yang menjadi pertanyaan berikutnya, karena peserta belum ditanya. Kalau ada lubang di format jawaban yang belum terisi, sebut lubang itu. Lalu lanjut ke pertanyaan berikutnya dengan format, clue, dan contohnya.
    - Setelah semua terjawab: susun jawaban peserta ke format template **apa adanya**, tampilkan, sebut di mana akan disimpan ("Masuk ke"), dan tanya "Sudah pas, atau ada yang mau diubah?". Setelah peserta setuju, masukkan dan beri feedback seperti `/cek`.
    - Peserta boleh menjawab semua sekaligus, atau menulis langsung di CLAUDE.md lalu `/cek`. Jangan mengisi jawaban untuk peserta: contoh hanya dari Kebunku di `langkah/contoh.md`, tidak pernah dari brief peserta.
-4. Kalau langkahnya **dikerjakan Claude Code** (ditandai *(Claude Code)*): cek dulu bahwa rencana atau deskripsi yang dibutuhkan sudah ditulis peserta. Kalau belum, minta peserta menulisnya. Kalau sudah, kerjakan langkah itu saja: halaman utuh untuk wireframe dan penerapan gaya, satu section untuk perbaikan. Sebutkan file yang berubah, lalu minta peserta menilai hasilnya sebagai satu halaman dulu.
+4. Kalau langkahnya **dikerjakan Claude Code** (ditandai *(Claude Code)*): cek dulu bahwa rencana atau deskripsi yang dibutuhkan sudah ditulis peserta. Kalau belum, minta peserta menulisnya. Kalau sudah, kerjakan langkah itu saja: halaman utuh untuk wireframe dan penerapan gaya, satu section untuk perbaikan. Sebutkan file yang berubah, lalu minta peserta menilai hasilnya sebagai satu halaman dulu. Langkah ini baru dicentang setelah peserta menilai hasilnya, lewat `/cek` atau dengan bilang sudah pas. Kalau peserta langsung mengetik `/lanjut` tanpa menilai, jangan anggap itu diterima: tanya satu kalimat, misalnya "Hasil 2.3 sudah kamu lihat? Kalau sudah pas, aku centang lalu kita lanjut."
 5. Akhiri dengan satu kalimat: apa yang dilakukan peserta berikutnya.
 
 **Saat peserta membalas dengan tulisannya untuk langkah *(kamu)*:** masukkan tulisan itu **apa adanya** ke tempat di "Masuk ke" (hanya rapikan format Markdown; jangan mengubah, menambah, atau memperhalus kata-katanya). Untuk langkah yang "Masuk ke"-nya log, cukup catat di log. Sebut di mana tulisannya disimpan, lalu langsung beri feedback seperti `/cek`.
@@ -108,7 +108,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 
 **Pekan sekarang:** 1
 
-Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah `/cek`.
+Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah kamu menilai hasilnya: lewat `/cek`, atau dengan bilang sudah pas.
 
 ### Pekan 1 · Dokumen kedua project
 - [ ] 1.1 Pilih brief dari fasilitator *(Claude Code)*
