@@ -17,7 +17,7 @@ Pekan 2–4 fokus ke website, project pertama yang ditemui user. Web app menyusu
   ```
 - **Pertanyaan pemandu:** apa yang harus dipahami pengunjung dalam lima detik pertama? Keraguan apa yang muncul sebelum dia mau mendaftar, dan section mana yang menjawabnya?
 - **Masuk ke:** `CLAUDE.md` › bagian **4. Halaman dan section** › P1 · Website SaaS › Beranda.
-- **Cukup kalau:** setiap section punya alasan dan masalah yang dijawabnya, masalah yang dipikul Beranda (kolom Halaman di brief) terjawab, urutannya menuju satu aksi utama, dan tidak ada section yang bersaing dengan aksi itu.
+- **Cukup kalau:** setiap section punya alasan dan masalah yang dijawabnya, masalah yang dipikul Beranda (kolom Halaman di brief) terjawab, urutannya menuju satu aksi utama, dan kalau ada section atau tombol yang bersaing dengan aksi itu, kamu tahu dan punya alasannya.
 
 ## 2.2 · Rencana dua halaman website lainnya *(kamu)*
 
