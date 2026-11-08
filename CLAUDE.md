@@ -330,7 +330,7 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 
 - Bangun halaman dari rencananya di bagian 4. Wireframe dan penerapan gaya dikerjakan per halaman utuh; perbaikan dikerjakan per section, hanya section yang diminta.
 - Jangan menambah section, halaman, atau fitur yang tidak tertulis di dokumen ini.
-- **Copy kamu yang menulis.** Judul, subjudul, label tombol, pesan, dan teks pendek lain ditulis Claude Code dari brief, `data/`, dan tujuan section di rencana peserta. Tulis seperti produk sungguhan: natural, jujur, dan sesuai user di brief, tanpa janji berlebihan atau situasi yang dibuat-buat (misalnya "besok demo, latihan malam ini"). Fakta tetap dari `data/` dan brief: jangan mengarang angka, testimoni, fitur, atau klaim. Peserta cukup menilai copy dan boleh mengubah sedikit; yang dinilai keputusan isi, urutan, dan hierarchy, bukan kalimatnya.
+- **Copy kamu yang menulis.** Judul, subjudul, label tombol, pesan, dan teks pendek lain ditulis Claude Code dari brief, `data/`, dan tujuan section di rencana peserta. Tulis seperti produk sungguhan: natural, jujur, dan sesuai user di brief, tanpa janji berlebihan atau situasi yang dibuat-buat (misalnya "besok demo, latihan malam ini"). Fakta tetap dari `data/` dan brief: jangan mengarang angka, testimoni, fitur, atau klaim. Peserta cukup menilai copy dan boleh mengubah sedikit; yang dinilai keputusan isi, urutan, dan hierarchy, bukan kalimatnya. Semua copy mengikuti **Gaya copy** di bawah.
 - Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
 - HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend.
 - Ikuti **scope** di brief. Daftar dibangun sebagai flow (form, validasi saat mengisi, `?state=gagal` untuk email yang sudah terdaftar), lalu langsung masuk ke onboarding sebagai user di `user.json`. Tidak ada halaman masuk (login), lupa password, atau verifikasi email: flow kembali (F3) dimulai dalam keadaan sudah masuk. Transaksi disimulasikan dengan data contoh. Jangan menyimpan password, data kartu, atau membuat akun sungguhan.
@@ -338,3 +338,27 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 - Website di `website/`, web app di `app/`. Keduanya memakai `tokens.css` yang sama.
 - HTML semantik: urutan heading benar, tombol memakai `<button>`, link memakai `<a>`, setiap input punya label.
 - Kalau ada yang belum jelas di dokumen ini, tanyakan dulu.
+
+### Gaya copy
+
+Berlaku untuk **semua** teks yang dilihat user, tanpa kecuali: setiap halaman website dan layar web app, di setiap langkah flow, setiap section, daftar dan list, kartu, navigasi, judul tab browser, tombol dan link, label, placeholder, dan hint di form, FAQ, serta pesan kosong, loading, error, berhasil, gagal, dan konfirmasi. Copy yang dibangun di pekan mana pun, termasuk perbaikan, ikut gaya ini. User-nya orang Indonesia, dan orang Indonesia suka bahasa yang ramah, ringan, dan gampang dimengerti. Tulis seperti teman yang paham produknya sedang menjelaskan, bukan pengumuman resmi atau terjemahan mesin.
+
+- **Sapa langsung dengan "kamu".** Kalimat pendek, kata sehari-hari, satu ide per kalimat. Subjudul paling banyak dua kalimat pendek.
+- **Mulai dari yang dirasakan user, bukan cara kerja sistem.** Hindari kata kaku seperti "pengguna", "akses berhenti", "data pembayaran", "berhasil diproses", "silakan", "terjadi kesalahan", "kami tidak meminta".
+- **Menenangkan dengan jujur, bukan membela diri.** Sebut hal yang ditakuti user dengan kata-katanya sendiri, lalu jawab singkat.
+- **Santai yang wajar.** Boleh kata santai yang umum dipakai produk Indonesia, misalnya "nggak", "aja", "kok", "ya", kalau cocok dengan user di brief. Jangan slang berlebihan, singkatan chat, atau emoji.
+- **Tombol menyebut hasilnya**, misalnya "Coba gratis 7 hari", bukan "Kirim" atau "Submit".
+- **Pesan error tidak menyalahkan user**: apa yang terjadi, lalu apa yang bisa dia lakukan, dengan nada tenang.
+- **Data adalah sumber fakta, bukan sumber kalimat.** Teks di `data/` boleh ditulis ulang supaya natural, selama faktanya sama.
+- **Baca keras-keras sebelum dipakai.** Kalau terdengar seperti surat resmi, robot, atau iklan yang berlebihan, tulis ulang.
+
+Contoh dari Kebunku, produk lain:
+
+| Kaku | Ramah |
+|---|---|
+| Platform pengingat penyiraman tanaman untuk pengguna perkotaan. | Tanamanmu tetap segar, walau kamu lagi sibuk. |
+| Uji coba berakhir dan akses fitur berhenti secara otomatis. Anda tidak akan ditagih. | Setelah 7 hari, uji cobanya selesai sendiri. Nggak ada tagihan diam-diam. |
+| Data gagal dimuat. Silakan coba kembali. | Daftar tanamanmu belum muncul. Coba lagi, ya. |
+| Penyiraman berhasil dicatat. | Monstera sudah disiram. Sampai ketemu besok pagi. |
+| Belum ada data tanaman. | Belum ada tanaman di sini. Yuk, tambahkan yang pertama. |
+

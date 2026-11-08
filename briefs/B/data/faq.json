@@ -1,22 +1,22 @@
 [
   {
-    "q": "Bagaimana memilih mentor yang tepat?",
-    "a": "Saring berdasarkan bidang, lalu baca topik dan ulasan setiap mentor. Kalau ragu, mulai dengan satu sesi per sesi."
+    "q": "Gimana cara memilih mentor yang cocok?",
+    "a": "Pilih bidangnya dulu, lalu baca topik dan ulasan setiap mentor. Kalau masih ragu, coba satu sesi dulu aja."
   },
   {
-    "q": "Bisakah menjadwalkan ulang sesi?",
-    "a": "Bisa, sampai 24 jam sebelum sesi dimulai, dari halaman detail sesi."
+    "q": "Bisa ganti jadwal sesi?",
+    "a": "Bisa, paling lambat 24 jam sebelum sesi dimulai, dari halaman detail sesi."
   },
   {
-    "q": "Sesi dilakukan di mana?",
-    "a": "Lewat video call. Link-nya muncul di halaman detail sesi dan dikirim ke email."
+    "q": "Sesinya lewat apa?",
+    "a": "Lewat video call. Link-nya ada di halaman detail sesi, dan kami kirim juga ke email-mu."
   },
   {
-    "q": "Bagaimana kalau mentor membatalkan?",
-    "a": "Sesi dikembalikan ke saldomu, dan kamu bisa memilih jadwal atau mentor lain."
+    "q": "Kalau mentornya batal, gimana?",
+    "a": "Sesimu kembali ke saldo, jadi kamu bisa pilih jadwal atau mentor lain."
   },
   {
-    "q": "Berapa lama paket 4 sesi berlaku?",
-    "a": "Tiga bulan sejak pembelian."
+    "q": "Paket 4 sesi berlaku berapa lama?",
+    "a": "Tiga bulan sejak kamu membelinya."
   }
 ]
