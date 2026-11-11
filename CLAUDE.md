@@ -111,7 +111,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah kamu menilai hasilnya: lewat `/cek`, atau dengan bilang sudah pas.
 
 ### Pekan 1 · Dokumen kedua project
-- [ ] 1.1 Pilih brief dari fasilitator *(Claude Code)*
+- [x] 1.1 Pilih brief dari fasilitator *(Claude Code)*
 - [ ] 1.2 Pahami brief-mu: pilih masalah yang paling mengancam goal di website dan web app, dan sikapmu saat bisnis dan user bertabrakan *(kamu)*
 - [ ] 1.3 Tulis isi yang menjawab masalah M1–M3 website *(kamu)*
 - [ ] 1.4 Tandai titik di flow kunci yang butuh validasi, loading, atau pesan error *(kamu)*
@@ -184,26 +184,26 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ## 1. Brief
 
-- **Brief-mu:** [A atau B] → baca `briefs/[A atau B]/brief.md`
-- **Data contoh:** `briefs/[A atau B]/data/`
+- **Brief-mu:** A (Kelasku) → baca `briefs/A/brief.md`
+- **Data contoh:** `briefs/A/data/`
 
 ## 2. User, goal, dan flow (pekan 1)
 
 _Disalin Claude Code dari brief di langkah 1.1, apa adanya. Kalau ada yang terasa kurang tepat, tanyakan ke fasilitator, jangan diubah sendiri._
 
-**User:** [dari brief]
+**User:** Developer 22–35 tahun yang ingin naik level, misalnya menjadi tech lead atau bekerja dengan klien luar negeri. Waktu belajarnya terbatas: dari laptop di malam hari setelah bekerja, atau dari HP di akhir pekan.
 
-**User goal:** [dari brief]
+**User goal:** Saat punya waktu luang setelah bekerja atau di akhir pekan, saya ingin belajar sedikit demi sedikit secara rutin, supaya dalam beberapa bulan saya percaya diri memimpin rapat, presentasi ke klien, atau interview untuk posisi berikutnya.
 
-**Business goal:** [dari brief]
+**Business goal:** Pengunjung memulai uji coba gratis 7 hari di website, lalu menyelesaikan pelajaran pertama dan kembali belajar selama uji coba di web app, supaya mereka tetap berlangganan setelah uji coba selesai.
 
-**Bisa bertabrakan dengan user goal:** [dari brief]
+**Bisa bertabrakan dengan user goal:** Di halaman Harga dan saat uji coba hampir habis: bisnis ingin user langsung berlangganan, sedangkan user ingin yakin dulu bahwa dia tidak ditagih tanpa sadar dan bisa berhenti kapan saja.
 
 **Flow kunci:**
 
-- **F1 · [judul]:** [langkah dari brief]
-- **F2 · [judul]:** [langkah dari brief]
-- **F3 · [judul]:** [langkah dari brief]
+- **F1 · Dari website sampai masuk ke web app:** Beranda atau Harga → Mulai uji coba → Daftar → Masuk ke web app
+- **F2 · Onboarding sampai pelajaran pertama (Web app):** Pilih tujuan belajar → Rekomendasi kursus di akhir onboarding → Pelajaran pertama
+- **F3 · Kembali dan berlangganan (Web app, sudah masuk):** Beranda user → Lanjutkan pelajaran → Lihat progres → Uji coba hampir habis → Checkout berhasil atau gagal
 
 **Prioritasku** (langkah 1.2, kamu yang menulis):
 
@@ -241,8 +241,8 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 **Halaman dulu, baru section.** Setiap halaman dibaca sebagai satu cerita: untuk apa halaman ini, dan urutan section apa yang membawa user ke aksi utamanya. Tulis rencana halaman dulu, lalu wireframe dibangun sebagai satu halaman utuh. Deskripsi per section dipakai saat memperbaiki section yang kurang efektif.
 
 **Daftar halaman** (disalin dari brief di langkah 1.1):
-- P1 · Website SaaS: [halaman wajib dari brief]
-- P2 · Web app: [halaman wajib dari brief]
+- P1 · Website SaaS: Beranda, Katalog kursus, Harga
+- P2 · Web app: Daftar, Onboarding: pilih tujuan belajar, Beranda user: lanjutkan belajar dan progres, Halaman pelajaran, Checkout langganan
 
 **Isi yang menjawab masalah website** (langkah 1.3, kamu yang menulis; bahan untuk rencana halaman di pekan 2):
 - M1: pengunjung perlu [tahu atau melihat apa], isinya dari [brief atau data/...]
