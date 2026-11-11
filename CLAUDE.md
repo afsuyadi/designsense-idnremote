@@ -112,7 +112,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ### Pekan 1 · Dokumen kedua project
 - [x] 1.1 Pilih brief dari fasilitator *(Claude Code)*
-- [ ] 1.2 Pahami brief-mu: pilih masalah yang paling mengancam goal di website dan web app, dan sikapmu saat bisnis dan user bertabrakan *(kamu)*
+- [x] 1.2 Pahami brief-mu: pilih masalah yang paling mengancam goal di website dan web app, dan sikapmu saat bisnis dan user bertabrakan *(kamu)*
 - [ ] 1.3 Tulis isi yang menjawab masalah M1–M3 website *(kamu)*
 - [ ] 1.4 Tandai titik di flow kunci yang butuh validasi, loading, atau pesan error *(kamu)*
 - [ ] 1.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
@@ -207,9 +207,9 @@ _Disalin Claude Code dari brief di langkah 1.1, apa adanya. Kalau ada yang teras
 
 **Prioritasku** (langkah 1.2, kamu yang menulis):
 
-- **Website:** [M1/M2/M3] paling mengancam goal, karena [akibatnya]
-- **Web app:** [M1/M2/M3] paling mengancam goal, karena [akibatnya]
-- **Saat bertabrakan:** di [layar], bisnis ingin user [aksi], sedangkan user takut [kekhawatirannya]. Kalau bisnis didahulukan, user [apa yang dia lakukan]. Kalau user didahulukan, bisnis [apa yang hilang]. Aku mendahulukan [bisnis atau user], dan tampilannya menjawab keduanya dengan [caranya]
+- **Website:** M3 paling mengancam goal, karena kalau tidak terjawab, pengunjung akan menyebarkan rating yang buruk tentang produk ini
+- **Web app:** M3 paling mengancam goal, sebab jika merasa tidak ada kemajuan, maka mereka akan berhenti di tengah jalan
+- **Saat bertabrakan:** di halaman pembayaran, bisnis ingin user subscribe, sedangkan user takut dengan harganya yang mahal di bulan-bulan selanjutnya. Kalau bisnis didahulukan, user akan keluar dari halaman tanpa subscribe. Kalau user didahulukan, bisnis rentan kehilangan user yang ingin subscribe. Aku mendahulukan user, dan tampilannya menjawab keduanya dengan kalimat yang ringkas untuk hal-hal krusial, lalu ada tombol subscribe untuk memudahkan user
 
 **Titik yang butuh validasi, loading, atau pesan error** (langkah 1.4, kamu yang menulis): [daftar]
 
