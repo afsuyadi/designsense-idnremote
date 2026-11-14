@@ -113,8 +113,8 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 ### Pekan 1 · Dokumen kedua project
 - [x] 1.1 Pilih brief dari fasilitator *(Claude Code)*
 - [x] 1.2 Pahami brief-mu: pilih masalah yang paling mengancam goal di website dan web app, dan sikapmu saat bisnis dan user bertabrakan *(kamu)*
-- [ ] 1.3 Tulis isi yang menjawab masalah M1–M3 website *(kamu)*
-- [ ] 1.4 Tandai titik di flow kunci yang butuh validasi, loading, atau pesan error *(kamu)*
+- [x] 1.3 Tulis isi yang menjawab masalah M1–M3 website *(kamu)*
+- [x] 1.4 Tandai titik di flow kunci yang butuh validasi, loading, atau pesan error *(kamu)*
 - [ ] 1.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 2 · Wireframe tiga halaman website
@@ -211,7 +211,14 @@ _Disalin Claude Code dari brief di langkah 1.1, apa adanya. Kalau ada yang teras
 - **Web app:** M3 paling mengancam goal, sebab jika merasa tidak ada kemajuan, maka mereka akan berhenti di tengah jalan
 - **Saat bertabrakan:** di halaman pembayaran, bisnis ingin user subscribe, sedangkan user takut dengan harganya yang mahal di bulan-bulan selanjutnya. Kalau bisnis didahulukan, user akan keluar dari halaman tanpa subscribe. Kalau user didahulukan, bisnis rentan kehilangan user yang ingin subscribe. Aku mendahulukan user, dan tampilannya menjawab keduanya dengan kalimat yang ringkas untuk hal-hal krusial, lalu ada tombol subscribe untuk memudahkan user
 
-**Titik yang butuh validasi, loading, atau pesan error** (langkah 1.4, kamu yang menulis): [daftar]
+**Titik yang butuh validasi, loading, atau pesan error** (langkah 1.4, kamu yang menulis):
+
+- F1 langkah 3 (Daftar): butuh validasi email dan kriteria password, karena kalau formatnya salah, user tidak bisa lanjut dan perlu muncul pesan validasi supaya dia tahu apa yang salah.
+- F1 langkah 3 (Daftar, klik tombol Daftar): butuh loading dan tombol nonaktif setelah diklik sekali, karena kalau diklik dua kali bisa memicu error saat registrasi.
+- F1 langkah 3 (Daftar, proses gagal): butuh pesan error, dan input atau pilihan user tidak boleh hilang, karena user tidak perlu mengisi kembali.
+- F2 langkah 2 (Rekomendasi kursus di akhir onboarding, klik untuk mulai course): tidak perlu loading/tombol nonaktif khusus, karena kalau diklik dua kali, user tetap terhubung dengan satu course yang sama.
+- F2 langkah 2 (course gagal masuk ke daftar course saya): butuh pesan error, karena request yang dikirim gagal sampai (misalnya koneksi terputus).
+- F3 langkah 4 (Uji coba hampir habis, user lanjut belajar course yang masih trial): butuh pesan peringatan, karena kalau tidak muncul, user akan merasa kecewa dan ditipu saat course-nya tiba-tiba terkunci.
 
 _Panduan, format, dan contoh setiap bagian ada di `langkah/pekan-1.md`._
 
@@ -245,9 +252,9 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - P2 · Web app: Daftar, Onboarding: pilih tujuan belajar, Beranda user: lanjutkan belajar dan progres, Halaman pelajaran, Checkout langganan
 
 **Isi yang menjawab masalah website** (langkah 1.3, kamu yang menulis; bahan untuk rencana halaman di pekan 2):
-- M1: pengunjung perlu [tahu atau melihat apa], isinya dari [brief atau data/...]
-- M2: []
-- M3: []
+- M1: pengunjung perlu melihat kursus yang cocok dengan tujuan belajarnya (dipetakan dari 6 kategori: Presentasi, Menulis di tempat kerja, Bahasa Inggris untuk kerja, Interview, Negosiasi, Memimpin tim), isinya dari data/courses.json, disaring lewat pertanyaan singkat tentang tujuan belajar (asumsi).
+- M2: pengunjung perlu melihat kapan tanggal uji coba berakhir, dan catatan bahwa tagihan mulai setelah tanggal itu, isinya dari brief (durasi trial 7 hari) dan data/plans.json (harga paket). Selama trial hanya beberapa course awal yang terbuka (asumsi).
+- M3: pengunjung perlu melihat testimoni orang yang sudah ikut kursusnya beserta rolenya (misalnya Frontend developer, Backend developer), isinya dari data/testimonials.json.
 
 ### P1 · Website SaaS
 
