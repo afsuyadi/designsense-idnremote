@@ -51,4 +51,6 @@ Pola yang terlihat: untuk 1.3 dan 1.4, peserta memperbaiki isi rencananya dulu (
 
 ## 5. Refleksi
 
-_(diisi peserta)_
+**Keputusan tersulit pekan ini, dan kenapa:** memikirkan seluruh flow unhappy path. Menurut saya itu sulit karena ada banyak kemungkinan buruk yang dapat terjadi.
+
+**Satu hal yang akan dilakukan berbeda:** mencari banyak referensi agar saya tahu platform KelasKu mana yang cocok untuk behaviour masyarakat Indonesia.

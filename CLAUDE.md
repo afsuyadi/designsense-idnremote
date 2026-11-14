@@ -115,7 +115,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 1.2 Pahami brief-mu: pilih masalah yang paling mengancam goal di website dan web app, dan sikapmu saat bisnis dan user bertabrakan *(kamu)*
 - [x] 1.3 Tulis isi yang menjawab masalah M1–M3 website *(kamu)*
 - [x] 1.4 Tandai titik di flow kunci yang butuh validasi, loading, atau pesan error *(kamu)*
-- [ ] 1.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
+- [x] 1.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 2 · Wireframe tiga halaman website
 - [ ] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
