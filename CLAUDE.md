@@ -275,6 +275,23 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - Referensi: [link atau nama dari library referensimu]
 - Kenapa layout ini: [alasan dengan prinsip, bukan "lebih bagus"]
 
+#### Katalog kursus
+
+- **Tujuan halaman:** pengunjung menemukan course yang tepat untuk dirinya, tanpa bingung memilih dari puluhan course yang direkomendasikan kepadanya.
+- **Posisi di flow:** datang dari Beranda atau pencarian, lanjut ke Daftar.
+- **Satu aksi utama:** Mulai gratis.
+- **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
+  1. Filter berdasarkan popularitas (rating tertinggi dan jumlah pembeli) · menjawab M1
+  2. Durasi trial (7 hari gratis, dihitung dari hari kamu daftar) · menjawab M2
+  3. Top-5 testimoni beserta rating · menjawab M3
+
+**Section: [nama]** (diisi saat section ini diperbaiki)
+- Tujuan: []
+- Isi: []
+- Aksi utama: []
+- Referensi: []
+- Kenapa layout ini: []
+
 ### P2 · Web app
 
 #### [Nama layar, misalnya Beranda user]
