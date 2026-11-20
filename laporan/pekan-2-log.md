@@ -9,3 +9,9 @@
 - **Yang dikerjakan:** mengisi blok Katalog kursus dan Harga di `CLAUDE.md` bagian 4 P1 · Website SaaS; Katalog direvisi dari "tanggal pasti trial berakhir" jadi "durasi trial umum" karena trial belum mulai sebelum user daftar; Harga diperjelas untuk menampilkan kedua paket (Bulanan dan Tahunan) sesuai data/plans.json
 - **Tanggapan peserta:** diterima ("pas" untuk keduanya)
 - **Feedback `/cek`:** kedua halaman punya tujuan berbeda dari Beranda dan satu aksi utama; bersama Beranda, M1–M3 terjawab sesuai kolom Halaman di brief · tercentang: ya
+
+### 2026-11-20 · 2.3 Bangun wireframe ketiga halaman
+- **Permintaan:** "/lanjut" (lanjut ke langkah Claude Code setelah rencana ketiga halaman disetujui)
+- **Yang dikerjakan:** membangun `website/index.html` (Beranda), `website/katalog.html` (Katalog kursus), `website/harga.html` (Harga), dan `website/style.css`, mengikuti urutan section di rencana masing-masing, grayscale, satu font sistem, placeholder abu-abu untuk gambar. Katalog menampilkan 3 testimoni (bukan "top-5" seperti ditulis di rencana), karena `data/testimonials.json` cuma punya 3 testimoni dan tidak ada field rating per testimoni
+- **Tanggapan peserta:** diterima ("ok")
+- **Feedback `/cek`:** halaman mengikuti urutan section di rencana, tanpa section tambahan · tercentang: ya

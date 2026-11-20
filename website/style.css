@@ -1,0 +1,294 @@
+/* Wireframe pekan 2: grayscale saja, satu font sistem, tanpa bayangan/gradien/animasi. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #111111;
+  background: #ffffff;
+  line-height: 1.5;
+}
+
+a {
+  color: #111111;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+
+.site-header {
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.site-header .brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-header nav a[aria-current="page"] {
+  font-weight: bold;
+  border-bottom: 2px solid #111111;
+}
+
+/* Sections */
+
+section {
+  padding: 48px 0;
+}
+
+section.alt {
+  background: #f2f2f2;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 12px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0 0 16px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 0 0 4px;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  max-width: 640px;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  border: 1px solid #111111;
+  background: #111111;
+  color: #ffffff;
+  font: inherit;
+  font-size: 1rem;
+  padding: 12px 24px;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333333;
+}
+
+/* Placeholder image box */
+
+.placeholder {
+  background: #d9d9d9;
+  border: 1px dashed #999999;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 16px;
+  min-height: 160px;
+}
+
+/* Hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+/* Testimoni */
+
+.testimoni-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.testimoni-card {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.testimoni-card p {
+  margin-bottom: 12px;
+}
+
+.testimoni-card .role {
+  font-size: 0.9rem;
+  color: #555555;
+  margin: 0;
+}
+
+/* Katalog */
+
+.sort-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.sort-label {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #cccccc;
+  padding: 16px;
+}
+
+.course-card .placeholder {
+  min-height: 100px;
+  margin-bottom: 12px;
+}
+
+.course-card .category {
+  font-size: 0.8rem;
+  color: #555555;
+  margin-bottom: 4px;
+}
+
+.course-card .meta {
+  font-size: 0.85rem;
+  color: #555555;
+  margin: 4px 0 0;
+}
+
+/* Harga */
+
+.plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.plan-card {
+  border: 1px solid #cccccc;
+  padding: 24px;
+  position: relative;
+}
+
+.plan-card.recommended {
+  border: 2px solid #111111;
+}
+
+.plan-card .badge {
+  display: inline-block;
+  background: #111111;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  margin-bottom: 12px;
+}
+
+.plan-card .price {
+  font-size: 1.75rem;
+  margin: 0 0 4px;
+}
+
+.plan-card .note {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.plan-card ul {
+  margin: 16px 0 0;
+  padding-left: 20px;
+}
+
+.plan-card li {
+  margin-bottom: 6px;
+}
+
+.cta-center {
+  text-align: center;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid #cccccc;
+  padding: 32px 0;
+  background: #f2f2f2;
+}
+
+.site-footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.site-footer nav {
+  display: flex;
+  gap: 16px;
+}
+
+.site-footer nav a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+@media (max-width: 720px) {
+  .hero,
+  .testimoni-grid,
+  .course-grid,
+  .plans {
+    grid-template-columns: 1fr;
+  }
+}
