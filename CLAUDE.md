@@ -106,7 +106,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 
 ## Progres
 
-**Pekan sekarang:** 1
+**Pekan sekarang:** 2
 
 Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah kamu menilai hasilnya: lewat `/cek`, atau dengan bilang sudah pas.
 
@@ -118,7 +118,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 1.5 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 2 · Wireframe tiga halaman website
-- [ ] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
+- [x] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
 - [ ] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
 - [ ] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
 - [ ] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
@@ -258,15 +258,15 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 
 ### P1 · Website SaaS
 
-#### [Nama halaman, misalnya Beranda]
+#### Beranda
 
-- **Tujuan halaman:** [apa yang harus dipahami atau dilakukan user di sini]
-- **Posisi di flow:** [user datang dari mana, lanjut ke mana]
-- **Satu aksi utama:** []
+- **Tujuan halaman:** ketika user mengunjungi website pertama kali, dia harus paham tentang apa yang dijual oleh website ini, yaitu course-course soft skills untuk developer, dan hal-hal yang membuat dia yakin untuk mendaftar masuk web app & subscribe free trial.
+- **Posisi di flow:** datang dari pencarian atau LinkedIn, lanjut ke Daftar.
+- **Satu aksi utama:** Mulai gratis
 - **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
-  1. [Section]: [keraguan atau kebutuhan user yang dijawab]
-  2. []
-  3. []
+  1. Hero: "apakah ini bermanfaat untuk saya dan sesuai dengan yang saya butuhkan?" · menjawab M1
+  2. Trial 7 hari: "kapan free trial ini berakhir, dan apa yang terjadi setelahnya?" · menjawab M2
+  3. Testimoni: "apakah coursenya seampuh itu dan sesuai dengan role saya?" · menjawab M3
 
 **Section: [nama, misalnya Hero]** (diisi saat section ini diperbaiki)
 - Tujuan: [apa yang harus dipahami atau dilakukan user di section ini]
