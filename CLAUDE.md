@@ -121,7 +121,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
 - [x] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
 - [x] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
-- [ ] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
+- [x] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
 - [ ] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
 - [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
 - [ ] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*

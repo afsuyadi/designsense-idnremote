@@ -15,3 +15,12 @@
 - **Yang dikerjakan:** membangun `website/index.html` (Beranda), `website/katalog.html` (Katalog kursus), `website/harga.html` (Harga), dan `website/style.css`, mengikuti urutan section di rencana masing-masing, grayscale, satu font sistem, placeholder abu-abu untuk gambar. Katalog menampilkan 3 testimoni (bukan "top-5" seperti ditulis di rencana), karena `data/testimonials.json` cuma punya 3 testimoni dan tidak ada field rating per testimoni
 - **Tanggapan peserta:** diterima ("ok")
 - **Feedback `/cek`:** halaman mengikuti urutan section di rencana, tanpa section tambahan · tercentang: ya
+
+### 2026-11-20 · 2.4 Nilai halaman utuh dengan squint test
+- **Permintaan:** "untuk index.html... untuk katalog.html... untuk harga.html..." (urutan yang terlihat pertama di tiap halaman), lalu "terlalu banyak course yg ditampilkan (ada 12), apakah sebaiknya 9 saja?... tombol mulai seharusnya ada untuk setiap card course" dan "seharusnya bukan 899000 per tahun, tetapi 74916 per bulan yg ditampilkan"
+- **Yang dikerjakan:** dicatat temuan squint test di log ini (bukan diubah ke CLAUDE.md, sesuai "Masuk ke" langkah 2.4):
+  - Beranda: tidak ada yang kurang efektif.
+  - Katalog kursus: jumlah 12 course dipertahankan (bukan dipotong ke 9, karena memotong berarti menyembunyikan course asli tanpa alasan prinsip); tombol "Mulai gratis" ditambahkan di tiap card course sebagai aksi yang sama (bukan aksi baru) untuk mengurangi jarak klik (proximity), dengan gaya tombol yang sama seperti tombol utama.
+  - Harga: kartu paket Tahunan akan menampilkan harga per bulan (Rp74.916, dari Rp899.000 ÷ 12) disertai keterangan ditagih per tahun, supaya tetap transparan soal billing (M2).
+- **Tanggapan peserta:** diterima semua, termasuk gaya tombol per card di Katalog sama seperti tombol utama ("ok")
+- **Feedback `/cek`:** temuan menyebut prinsip (hierarchy, proximity, framing harga terkait M2), bukan selera · tercentang: ya
