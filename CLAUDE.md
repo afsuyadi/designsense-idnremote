@@ -119,7 +119,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ### Pekan 2 · Wireframe tiga halaman website
 - [x] 2.1 Tulis rencana Beranda website: tujuan, aksi utama, urutan section *(kamu)*
-- [ ] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
+- [x] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
 - [ ] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
 - [ ] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
 - [ ] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
@@ -284,6 +284,22 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
   1. Filter berdasarkan popularitas (rating tertinggi dan jumlah pembeli) · menjawab M1
   2. Durasi trial (7 hari gratis, dihitung dari hari kamu daftar) · menjawab M2
   3. Top-5 testimoni beserta rating · menjawab M3
+
+**Section: [nama]** (diisi saat section ini diperbaiki)
+- Tujuan: []
+- Isi: []
+- Aksi utama: []
+- Referensi: []
+- Kenapa layout ini: []
+
+#### Harga
+
+- **Tujuan halaman:** pengunjung paham persis apa yang terjadi setelah 7 hari dan merasa aman untuk mulai, bukan takut ditagih diam-diam.
+- **Posisi di flow:** datang dari Beranda atau Katalog, lanjut ke Daftar.
+- **Satu aksi utama:** Mulai gratis 7 hari.
+- **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
+  1. Paket dan harga (Bulanan dan Tahunan, Tahunan sebagai rekomendasi) · menjawab M2
+  2. Apa yang terjadi setelah 7 hari (bisa berhenti kapan saja) · menjawab M2
 
 **Section: [nama]** (diisi saat section ini diperbaiki)
 - Tujuan: []
