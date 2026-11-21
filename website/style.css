@@ -236,6 +236,12 @@ p {
   margin-top: 16px;
 }
 
+.course-card .price-tag {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 12px 0 0;
+}
+
 .course-grid-compact {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -253,6 +259,13 @@ p {
   border: 1px solid #cccccc;
   padding: 24px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-card .cta-center {
+  margin-top: auto;
+  padding-top: 16px;
 }
 
 .plan-card.recommended {
@@ -289,6 +302,14 @@ p {
 
 .cta-center {
   text-align: center;
+}
+
+.faq-item h3 {
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  max-width: 640px;
 }
 
 /* Footer */

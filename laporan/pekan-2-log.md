@@ -58,5 +58,41 @@
 ### 2026-11-21 · Hapus tombol Mulai gratis di section testimoni Katalog kursus
 - **Permintaan:** "hapus tombol Mulai Gratis di katalog.html (bukan yang di footer), yyang ada di testimoni"
 - **Yang dikerjakan:** menghapus tombol "Mulai gratis" di bawah section testimoni di `website/katalog.html` (tombol per card dan tombol footer tetap ada)
+- **Tanggapan peserta:** diterima ("ya")
+- **Feedback `/cek`:** tidak ada tombol yang berlebihan/bersaing di section testimoni · tercentang: ya
+
+### 2026-11-21 · Feedback dari mentor peserta — CTA di tiap section, dan harga per course
+- **Permintaan:** "setiap section yg punya konteks menjelaskan/mengajak, harus ada CTA nya... untuk katalog, pada setiap course... kenapa tidak ditampilkan saya biaya masing2 course tersebut", lalu screenshot anotasi: CTA "Lihat kelas, scroll ke bawah" di section Privilege, CTA "untuk coba gratis" di section Trial 7 hari, dan catatan "Section ini bisa dituker" di section Testimoni
+- **Yang dikerjakan:** menambahkan link sekunder "Lihat kelas" (anchor `#kursus-populer`) di section Privilege, dan tombol "Mulai gratis" di section Trial 7 hari, keduanya di `website/index.html`. Ide harga per course ditolak sementara karena `data/courses.json` tidak punya field harga dan bertentangan dengan model satu langganan di brief — menunggu konfirmasi peserta. Catatan "section bisa dituker" diklarifikasi: peserta minta urutan section Testimoni ditukar ke atas section Trial 7 hari — dikerjakan, dan urutan section Beranda di `CLAUDE.md` bagian 4 diperbarui
+- **Tanggapan peserta:** diterima untuk kedua CTA dan penukaran urutan ("tukar saja urutannya"); harga per course masih menunggu
+- **Feedback `/cek`:** section Privilege dan Trial 7 hari sekarang punya CTA yang relevan, dan urutan section tetap menuju aksi utama tanpa bersaing · tercentang: ya
+
+### 2026-11-21 · Harga dummy per course di Katalog
+- **Permintaan:** "silakan tambahkan harga dummy di data/courses.json, mentor saya sudah menyarankan"
+- **Yang dikerjakan:** menambahkan field `price` (dummy: Rp149.000 untuk level Pemula, Rp199.000 untuk Menengah) ke tiap 12 course di `briefs/A/data/courses.json`; mengganti tombol "Mulai gratis" per card di `website/katalog.html` dengan harga tersebut; styling di `website/style.css`; memperbarui deskripsi Section: Daftar Courses di `CLAUDE.md` bagian 4. Catatan: ini mengubah data referensi brief (`briefs/A/data/`), bukan cuma copy halaman — ditandai jelas sebagai dummy supaya tidak dianggap fakta asli dari brief
+- **Tanggapan peserta:** diterima, lalu minta tombol footer di index.html dihapus karena berdekatan dengan tombol "Mulai gratis" di section Trial 7 hari tepat di atasnya
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · Hapus tombol CTA footer di index.html
+- **Permintaan:** "untuk index html, karena tombol mulai gratis sudah ada 2 dan berdekatan, apakah bisa dihapus tombol mulai gratis yg di footer?"
+- **Yang dikerjakan:** menghapus `div.footer-cta` di footer `website/index.html` (katalog.html dan harga.html tidak diubah, karena tidak ada CTA section lain tepat di atas footernya); memperbarui aturan footer di `CLAUDE.md` bagian 10 untuk mencatat pengecualian ini
+- **Tanggapan peserta:** diterima (mengirim screenshot section "7 hari gratis buat nyobain" di katalog.html, minta ditambahkan CTA)
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · Tambah CTA di section "7 hari gratis buat nyobain" (Katalog kursus)
+- **Permintaan:** "di katalog html, tolong tambahkan tombol CTA" (untuk section "7 hari gratis buat nyobain")
+- **Yang dikerjakan:** menambahkan tombol "Mulai gratis" di section tersebut di `website/katalog.html`; memperbarui rencana Katalog kursus di `CLAUDE.md` bagian 4
+- **Tanggapan peserta:** diterima (lanjut ke permintaan baru untuk harga.html tanpa komentar lain)
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · Ubah section penjelasan jadi FAQ, hapus CTA footer, tambah CTA per kartu paket (Harga)
+- **Permintaan:** "1. itu 'apa yang terjadi setelah 7 hari' jangan ditaro di akhir dari harga.html, mending diganti FAQ, kalau di situ jadi pecah alurnya. 2. hapus tombol mulai gratis di footer harga.html. 3. tombol CTA mestinya di dalam card masing2 ada. (baik tahunan maupun bulanan)"
+- **Yang dikerjakan:** di `website/harga.html`: mengganti section "Apa yang terjadi setelah 7 hari?" jadi section "Yang sering ditanya" dengan format FAQ (judul pertanyaan + jawaban), supaya tidak terbaca sebagai section penjelasan baru yang memecah alur setelah CTA utama; menghapus `div.footer-cta` di footer; menambahkan tombol "Mulai gratis 7 hari" di masing-masing kartu paket (Bulanan dan Tahunan), menggantikan satu tombol bersama di bawah kedua kartu. Styling `.faq-item` ditambahkan di `website/style.css`. Memperbarui rencana Harga di `CLAUDE.md` bagian 4 dan pengecualian aturan footer di bagian 10
+- **Tanggapan peserta:** mengubah rencana — minta tombol tiap kartu rata bawah (bottom alignment), dan judul section FAQ diganti jadi "FAQ"
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · Rata bawah tombol kartu paket, ganti judul section jadi "FAQ" (Harga)
+- **Permintaan:** "1. untuk setiap card, tolong buat tombol mulai gratisnya itu pada posisi bottom alighment yg sama, 2. ubah 'yang sering ditanya' jadi FAQ"
+- **Yang dikerjakan:** di `website/style.css`, menjadikan `.plan-card` flex column dan menambahkan `margin-top: auto` pada `.plan-card .cta-center` supaya tombol kedua kartu (Bulanan dan Tahunan) rata di bawah meski jumlah baris fitur berbeda; menghapus inline style margin yang sudah tidak perlu di `website/harga.html`; mengganti judul section FAQ dari "Yang sering ditanya" jadi "FAQ"; memperbarui catatan judul section di `CLAUDE.md` bagian 4
 - **Tanggapan peserta:** menunggu
 - **Feedback `/cek`:** menunggu · tercentang: tidak

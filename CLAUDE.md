@@ -265,10 +265,10 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - **Satu aksi utama:** Mulai gratis
 - **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
   1. Hero: "apakah ini bermanfaat untuk saya dan sesuai dengan yang saya butuhkan?" · menjawab M1
-  2. Privilege kenapa belajar di KelasKu: "apa untungnya dibanding belajar sendiri?" · menjawab M1 (tambahan dari review manager)
+  2. Privilege kenapa belajar di KelasKu (dengan CTA "Lihat kelas" ke section Kursus paling diminati): "apa untungnya dibanding belajar sendiri?" · menjawab M1 (tambahan dari review manager)
   3. Kursus paling diminati (4 kursus teratas, dengan link "Lihat semua kursus"): "course mana yang terbukti diminati orang lain?" · menjawab M1 (tambahan dari review manager)
-  4. Trial 7 hari: "kapan free trial ini berakhir, dan apa yang terjadi setelahnya?" · menjawab M2
-  5. Testimoni: "apakah coursenya seampuh itu dan sesuai dengan role saya?" · menjawab M3
+  4. Testimoni: "apakah coursenya seampuh itu dan sesuai dengan role saya?" · menjawab M3 (ditukar ke atas Trial 7 hari, atas permintaan mentor peserta)
+  5. Trial 7 hari (dengan CTA "Mulai gratis"): "kapan free trial ini berakhir, dan apa yang terjadi setelahnya?" · menjawab M2
 
 **Section: [nama, misalnya Hero]** (diisi saat section ini diperbaiki)
 - Tujuan: [apa yang harus dipahami atau dilakukan user di section ini]
@@ -284,15 +284,15 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - **Satu aksi utama:** Mulai gratis.
 - **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
   1. Filter berdasarkan popularitas (rating tertinggi dan jumlah pembeli) · menjawab M1
-  2. Durasi trial (7 hari gratis, dihitung dari hari kamu daftar) · menjawab M2
+  2. Durasi trial (7 hari gratis, dihitung dari hari kamu daftar, dengan CTA "Mulai gratis") · menjawab M2
   3. Top-5 testimoni beserta rating · menjawab M3
 
 **Section: Daftar Courses** (diisi saat section ini diperbaiki)
 - Tujuan: agar user paham daftar course yang sesuai minatnya dengan rankingnya
-- Isi: jumlah rating, jumlah orang yang beli, tags relevan terkait course itu
-- Aksi utama: klik button "Mulai gratis" di tiap card course
+- Isi: jumlah rating, jumlah orang yang beli, tags relevan terkait course itu, harga per course (Rp149.000 untuk level Pemula, Rp199.000 untuk Menengah — harga dummy ditambahkan ke `data/courses.json` atas saran mentor peserta)
+- Aksi utama: tidak ada tombol per card lagi; harga ditampilkan sebagai info, aksi utama tetap "Mulai gratis" di header/footer halaman
 - Referensi: Udemy, Coursera
-- Kenapa layout ini: prinsipnya ingin meyakinkan course mana yang perlu dibeli, berdasarkan rating dan jumlah pembeli yang ditonjolkan (hierarchy)
+- Kenapa layout ini: prinsipnya ingin meyakinkan course mana yang perlu dibeli, berdasarkan rating, jumlah pembeli, dan harga yang ditonjolkan (hierarchy)
 
 #### Harga
 
@@ -300,8 +300,8 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - **Posisi di flow:** datang dari Beranda atau Katalog, lanjut ke Daftar.
 - **Satu aksi utama:** Mulai gratis 7 hari.
 - **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
-  1. Paket dan harga (Bulanan dan Tahunan, Tahunan sebagai rekomendasi) · menjawab M2
-  2. Apa yang terjadi setelah 7 hari (bisa berhenti kapan saja) · menjawab M2
+  1. Paket dan harga (Bulanan dan Tahunan, Tahunan sebagai rekomendasi, masing-masing kartu punya CTA "Mulai gratis 7 hari") · menjawab M2
+  2. FAQ: Apa yang terjadi setelah 7 hari (bisa berhenti kapan saja) · menjawab M2 (diganti dari section penjelasan biasa menjadi FAQ dengan judul "FAQ", atas permintaan peserta, supaya tidak memecah alur halaman setelah CTA utama)
 
 **Section: Kartu paket Tahunan di Harga** (diisi saat section ini diperbaiki)
 - Tujuan: user paham bahwa berlangganan tahunan lebih murah daripada bulanan.
@@ -374,7 +374,7 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 
 - Bangun halaman dari rencananya di bagian 4. Wireframe dan penerapan gaya dikerjakan per halaman utuh; perbaikan dikerjakan per section, hanya section yang diminta.
 - Jangan menambah section, halaman, atau fitur atas inisiatifmu sendiri. Kalau peserta meminta menambah, mengubah, atau menghapus section, CTA, atau elemen lain, kerjakan. Boleh satu clue (misalnya bersaing dengan aksi utama, atau isinya tidak ada di `data/`), tapi jangan mencegah.
-- **Header dan footer di setiap halaman website.** Header berisi nama produk dan navigasi ke halaman website yang sudah dibangun. Footer berisi nama produk, link ke halaman yang sama, satu baris penutup yang ramah, dan tombol CTA yang mengulang aksi utama halaman itu sendiri (bukan aksi baru, atas permintaan peserta). Keduanya bukan section: peserta tidak perlu menulisnya di rencana halaman. Jangan membuat link ke halaman yang belum dibangun atau di luar scope (misalnya Tentang, Blog, Karier, Kebijakan privasi). Web app tidak memakai footer seperti website; navigasinya diputuskan peserta di rencana layar pekan 5.
+- **Header dan footer di setiap halaman website.** Header berisi nama produk dan navigasi ke halaman website yang sudah dibangun. Footer berisi nama produk, link ke halaman yang sama, satu baris penutup yang ramah, dan tombol CTA yang mengulang aksi utama halaman itu sendiri (bukan aksi baru, atas permintaan peserta) — kecuali kalau CTA itu jadi berdekatan dan berulang dengan CTA section tepat di atasnya (misalnya Beranda: section Trial 7 hari sudah punya "Mulai gratis" tepat sebelum footer, jadi footer-nya tanpa CTA; Harga: tiap kartu paket sudah punya CTA "Mulai gratis 7 hari" sendiri, jadi footer-nya juga tanpa CTA). Keduanya bukan section: peserta tidak perlu menulisnya di rencana halaman. Jangan membuat link ke halaman yang belum dibangun atau di luar scope (misalnya Tentang, Blog, Karier, Kebijakan privasi). Web app tidak memakai footer seperti website; navigasinya diputuskan peserta di rencana layar pekan 5.
 - **Copy kamu yang menulis.** Judul, subjudul, label tombol, pesan, dan teks pendek lain ditulis Claude Code dari brief, `data/`, dan tujuan section di rencana peserta. Tulis seperti produk sungguhan: natural, jujur, dan sesuai user di brief, tanpa janji berlebihan atau situasi yang dibuat-buat (misalnya "besok demo, latihan malam ini"). Fakta tetap dari `data/` dan brief: jangan mengarang angka, testimoni, fitur, atau klaim. Peserta tidak wajib menulis copy, tapi **boleh mengubah copy sebebasnya**, kapan saja. Kalau peserta menulis atau mengganti copy, pakai kalimatnya apa adanya. Kamu boleh memberi satu clue kalau perlu (misalnya terdengar kaku, terlalu panjang, atau tidak sesuai fakta di `data/`), tapi jangan mencegah, menolak, atau menulis ulang tanpa diminta: keputusannya di peserta. Yang dinilai keputusan isi, urutan, dan hierarchy, bukan kalimatnya. Semua copy mengikuti **Gaya copy** di bawah.
 - Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
 - HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend.
