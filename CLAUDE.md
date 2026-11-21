@@ -265,8 +265,10 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 - **Satu aksi utama:** Mulai gratis
 - **Urutan section:** (setiap section dengan alasan kenapa ada di urutan itu)
   1. Hero: "apakah ini bermanfaat untuk saya dan sesuai dengan yang saya butuhkan?" · menjawab M1
-  2. Trial 7 hari: "kapan free trial ini berakhir, dan apa yang terjadi setelahnya?" · menjawab M2
-  3. Testimoni: "apakah coursenya seampuh itu dan sesuai dengan role saya?" · menjawab M3
+  2. Privilege kenapa belajar di KelasKu: "apa untungnya dibanding belajar sendiri?" · menjawab M1 (tambahan dari review manager)
+  3. Kursus paling diminati (4 kursus teratas, dengan link "Lihat semua kursus"): "course mana yang terbukti diminati orang lain?" · menjawab M1 (tambahan dari review manager)
+  4. Trial 7 hari: "kapan free trial ini berakhir, dan apa yang terjadi setelahnya?" · menjawab M2
+  5. Testimoni: "apakah coursenya seampuh itu dan sesuai dengan role saya?" · menjawab M3
 
 **Section: [nama, misalnya Hero]** (diisi saat section ini diperbaiki)
 - Tujuan: [apa yang harus dipahami atau dilakukan user di section ini]
@@ -372,7 +374,7 @@ Prototype menunjukkan perjalanan user lengkap, bukan hanya tampilan ideal: onboa
 
 - Bangun halaman dari rencananya di bagian 4. Wireframe dan penerapan gaya dikerjakan per halaman utuh; perbaikan dikerjakan per section, hanya section yang diminta.
 - Jangan menambah section, halaman, atau fitur atas inisiatifmu sendiri. Kalau peserta meminta menambah, mengubah, atau menghapus section, CTA, atau elemen lain, kerjakan. Boleh satu clue (misalnya bersaing dengan aksi utama, atau isinya tidak ada di `data/`), tapi jangan mencegah.
-- **Header dan footer di setiap halaman website.** Header berisi nama produk dan navigasi ke halaman website yang sudah dibangun. Footer berisi nama produk, link ke halaman yang sama, dan satu baris penutup yang ramah. Keduanya bukan section: peserta tidak perlu menulisnya di rencana halaman, dan tidak ada tombol di dalamnya yang bersaing dengan aksi utama. Jangan membuat link ke halaman yang belum dibangun atau di luar scope (misalnya Tentang, Blog, Karier, Kebijakan privasi). Web app tidak memakai footer seperti website; navigasinya diputuskan peserta di rencana layar pekan 5.
+- **Header dan footer di setiap halaman website.** Header berisi nama produk dan navigasi ke halaman website yang sudah dibangun. Footer berisi nama produk, link ke halaman yang sama, satu baris penutup yang ramah, dan tombol CTA yang mengulang aksi utama halaman itu sendiri (bukan aksi baru, atas permintaan peserta). Keduanya bukan section: peserta tidak perlu menulisnya di rencana halaman. Jangan membuat link ke halaman yang belum dibangun atau di luar scope (misalnya Tentang, Blog, Karier, Kebijakan privasi). Web app tidak memakai footer seperti website; navigasinya diputuskan peserta di rencana layar pekan 5.
 - **Copy kamu yang menulis.** Judul, subjudul, label tombol, pesan, dan teks pendek lain ditulis Claude Code dari brief, `data/`, dan tujuan section di rencana peserta. Tulis seperti produk sungguhan: natural, jujur, dan sesuai user di brief, tanpa janji berlebihan atau situasi yang dibuat-buat (misalnya "besok demo, latihan malam ini"). Fakta tetap dari `data/` dan brief: jangan mengarang angka, testimoni, fitur, atau klaim. Peserta tidak wajib menulis copy, tapi **boleh mengubah copy sebebasnya**, kapan saja. Kalau peserta menulis atau mengganti copy, pakai kalimatnya apa adanya. Kamu boleh memberi satu clue kalau perlu (misalnya terdengar kaku, terlalu panjang, atau tidak sesuai fakta di `data/`), tapi jangan mencegah, menolak, atau menulis ulang tanpa diminta: keputusannya di peserta. Yang dinilai keputusan isi, urutan, dan hierarchy, bukan kalimatnya. Semua copy mengikuti **Gaya copy** di bawah.
 - Kondisi tidak ideal disimulasikan, karena tidak ada backend: setiap layar menerima `?state=loading`, `?state=kosong`, `?state=error`, `?state=sebagian`, dan `?state=gagal` (aksi gagal), dan loading memakai jeda buatan yang singkat. Tanpa parameter, layar menampilkan kondisi ideal.
 - HTML, CSS, dan JS polos. Tanpa framework, tanpa build step, tanpa backend.

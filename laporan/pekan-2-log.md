@@ -48,3 +48,15 @@
 - **Yang dikerjakan:** menambahkan `order: -1` untuk `.plan-card.recommended` di media query HP (≤720px) di `website/style.css`, supaya kartu Tahunan tampil di atas Bulanan saat ditumpuk satu kolom; desktop tetap dua kolom seperti sebelumnya
 - **Tanggapan peserta:** diterima ("sudah pas")
 - **Feedback `/cek`:** urutan prioritas sama di HP dan desktop (kartu rekomendasi tetap menonjol di keduanya), tanpa scroll ke samping · tercentang: ya
+
+### 2026-11-21 · Revisi tambahan dari review manager (di luar checklist pekan 2)
+- **Permintaan:** "perlu display beberapa course di index.html (paling diminati, 3-4 course. ada tombol liat lebih lengkap)" / "Tambahkan 'about' di index.html. rename jadi 'Privilege kenapa belajar di KelasKu', disertai dengan poin2nya" / "Di footer, selalu munculkan tombol CTA"
+- **Yang dikerjakan:** menambahkan dua section baru di `website/index.html` — "Privilege kenapa belajar di KelasKu" (4 poin, dari brief dan `data/plans.json` fitur yang sama di kedua paket) dan "Kursus paling diminati" (4 kursus rating tertinggi, dengan link sekunder "Lihat semua kursus" ke katalog.html, gaya outline supaya tidak bersaing dengan aksi utama "Mulai gratis"); menambahkan tombol CTA (aksi utama halaman yang sama, bukan aksi baru) di footer ketiga halaman (`index.html`, `katalog.html`, `harga.html`); styling di `website/style.css`; memperbarui urutan section Beranda dan aturan footer di `CLAUDE.md` bagian 4 dan 10
+- **Tanggapan peserta:** mengubah rencana — minta tombol "Mulai gratis" di bawah section testimoni Katalog kursus dihapus (bukan yang di footer)
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · Hapus tombol Mulai gratis di section testimoni Katalog kursus
+- **Permintaan:** "hapus tombol Mulai Gratis di katalog.html (bukan yang di footer), yyang ada di testimoni"
+- **Yang dikerjakan:** menghapus tombol "Mulai gratis" di bawah section testimoni di `website/katalog.html` (tombol per card dan tombol footer tetap ada)
+- **Tanggapan peserta:** menunggu
+- **Feedback `/cek`:** menunggu · tercentang: tidak
