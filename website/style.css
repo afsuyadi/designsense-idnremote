@@ -202,6 +202,12 @@ p {
   margin: 4px 0 0;
 }
 
+.course-card .btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
+
 /* Harga */
 
 .plans {
@@ -290,5 +296,9 @@ p {
   .course-grid,
   .plans {
     grid-template-columns: 1fr;
+  }
+
+  .plan-card.recommended {
+    order: -1;
   }
 }

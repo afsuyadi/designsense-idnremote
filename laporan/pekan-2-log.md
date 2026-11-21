@@ -36,3 +36,15 @@
 - **Yang dikerjakan:** mengisi blok Section: Kartu paket Tahunan di Harga di `CLAUDE.md` bagian 4 P1 · Website SaaS › Harga, dengan angka konkret (Rp74.916/bulan ditagih Rp899.000/tahun) dan referensi disederhanakan
 - **Tanggapan peserta:** diterima ("pas") setelah revisi
 - **Feedback `/cek`:** kedua deskripsi section menyebut prinsip (hierarchy, perbandingan) dan referensi relevan · tercentang: ya
+
+### 2026-11-21 · 2.6 Perbaiki section, lalu cek di HP dan desktop
+- **Permintaan:** "/lanjut" (lanjut ke langkah Claude Code setelah kedua deskripsi section disetujui)
+- **Yang dikerjakan:** menambahkan tombol "Mulai gratis" di tiap dari 12 course card di `website/katalog.html` (gaya sama dengan tombol utama, lebar penuh kartu) dan styling-nya di `website/style.css`; mengubah kartu paket Tahunan di `website/harga.html` untuk menampilkan Rp74.916/bulan dengan keterangan "Ditagih Rp899.000/tahun · hemat 24% dibanding bulanan"
+- **Tanggapan peserta:** mengubah rencana dulu — minta di tampilan HP, kartu paket Tahunan (direkomendasikan) ditaruh di atas Bulanan karena urutan tumpukan di satu kolom jadi urutan prioritas (hierarchy)
+- **Feedback `/cek`:** menunggu · tercentang: tidak
+
+### 2026-11-21 · 2.6 Perbaiki section, lalu cek di HP dan desktop (urutan kartu paket di HP)
+- **Permintaan:** "untuk versi HP katalog.html [maksudnya harga.html], seharusnya card Tahunan berada di atasnya Bulanan"
+- **Yang dikerjakan:** menambahkan `order: -1` untuk `.plan-card.recommended` di media query HP (≤720px) di `website/style.css`, supaya kartu Tahunan tampil di atas Bulanan saat ditumpuk satu kolom; desktop tetap dua kolom seperti sebelumnya
+- **Tanggapan peserta:** diterima ("sudah pas")
+- **Feedback `/cek`:** urutan prioritas sama di HP dan desktop (kartu rekomendasi tetap menonjol di keduanya), tanpa scroll ke samping · tercentang: ya
