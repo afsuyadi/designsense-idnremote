@@ -123,8 +123,8 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
 - [x] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
 - [x] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
-- [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
-- [ ] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
+- [x] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
+- [x] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 3 · Typography dan warna website
 - [ ] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
