@@ -122,7 +122,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 2.2 Tulis rencana dua halaman website lainnya *(kamu)*
 - [x] 2.3 Bangun wireframe ketiga halaman, masing-masing satu halaman utuh *(Claude Code)*
 - [x] 2.4 Nilai halaman utuh dengan squint test *(kamu)*
-- [ ] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
+- [x] 2.5 Tulis deskripsi dan "kenapa layout ini" untuk section yang kurang efektif *(kamu)*
 - [ ] 2.6 Perbaiki section itu, lalu cek di HP dan desktop *(Claude Code)*
 - [ ] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
@@ -301,12 +301,12 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
   1. Paket dan harga (Bulanan dan Tahunan, Tahunan sebagai rekomendasi) · menjawab M2
   2. Apa yang terjadi setelah 7 hari (bisa berhenti kapan saja) · menjawab M2
 
-**Section: [nama]** (diisi saat section ini diperbaiki)
-- Tujuan: []
-- Isi: []
-- Aksi utama: []
-- Referensi: []
-- Kenapa layout ini: []
+**Section: Kartu paket Tahunan di Harga** (diisi saat section ini diperbaiki)
+- Tujuan: user paham bahwa berlangganan tahunan lebih murah daripada bulanan.
+- Isi: harga Tahunan ditampilkan sebagai Rp74.916/bulan (ditagih Rp899.000/tahun), dibandingkan Rp99.000/bulan untuk paket Bulanan.
+- Aksi utama: Mulai gratis 7 hari.
+- Referensi: Coursera, halaman perbandingan harga tahunan/bulanan.
+- Kenapa layout ini: prinsip perbandingan — angka per bulan ditonjolkan di kartu Tahunan supaya langsung bisa dibandingkan dengan harga per bulan di kartu Bulanan, tanpa user perlu menghitung sendiri.
 
 ### P2 · Web app
 

@@ -29,4 +29,10 @@
 - **Permintaan:** deskripsi section "Daftar Courses" — direvisi tiga kali: (1) awalnya ada "Harga course" (tidak ada di data, model satu langganan) dan "klik button masukkan keranjang" (beda dari kesepakatan 2.4, dan di luar model bisnis brief) dan "karena bagus" (bukan prinsip); (2) harga course dihapus, tapi aksi utama dan prinsip belum diperbaiki; (3) aksi utama sempat jadi "satu tombol di paling bawah katalog" (beda dari kesepakatan 2.4 soal tombol per card), lalu dikonfirmasi tetap tombol di tiap card
 - **Yang dikerjakan:** mengisi blok Section: Daftar Courses di `CLAUDE.md` bagian 4 P1 · Website SaaS › Katalog kursus
 - **Tanggapan peserta:** diterima ("pas") setelah tiga iterasi
-- **Feedback `/cek`:** menunggu (section kedua, Harga, belum ditulis)
+- **Feedback `/cek`:** kedua deskripsi section menyebut prinsip (hierarchy, perbandingan) dan referensi relevan · tercentang: ya
+
+### 2026-11-21 · 2.5 Deskripsi section yang diperbaiki (Harga)
+- **Permintaan:** deskripsi section "Kartu paket tahunan di harga" — direvisi karena aksi utama awalnya "Daftar tahunan atau bulanan" (dua aksi, beda dari aksi utama halaman "Mulai gratis 7 hari" dan di luar scope — pemilihan paket terjadi di Checkout langganan, bukan di website), isi masih umum ("karena ada diskon"), referensi berupa link iklan Coursera dengan parameter tracking, dan "kenapa layout ini" awalnya "karena menunjukkan harga yg lebih bagus" (bukan prinsip)
+- **Yang dikerjakan:** mengisi blok Section: Kartu paket Tahunan di Harga di `CLAUDE.md` bagian 4 P1 · Website SaaS › Harga, dengan angka konkret (Rp74.916/bulan ditagih Rp899.000/tahun) dan referensi disederhanakan
+- **Tanggapan peserta:** diterima ("pas") setelah revisi
+- **Feedback `/cek`:** kedua deskripsi section menyebut prinsip (hierarchy, perbandingan) dan referensi relevan · tercentang: ya
