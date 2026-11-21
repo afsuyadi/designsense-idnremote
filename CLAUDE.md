@@ -285,12 +285,12 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
   2. Durasi trial (7 hari gratis, dihitung dari hari kamu daftar) · menjawab M2
   3. Top-5 testimoni beserta rating · menjawab M3
 
-**Section: [nama]** (diisi saat section ini diperbaiki)
-- Tujuan: []
-- Isi: []
-- Aksi utama: []
-- Referensi: []
-- Kenapa layout ini: []
+**Section: Daftar Courses** (diisi saat section ini diperbaiki)
+- Tujuan: agar user paham daftar course yang sesuai minatnya dengan rankingnya
+- Isi: jumlah rating, jumlah orang yang beli, tags relevan terkait course itu
+- Aksi utama: klik button "Mulai gratis" di tiap card course
+- Referensi: Udemy, Coursera
+- Kenapa layout ini: prinsipnya ingin meyakinkan course mana yang perlu dibeli, berdasarkan rating dan jumlah pembeli yang ditonjolkan (hierarchy)
 
 #### Harga
 

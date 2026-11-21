@@ -24,3 +24,9 @@
   - Harga: kartu paket Tahunan akan menampilkan harga per bulan (Rp74.916, dari Rp899.000 ÷ 12) disertai keterangan ditagih per tahun, supaya tetap transparan soal billing (M2).
 - **Tanggapan peserta:** diterima semua, termasuk gaya tombol per card di Katalog sama seperti tombol utama ("ok")
 - **Feedback `/cek`:** temuan menyebut prinsip (hierarchy, proximity, framing harga terkait M2), bukan selera · tercentang: ya
+
+### 2026-11-21 · 2.5 Deskripsi section yang diperbaiki (Katalog kursus)
+- **Permintaan:** deskripsi section "Daftar Courses" — direvisi tiga kali: (1) awalnya ada "Harga course" (tidak ada di data, model satu langganan) dan "klik button masukkan keranjang" (beda dari kesepakatan 2.4, dan di luar model bisnis brief) dan "karena bagus" (bukan prinsip); (2) harga course dihapus, tapi aksi utama dan prinsip belum diperbaiki; (3) aksi utama sempat jadi "satu tombol di paling bawah katalog" (beda dari kesepakatan 2.4 soal tombol per card), lalu dikonfirmasi tetap tombol di tiap card
+- **Yang dikerjakan:** mengisi blok Section: Daftar Courses di `CLAUDE.md` bagian 4 P1 · Website SaaS › Katalog kursus
+- **Tanggapan peserta:** diterima ("pas") setelah tiga iterasi
+- **Feedback `/cek`:** menunggu (section kedua, Harga, belum ditulis)
