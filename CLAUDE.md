@@ -128,8 +128,8 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 
 ### Pekan 3 · Typography dan warna website
 - [x] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
-- [ ] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
-- [ ] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
+- [x] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
+- [x] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
 - [ ] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
 - [ ] 3.5 Cek kontras setiap pasangan warna dan catat yang lolos *(kamu)*
 - [ ] 3.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
@@ -334,7 +334,7 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 
 - **Font:** Source Sans Pro, karena lebih universal dan netral, cocok buat produk edukasi
 - **Type scale:** judul 28/36, subjudul 18/26, body 16/26, label 13/18
-- **Palet:** latar #EDEDED, teks #1A1A1A, aksen #2563EB untuk aksi utama (tombol, link penting), sukses #16A34A, error #DC2626
+- **Palet (dark theme, diputuskan di pekan 3):** latar #1A1A1A, teks #EDEDED, aksen #2563EB untuk aksi utama (tombol, border/garis bawah link penting), sukses #16A34A, error #DC2626
 - **Pasangan warna yang lolos kontras:** [teks di atas latar, minimal 4.5:1 — dicek lengkap di langkah 3.5]
 
 ## 6. Token dan component (pekan 4)

@@ -1,4 +1,15 @@
-/* Wireframe pekan 2: grayscale saja, satu font sistem, tanpa bayangan/gradien/animasi. */
+/* High fidelity pekan 3: font, type scale, dan palet dari CLAUDE.md bagian 5.
+   Variabel warna di bawah cuma disiapkan di sini dulu — dipindah ke tokens.css di pekan 4. */
+
+:root {
+  --color-latar: #1a1a1a;
+  --color-teks: #ededed;
+  --color-teks-rgb: 237, 237, 237;
+  --color-aksen: #2563eb;
+  --color-aksen-rgb: 37, 99, 235;
+  --color-sukses: #16a34a;
+  --color-error: #dc2626;
+}
 
 * {
   box-sizing: border-box;
@@ -6,14 +17,14 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  color: #111111;
-  background: #ffffff;
+  font-family: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--color-teks);
+  background: var(--color-latar);
   line-height: 1.5;
 }
 
 a {
-  color: #111111;
+  color: var(--color-aksen);
 }
 
 .wrap {
@@ -25,7 +36,7 @@ a {
 /* Header */
 
 .site-header {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid rgba(var(--color-teks-rgb), 0.15);
 }
 
 .site-header .wrap {
@@ -39,9 +50,11 @@ a {
 }
 
 .site-header .brand {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 700;
   text-decoration: none;
+  color: var(--color-teks);
 }
 
 .site-header nav {
@@ -51,12 +64,15 @@ a {
 
 .site-header nav a {
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
 }
 
 .site-header nav a[aria-current="page"] {
-  font-weight: bold;
-  border-bottom: 2px solid #111111;
+  font-weight: 700;
+  color: var(--color-teks);
+  border-bottom: 2px solid var(--color-aksen);
 }
 
 /* Sections */
@@ -66,30 +82,46 @@ section {
 }
 
 section.alt {
-  background: #f2f2f2;
+  background: rgba(var(--color-teks-rgb), 0.04);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--color-teks);
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
   margin: 0 0 12px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
   margin: 0 0 16px;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
   margin: 0 0 4px;
 }
 
 p {
+  font-size: 1rem;
+  line-height: 1.625rem;
   margin: 0 0 16px;
 }
 
 .lead {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  color: var(--color-teks);
+  opacity: 0.75;
   max-width: 640px;
 }
 
@@ -97,10 +129,11 @@ p {
 
 .btn {
   display: inline-block;
-  border: 1px solid #111111;
-  background: #111111;
+  border: 1px solid var(--color-aksen);
+  background: var(--color-aksen);
   color: #ffffff;
   font: inherit;
+  font-weight: 700;
   font-size: 1rem;
   padding: 12px 24px;
   min-height: 44px;
@@ -108,15 +141,16 @@ p {
 }
 
 .btn:hover {
-  background: #333333;
+  filter: brightness(0.88);
 }
 
 .btn-secondary {
   display: inline-block;
-  border: 1px solid #111111;
+  border: 1px solid var(--color-aksen);
   background: transparent;
-  color: #111111;
+  color: var(--color-teks);
   font: inherit;
+  font-weight: 700;
   font-size: 1rem;
   padding: 11px 24px;
   min-height: 44px;
@@ -124,20 +158,21 @@ p {
 }
 
 .btn-secondary:hover {
-  background: #f2f2f2;
+  background: rgba(var(--color-aksen-rgb), 0.08);
 }
 
 /* Placeholder image box */
 
 .placeholder {
-  background: #d9d9d9;
-  border: 1px dashed #999999;
-  color: #555555;
+  background: rgba(var(--color-teks-rgb), 0.12);
+  border: 1px dashed rgba(var(--color-teks-rgb), 0.4);
+  color: var(--color-teks);
+  opacity: 0.6;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8125rem;
   padding: 16px;
   min-height: 160px;
 }
@@ -160,7 +195,7 @@ p {
 }
 
 .testimoni-card {
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(var(--color-teks-rgb), 0.15);
   padding: 20px;
 }
 
@@ -169,8 +204,10 @@ p {
 }
 
 .testimoni-card .role {
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
   margin: 0;
 }
 
@@ -198,8 +235,10 @@ p {
 }
 
 .sort-label {
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
 }
 
 .course-grid {
@@ -209,7 +248,7 @@ p {
 }
 
 .course-card {
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(var(--color-teks-rgb), 0.15);
   padding: 16px;
 }
 
@@ -219,14 +258,18 @@ p {
 }
 
 .course-card .category {
-  font-size: 0.8rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
   margin-bottom: 4px;
 }
 
 .course-card .meta {
-  font-size: 0.85rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
   margin: 4px 0 0;
 }
 
@@ -237,8 +280,9 @@ p {
 }
 
 .course-card .price-tag {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 700;
   margin: 12px 0 0;
 }
 
@@ -256,7 +300,7 @@ p {
 }
 
 .plan-card {
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(var(--color-teks-rgb), 0.15);
   padding: 24px;
   position: relative;
   display: flex;
@@ -269,26 +313,32 @@ p {
 }
 
 .plan-card.recommended {
-  border: 2px solid #111111;
+  border: 2px solid var(--color-aksen);
 }
 
 .plan-card .badge {
   display: inline-block;
-  background: #111111;
+  background: var(--color-aksen);
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 700;
   padding: 2px 8px;
   margin-bottom: 12px;
 }
 
 .plan-card .price {
   font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 700;
   margin: 0 0 4px;
 }
 
 .plan-card .note {
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
 }
 
 .plan-card ul {
@@ -305,7 +355,8 @@ p {
 }
 
 .faq-item h3 {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
 }
 
 .faq-item p {
@@ -315,9 +366,9 @@ p {
 /* Footer */
 
 .site-footer {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid rgba(var(--color-teks-rgb), 0.15);
   padding: 32px 0;
-  background: #f2f2f2;
+  background: var(--color-latar);
 }
 
 .site-footer .wrap {
@@ -333,14 +384,18 @@ p {
 }
 
 .site-footer nav a {
-  font-size: 0.9rem;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
   text-decoration: none;
+  color: var(--color-teks);
 }
 
 .site-footer p {
   margin: 0;
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--color-teks);
+  opacity: 0.65;
 }
 
 .footer-cta {
