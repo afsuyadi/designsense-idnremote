@@ -130,7 +130,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
 - [x] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
 - [x] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
-- [ ] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
+- [x] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
 - [ ] 3.5 Cek kontras setiap pasangan warna dan catat yang lolos *(kamu)*
 - [ ] 3.6 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 

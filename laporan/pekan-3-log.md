@@ -27,3 +27,9 @@
 - **Yang dikerjakan:** di `CLAUDE.md` bagian 5, Palet ditandai dark theme dengan latar dan teks bertukar hex (latar #1A1A1A, teks #EDEDED). Di `website/style.css`: variabel `--color-latar`/`--color-teks` ditukar nilainya, ditambah `--color-teks-rgb` untuk border dan tint yang sebelumnya hardcode `rgba(26,26,26,...)` (sekarang `rgba(var(--color-teks-rgb),...)` supaya tetap kebaca di atas latar gelap); `section.alt` dan `.placeholder` yang sebelumnya putih solid diganti jadi tint tipis dari teks (`rgba(var(--color-teks-rgb), 0.04)` dan `0.12`) biar nggak jadi bidang putih terang yang mencolok di tengah halaman gelap; teks label "halaman aktif" di navigasi dan tombol `.btn-secondary` yang sebelumnya pakai warna aksen langsung sebagai teks diganti ke warna teks (kontrasnya nggak cukup di ukuran segitu), aksen tetap dipakai sebagai garis bawah/border supaya perannya sebagai penanda masih kelihatan
 - **Tanggapan peserta:** diterima ("ok")
 - **Feedback `/cek`:** latar-teks konsisten dipakai sebagai pasangan dark theme di seluruh halaman, aksen tetap kepakai sebagai penanda (border/garis bawah) tanpa jadi warna teks yang gagal kontras · tercentang: ya (bagian dari 3.3, sudah tercentang sebelumnya)
+
+### 2026-11-27 · 3.4 Nilai halaman utuh, lalu polish
+- **Permintaan:** dijawab bertahap lewat 2 pertanyaan — Polish: "semua sudah oke sepertinya" (tidak ada section yang perlu di-polish). Audit: "semua terpakai" (lalu dicek bareng, ketemu satu warna di luar palet: `#ffffff` di teks tombol dan badge)
+- **Yang dikerjakan:** cek ukuran font di `website/style.css` — semua balik ke 4 ukuran bagian 5, tidak ada yang nyasar. Cek warna — ketemu `#ffffff` hardcode di `.btn` dan `.plan-card .badge`, diusulkan diganti ke `var(--color-teks)` (diterima), lalu diterapkan di `website/style.css`
+- **Tanggapan peserta:** diterima ("sudah ok")
+- **Feedback `/cek`:** tidak ada ukuran atau warna di luar keputusan bagian 5 setelah perbaikan · tercentang: ya

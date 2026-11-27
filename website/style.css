@@ -131,7 +131,7 @@ p {
   display: inline-block;
   border: 1px solid var(--color-aksen);
   background: var(--color-aksen);
-  color: #ffffff;
+  color: var(--color-teks);
   font: inherit;
   font-weight: 700;
   font-size: 1rem;
@@ -319,7 +319,7 @@ p {
 .plan-card .badge {
   display: inline-block;
   background: var(--color-aksen);
-  color: #ffffff;
+  color: var(--color-teks);
   font-size: 0.8125rem;
   line-height: 1.125rem;
   font-weight: 700;
