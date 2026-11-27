@@ -1,0 +1,5 @@
+### 2026-11-27 · 3.1 Font, type scale, dan palet
+- **Permintaan:** dijawab bertahap lewat 3 pertanyaan — Font: awalnya "IBM Plex Mono, karena sudah terbukti digunakan di course fullstackopen.com, enak dilihat di malam hari, dan terasa elegan", lalu diganti "Source Sans Pro, karena lebih universal dan netral, cocok buat produk edukasi". Type scale: "judul 28/36, subjudul 18/26, body 16/26, label 13/18" (nilai diusulkan Claude Code, diterima). Palet: awalnya "latar rgb(237,237,237), teks rgb(255,255,255)" (kontras gagal, ~1.1:1), lalu aksen "#2563EB", sukses "#16A34A", error "#DC2626" (nilai aksen/sukses/error diusulkan Claude Code, diterima); teks akhirnya diperbaiki jadi "#1A1A1A" (nilai diusulkan Claude Code untuk memperbaiki kontras, diterima — "ya, pakai ini")
+- **Yang dikerjakan:** mengisi bagian Font, Type scale, dan Palet di `CLAUDE.md` bagian 5; kontras latar/teks diperiksa manual dan diusulkan nilai pengganti sebelum masuk ke dokumen
+- **Tanggapan peserta:** diterima ("sudah pas")
+- **Feedback `/cek`:** setiap ukuran type scale punya peran, palet punya makna dan jumlahnya terbatas (5 warna) · tercentang: ya

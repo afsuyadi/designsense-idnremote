@@ -106,7 +106,7 @@ Isi "Tanggapan peserta" dari pesan peserta berikutnya; kalau belum ada, tulis "m
 
 ## Progres
 
-**Pekan sekarang:** 2
+**Pekan sekarang:** 3
 
 Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: kenapa, apa yang ditulis, template, dan kapan cukup. *(kamu)* = kamu yang menulis, di chat atau langsung di dokumen ini. *(Claude Code)* = Claude Code membangun dari tulisanmu. Langkah dicentang setelah kamu menilai hasilnya: lewat `/cek`, atau dengan bilang sudah pas.
 
@@ -127,7 +127,7 @@ Setiap langkah punya panduan di `langkah/pekan-N.md` dengan nomor yang sama: ken
 - [x] 2.7 Laporan pekan ini dengan `/laporan` *(kamu dan Claude Code)*
 
 ### Pekan 3 · Typography dan warna website
-- [ ] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
+- [x] 3.1 Tulis font, type scale, dan palet beserta alasannya *(kamu)*
 - [ ] 3.2 Ganti mode tampilan ke high fidelity *(Claude Code)*
 - [ ] 3.3 Terapkan typography dan warna ke seluruh halaman website sekaligus *(Claude Code)*
 - [ ] 3.4 Nilai halaman utuh, tulis section yang perlu di-polish, lalu audit nilai yang terpakai *(kamu, lalu Claude Code)*
@@ -224,7 +224,7 @@ _Panduan, format, dan contoh setiap bagian ada di `langkah/pekan-1.md`._
 
 ## 3. Mode tampilan
 
-**Mode:** wireframe
+**Mode:** high fidelity
 
 Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, website) → `high fidelity` (mulai pekan 3). Claude Code menggantinya di langkah 3.2 setelah kamu setujui. Web app tidak melewati wireframe: di pekan 5 layarnya langsung dibangun dalam mode `high fidelity`. (Mode tampilan berbeda dengan Fase 1–3 di learning path, yang menandai bagian program.)
 
@@ -332,10 +332,10 @@ Mode tampilan menentukan seberapa jadi tampilannya: `wireframe` (pekan 2, websit
 
 ## 5. Typography dan warna (pekan 3)
 
-- **Font:** [nama font dan alasannya]
-- **Type scale:** [ukuran/line-height untuk judul, subjudul, body, label]
-- **Palet:** [warna dan maknanya: latar, teks, aksen, sukses, error]
-- **Pasangan warna yang lolos kontras:** [teks di atas latar, minimal 4.5:1]
+- **Font:** Source Sans Pro, karena lebih universal dan netral, cocok buat produk edukasi
+- **Type scale:** judul 28/36, subjudul 18/26, body 16/26, label 13/18
+- **Palet:** latar #EDEDED, teks #1A1A1A, aksen #2563EB untuk aksi utama (tombol, link penting), sukses #16A34A, error #DC2626
+- **Pasangan warna yang lolos kontras:** [teks di atas latar, minimal 4.5:1 — dicek lengkap di langkah 3.5]
 
 ## 6. Token dan component (pekan 4)
 
